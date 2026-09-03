@@ -24,7 +24,13 @@ export function Header({ admin }: { admin?: boolean }) {
             </span>
           </div>
         </Link>
-        <nav className="flex items-center gap-2 sm:gap-4 text-xs sm:text-sm font-semibold">
+        <nav className="flex items-center gap-1.5 sm:gap-3 text-xs sm:text-sm font-semibold">
+          <Link
+            href="/#novedades"
+            className="rounded-lg px-2.5 py-1.5 text-[#141414] hover:bg-[#e4dfd0]/60 transition"
+          >
+            Nuevos
+          </Link>
           <Link
             href="/#marcas"
             className="rounded-lg px-2.5 py-1.5 text-[#141414] hover:bg-[#e4dfd0]/60 transition"

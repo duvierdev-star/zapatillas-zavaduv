@@ -1,4 +1,5 @@
 import { Header } from "@/components/Header";
+import { NewArrivalsCover } from "@/components/NewArrivalsCover";
 import { BrandGrid } from "@/components/BrandGrid";
 import { Catalog } from "@/components/Catalog";
 import { isAdmin } from "@/lib/auth";
@@ -37,6 +38,12 @@ export default async function HomePage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row flex-wrap gap-3">
               <a
+                href="#novedades"
+                className="rounded-full bg-[#2754F5] px-7 py-3.5 text-center text-sm font-bold text-white shadow-lg hover:bg-[#1a40cf] transition"
+              >
+                ✨ Ver Nuevos Ingresos
+              </a>
+              <a
                 href="#catalogo"
                 className="rounded-full bg-black/40 border-2 border-white/70 px-7 py-3.5 text-center text-sm font-bold text-white shadow-lg backdrop-blur-sm hover:bg-white hover:text-[#141414] transition"
               >
@@ -64,7 +71,7 @@ export default async function HomePage() {
         {/* Quick Highlights */}
         <div className="mx-auto grid max-w-6xl gap-4 px-5 py-8 sm:grid-cols-3">
           {[
-            ["Marcas Separadas", "Adidas, Nike, Jordan, Hugo Boss y más"],
+            ["Novedades Continuas", "Zapatillas recién agregadas al instante"],
             ["Tallas y Colores", "Dama, Caballero y combinaciones exactas"],
             ["Precios de Venta", "Precios finales listos para tus clientes"],
           ].map(([title, copy]) => (
@@ -75,8 +82,15 @@ export default async function HomePage() {
           ))}
         </div>
 
+        {/* Cover-style New Arrivals Section */}
+        <div className="border-t border-[#e4dfd0] bg-gradient-to-b from-[#eeeae0]/40 to-transparent">
+          <NewArrivalsCover products={products} />
+        </div>
+
         {/* Brand Showcase Section */}
-        <BrandGrid products={products} />
+        <div className="border-t border-[#e4dfd0]">
+          <BrandGrid products={products} />
+        </div>
 
         {/* Global Catalog */}
         <div className="border-t border-[#e4dfd0] pt-10">
