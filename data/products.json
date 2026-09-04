@@ -1,5 +1,27 @@
 [
   {
+    "id": "adidas-samba-clasica",
+    "name": "Samba Clasica",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "condition": "nuevo",
+    "description": "Blanco con rayas negras, Las Adidas Samba son unas zapatillas icónicas que combinan un diseño clásico, elegante y urbano. Su color blanco con las características rayas negras les da un estilo limpio y fácil de combinar con prácticamente cualquier outfit.",
+    "images": [
+      "https://i.ibb.co/Q7LRpRrh/b2c399a66b97.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-03T23:55:18.628Z"
+  },
+  {
     "id": "lacoste-spinor",
     "name": "Spinor",
     "brand": "Lacoste",
