@@ -1,5 +1,51 @@
 [
   {
+    "id": "nike-st-glow-1788539520882",
+    "name": "ST Glow",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 155000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Color Negra Blanca y Naranja, Las Nike S.T. Glow EP combinan comodidad, resistencia y un diseño moderno, perfectas para el uso diario. Su estilo inspirado en el básquetbol les da un look deportivo que destaca, mientras su construcción está pensada para acompañarte en tus actividades del día a día.",
+    "images": [
+      "/uploads/1788539500749-w436zz.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T16:32:00.882Z"
+  },
+  {
+    "id": "nike-st-glow",
+    "name": "ST Glow",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 155000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Color Blanca, Las Nike S.T. Glow EP combinan comodidad, resistencia y un diseño moderno, perfectas para el uso diario. Su estilo inspirado en el básquetbol les da un look deportivo que destaca, mientras su construcción está pensada para acompañarte en tus actividades del día a día.",
+    "images": [
+      "/uploads/1788539382886-lbxmf9.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T16:30:08.515Z"
+  },
+  {
     "id": "adidas-samba-clasica",
     "name": "Samba Clasica",
     "brand": "Adidas",
@@ -20,97 +66,6 @@
     ],
     "available": true,
     "createdAt": "2026-09-03T23:55:18.628Z"
-  },
-  {
-    "id": "lacoste-spinor",
-    "name": "Spinor",
-    "brand": "Lacoste",
-    "gender": "hombre",
-    "sizes": [
-      "38",
-      "39",
-      "40",
-      "41",
-      "42",
-      "43"
-    ],
-    "price": 140000,
-    "compareAtPrice": 20,
-    "condition": "nuevo",
-    "description": "Las Lacoste Spinor destacan por su diseño futurista, cómodo y llamativo, combinando una parte superior de malla con detalles que le dan un estilo deportivo y elegante. Viene en colores Negras con Amarillo, Negras con Gris, Blanco y Negro",
-    "images": [
-      "/uploads/1788382414284-9frvf9.jpeg"
-    ],
-    "available": true,
-    "createdAt": "2026-09-02T20:57:21.330Z"
-  },
-  {
-    "id": "nike-st-glow-1788382281834",
-    "name": "St Glow",
-    "brand": "Nike",
-    "gender": "hombre",
-    "sizes": [
-      "38",
-      "39",
-      "40",
-      "41",
-      "42",
-      "43"
-    ],
-    "price": 150000,
-    "compareAtPrice": 180000,
-    "condition": "nuevo",
-    "description": "Combinan comodidad, resistencia y un diseño moderno, perfectas para el uso diario. Su estilo inspirado en el básquetbol les da un look deportivo que destaca, mientras su construcción está pensada para acompañarte en tus actividades del día a día.",
-    "images": [
-      "/uploads/1788382248884-pvb1bg.jpeg"
-    ],
-    "available": true,
-    "createdAt": "2026-09-02T20:51:21.831Z"
-  },
-  {
-    "id": "nike-st-glow-1788381863511",
-    "name": "St Glow",
-    "brand": "Nike",
-    "gender": "hombre",
-    "sizes": [
-      "38",
-      "39",
-      "40",
-      "41",
-      "42",
-      "43"
-    ],
-    "price": 150000,
-    "compareAtPrice": 180000,
-    "condition": "nuevo",
-    "description": "Combinan comodidad, resistencia y un diseño moderno, perfectas para el uso diario. Su estilo inspirado en el básquetbol les da un look deportivo que destaca, mientras su construcción está pensada para acompañarte en tus actividades del día a día.",
-    "images": [
-      "/uploads/1788381849167-oaf85j.jpeg"
-    ],
-    "available": true,
-    "createdAt": "2026-09-02T20:44:23.510Z"
-  },
-  {
-    "id": "nike-st-glow",
-    "name": "St Glow",
-    "brand": "Nike",
-    "gender": "hombre",
-    "sizes": [
-      "38",
-      "39",
-      "40",
-      "41",
-      "42"
-    ],
-    "price": 150000,
-    "compareAtPrice": 180000,
-    "condition": "nuevo",
-    "description": "Combinan comodidad, resistencia y un diseño moderno, perfectas para el uso diario. Su estilo inspirado en el básquetbol les da un look deportivo que destaca, mientras su construcción está pensada para acompañarte en tus actividades del día a día.",
-    "images": [
-      "/uploads/1788381325309-2n9mja.jpeg"
-    ],
-    "available": true,
-    "createdAt": "2026-09-02T20:35:27.753Z"
   },
   {
     "id": "adidas-adistar-1",
@@ -2967,5 +2922,3124 @@
     ],
     "available": true,
     "createdAt": "2026-09-01T17:55:12.228Z"
+  },
+  {
+    "id": "adidas-campus-126",
+    "name": "Campus",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Café",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Campus para Caballero en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-campus-cafe-126.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:45:23.095Z"
+  },
+  {
+    "id": "adidas-jane-127",
+    "name": "Jane",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Jane para Dama en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-jane-negro-con-blanco-127.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:44:23.099Z"
+  },
+  {
+    "id": "adidas-neo-128",
+    "name": "Neo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Neo para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-neo-blanco-con-azul-128.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:43:23.100Z"
+  },
+  {
+    "id": "adidas-neo-129",
+    "name": "Neo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Neo para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-neo-blanco-129.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:42:23.103Z"
+  },
+  {
+    "id": "adidas-samba-brillos-130",
+    "name": "Samba Brillos",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Brillos para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-brillos-130.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:41:23.105Z"
+  },
+  {
+    "id": "adidas-samba-clasica-131",
+    "name": "Samba Clasica",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Clasica para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-clasica-blanco-con-negro-131.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:40:23.107Z"
+  },
+  {
+    "id": "adidas-samba-132",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-blanco-con-cafe-132.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:39:23.109Z"
+  },
+  {
+    "id": "adidas-samba-133",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-blanco-133.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:38:23.112Z"
+  },
+  {
+    "id": "adidas-samba-134",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco / Negro / Vinotinto",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Blanco / Negro / Vinotinto. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-blanco-negro-vinotinto-134.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:37:23.114Z"
+  },
+  {
+    "id": "adidas-samba-135",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-cafe-135.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:36:23.116Z"
+  },
+  {
+    "id": "adidas-samba-136",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Café con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-cafe-con-blanco-136.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:35:23.119Z"
+  },
+  {
+    "id": "adidas-samba-137",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Habana / Beige",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Habana / Beige. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-habana-beige-137.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:34:23.121Z"
+  },
+  {
+    "id": "adidas-samba-138",
+    "name": "Samba",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba para Dama en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-negro-con-blanco-138.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:33:23.124Z"
+  },
+  {
+    "id": "adidas-samba-og-139",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-blanco-con-negro-139.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:32:23.127Z"
+  },
+  {
+    "id": "adidas-samba-og-140",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Negro con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-negro-con-rosa-140.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:31:23.129Z"
+  },
+  {
+    "id": "adidas-samba-plataforma-141",
+    "name": "Samba Plataforma",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Plataforma para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-plataforma-blanco-con-negro-141.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:30:23.131Z"
+  },
+  {
+    "id": "adidas-samoa-142",
+    "name": "Samoa",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samoa para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samoa-negro-142.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:29:23.133Z"
+  },
+  {
+    "id": "adidas-sl-143",
+    "name": "SL",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Palo de Rosa con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas SL para Dama en color Palo de Rosa con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-sl-palo-de-rosa-con-azul-143.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:28:23.136Z"
+  },
+  {
+    "id": "adidas-sl-144",
+    "name": "SL",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Rojo con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas SL para Dama en color Rojo con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-sl-rojo-con-blanco-144.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:27:23.138Z"
+  },
+  {
+    "id": "adidas-spezial-145",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Spezial para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-spezial-blanco-con-negro-145.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:26:23.140Z"
+  },
+  {
+    "id": "adidas-spezial-146",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Spezial para Dama en color Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-spezial-rojo-146.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:25:23.142Z"
+  },
+  {
+    "id": "adidas-superstar-bonega-147",
+    "name": "Superstar Bonega",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar Bonega para Dama en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-bonega-blanco-con-gris-147.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:24:23.144Z"
+  },
+  {
+    "id": "adidas-superstar-bonega-148",
+    "name": "Superstar Bonega",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar Bonega para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-bonega-blanco-con-negro-148.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:23:23.147Z"
+  },
+  {
+    "id": "adidas-superstar-149",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Azul con Amarillo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Azul con Amarillo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-azul-con-amarillo-149.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:22:23.149Z"
+  },
+  {
+    "id": "adidas-superstar-150",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-negro-150.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:21:23.151Z"
+  },
+  {
+    "id": "adidas-superstar-151",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-negro-con-blanco-151.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:20:23.153Z"
+  },
+  {
+    "id": "adidas-superstar-152",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-negro-con-blanco-152.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:19:23.154Z"
+  },
+  {
+    "id": "adidas-superstar-153",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Azul con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Azul con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-azul-con-blanco-153.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:18:23.156Z"
+  },
+  {
+    "id": "adidas-superstar-154",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Negro con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-negro-con-rosa-154.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:17:23.159Z"
+  },
+  {
+    "id": "armani-exchange-urban-leather-155",
+    "name": "Urban Leather",
+    "brand": "Armani Exchange",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Armani Exchange Urban Leather para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/armani-exchange-urban-leather-negro-155.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:16:23.161Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-156",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-156.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:15:23.162Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-157",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-negro-157.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:14:23.164Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-158",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-verde-158.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:13:23.167Z"
+  },
+  {
+    "id": "fila-zagato-159",
+    "name": "Zagato",
+    "brand": "Fila",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Fila Zagato para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/fila-zagato-159.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:12:23.170Z"
+  },
+  {
+    "id": "jordan-cadence-160",
+    "name": "Cadence",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Cadence para Caballero en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-cadence-gris-160.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:11:23.172Z"
+  },
+  {
+    "id": "jordan-colmillo-161",
+    "name": "Colmillo",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Negro con Amarillo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Colmillo para Caballero en color Negro con Amarillo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-colmillo-negro-con-amarillo-161.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:10:23.174Z"
+  },
+  {
+    "id": "jordan-low-162",
+    "name": "Low",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Low para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-low-blanco-con-negro-162.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:09:23.176Z"
+  },
+  {
+    "id": "jordan-luka-5-163",
+    "name": "Luka 5",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Café",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Luka 5 para Caballero en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-luka-5-cafe-163.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:08:23.178Z"
+  },
+  {
+    "id": "jordan-luka-5-164",
+    "name": "Luka 5",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Negro con Amarillo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Luka 5 para Caballero en color Negro con Amarillo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-luka-5-negro-con-amarillo-164.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:07:23.180Z"
+  },
+  {
+    "id": "jordan-luka-5-165",
+    "name": "Luka 5",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Negro con Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Luka 5 para Caballero en color Negro con Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-luka-5-negro-con-verde-165.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:06:23.182Z"
+  },
+  {
+    "id": "jordan-r11-166",
+    "name": "R11",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R11 para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r11-166.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:05:23.183Z"
+  },
+  {
+    "id": "jordan-r11-167",
+    "name": "R11",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Blanco / Negro / Azul",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R11 para Caballero en color Blanco / Negro / Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r11-blanco-negro-azul-167.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:04:23.185Z"
+  },
+  {
+    "id": "jordan-r11-168",
+    "name": "R11",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Negro con Rojo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R11 para Caballero en color Negro con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r11-negro-con-rojo-168.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:03:23.187Z"
+  },
+  {
+    "id": "jordan-r11-169",
+    "name": "R11",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R11 para Unisex en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r11-blanco-con-azul-169.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:02:23.188Z"
+  },
+  {
+    "id": "jordan-r11-170",
+    "name": "R11",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "color": "Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R11 para Unisex en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r11-gris-170.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:01:23.190Z"
+  },
+  {
+    "id": "jordan-r3-171",
+    "name": "R3",
+    "brand": "Jordan",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R3 para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r3-verde-171.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T14:00:23.192Z"
+  },
+  {
+    "id": "jordan-r4-172",
+    "name": "R4",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Blanco con Rojo y Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R4 para Dama en color Blanco con Rojo y Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r4-blanco-con-rojo-y-azul-172.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:59:23.194Z"
+  },
+  {
+    "id": "jordan-r4-173",
+    "name": "R4",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R4 para Unisex en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r4-blanco-173.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:58:23.196Z"
+  },
+  {
+    "id": "jordan-r4-174",
+    "name": "R4",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan R4 para Unisex en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-r4-blanco-174.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:57:23.197Z"
+  },
+  {
+    "id": "lacoste-spinor-175",
+    "name": "Spinor",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Spinor para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-spinor-blanco-175.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:56:23.199Z"
+  },
+  {
+    "id": "lacoste-spinor-176",
+    "name": "Spinor",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "color": "Negro con Amarillo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Spinor para Caballero en color Negro con Amarillo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-spinor-negro-con-amarillo-176.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:55:23.201Z"
+  },
+  {
+    "id": "lacoste-spinor-177",
+    "name": "Spinor",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Spinor para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-spinor-negro-177.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:54:23.202Z"
+  },
+  {
+    "id": "lacoste-spinor-178",
+    "name": "Spinor",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "color": "Negro con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Spinor para Caballero en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-spinor-negro-con-gris-178.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:53:23.204Z"
+  },
+  {
+    "id": "le-coq-sportif-classic-179",
+    "name": "Classic",
+    "brand": "Le Coq Sportif",
+    "gender": "hombre",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Le Coq Sportif Classic para Caballero en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/le-coq-sportif-classic-blanco-con-azul-179.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:52:23.205Z"
+  },
+  {
+    "id": "le-coq-sportif-classic-180",
+    "name": "Classic",
+    "brand": "Le Coq Sportif",
+    "gender": "hombre",
+    "color": "Negro con Rojo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Le Coq Sportif Classic para Caballero en color Negro con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/le-coq-sportif-classic-negro-con-rojo-180.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:51:23.207Z"
+  },
+  {
+    "id": "le-coq-sportif-classic-181",
+    "name": "Classic",
+    "brand": "Le Coq Sportif",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Le Coq Sportif Classic para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/le-coq-sportif-classic-negro-181.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:50:23.209Z"
+  },
+  {
+    "id": "louis-vuitton-skate-182",
+    "name": "Skate",
+    "brand": "Louis Vuitton",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Louis Vuitton Skate para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/louis-vuitton-skate-negro-182.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:49:23.211Z"
+  },
+  {
+    "id": "louis-vuitton-skate-183",
+    "name": "Skate",
+    "brand": "Louis Vuitton",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Louis Vuitton Skate para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/louis-vuitton-skate-blanco-con-negro-183.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:48:23.213Z"
+  },
+  {
+    "id": "louis-vuitton-skate-184",
+    "name": "Skate",
+    "brand": "Louis Vuitton",
+    "gender": "unisex",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Louis Vuitton Skate para Unisex en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/louis-vuitton-skate-negro-184.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:47:23.214Z"
+  },
+  {
+    "id": "new-balance-530-plataforma-185",
+    "name": "530 Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 530 Plataforma para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-530-plataforma-blanco-con-azul-185.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:46:23.216Z"
+  },
+  {
+    "id": "new-balance-530-plataforma-186",
+    "name": "530 Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 530 Plataforma para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-530-plataforma-blanco-con-negro-186.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:45:23.218Z"
+  },
+  {
+    "id": "new-balance-530-plataforma-187",
+    "name": "530 Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 530 Plataforma para Dama en color Blanco con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-530-plataforma-blanco-con-rojo-187.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:44:23.219Z"
+  },
+  {
+    "id": "new-balance-530-plataforma-188",
+    "name": "530 Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 530 Plataforma para Dama en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-530-plataforma-negro-con-blanco-188.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:43:23.221Z"
+  },
+  {
+    "id": "new-balance-9060-189",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-blanco-189.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:42:23.223Z"
+  },
+  {
+    "id": "new-balance-9060-190",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-blanco-con-negro-190.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:41:23.225Z"
+  },
+  {
+    "id": "new-balance-9060-191",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Crema",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Crema. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-crema-191.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:40:23.228Z"
+  },
+  {
+    "id": "new-balance-9060-192",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Gris con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Gris con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-gris-con-blanco-192.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:39:23.231Z"
+  },
+  {
+    "id": "new-balance-9060-193",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-negro-193.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:38:23.233Z"
+  },
+  {
+    "id": "new-balance-9060-194",
+    "name": "9060",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 para Dama en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-negro-con-gris-194.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:37:23.236Z"
+  },
+  {
+    "id": "new-balance-eclipse-195",
+    "name": "Eclipse",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Eclipse para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-eclipse-195.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:36:23.238Z"
+  },
+  {
+    "id": "new-balance-plataforma-196",
+    "name": "Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Plataforma para Dama en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-plataforma-gris-196.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:35:23.240Z"
+  },
+  {
+    "id": "new-balance-plataforma-197",
+    "name": "Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Plataforma para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-plataforma-negro-197.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:34:23.243Z"
+  },
+  {
+    "id": "new-balance-plataforma-198",
+    "name": "Plataforma",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro Cebra",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Plataforma para Dama en color Negro Cebra. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-plataforma-negro-cebra-198.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:33:23.245Z"
+  },
+  {
+    "id": "nike-7-camaras-199",
+    "name": "7 Cámaras",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike 7 Cámaras para Dama en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-7-camaras-gris-199.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:32:23.247Z"
+  },
+  {
+    "id": "nike-af1-drake-200",
+    "name": "AF1 Drake",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike AF1 Drake para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-af1-drake-blanco-200.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:31:23.250Z"
+  },
+  {
+    "id": "nike-acg-pegasus-201",
+    "name": "ACG Pegasus",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Pegasus para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-pegasus-blanco-con-negro-201.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:30:23.252Z"
+  },
+  {
+    "id": "nike-acg-pegasus-202",
+    "name": "ACG Pegasus",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Habana / Beige",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Pegasus para Caballero en color Habana / Beige. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-pegasus-habana-beige-202.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:29:23.254Z"
+  },
+  {
+    "id": "nike-acg-pegasus-203",
+    "name": "ACG Pegasus",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Pegasus para Caballero en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-pegasus-negro-con-blanco-203.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:28:23.255Z"
+  },
+  {
+    "id": "nike-acg-pegasus-204",
+    "name": "ACG Pegasus",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Pegasus para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-pegasus-verde-204.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:27:23.258Z"
+  },
+  {
+    "id": "nike-air-max-90-205",
+    "name": "Air Max 90",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max 90 para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-90-blanco-205.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:26:23.260Z"
+  },
+  {
+    "id": "nike-airmax-206",
+    "name": "Airmax",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Airmax para Caballero en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-airmax-negro-con-blanco-206.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:25:23.262Z"
+  },
+  {
+    "id": "nike-book-207",
+    "name": "Book",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Book para Caballero en color Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-book-azul-207.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:24:23.264Z"
+  },
+  {
+    "id": "nike-book-208",
+    "name": "Book",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul Oscuro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Book para Caballero en color Azul Oscuro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-book-azul-oscuro-208.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:23:23.265Z"
+  },
+  {
+    "id": "nike-book-209",
+    "name": "Book",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Book para Caballero en color Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-book-naranja-209.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:22:23.267Z"
+  },
+  {
+    "id": "nike-cortez-210",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul con Hueso",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Caballero en color Azul con Hueso. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-azul-con-hueso-210.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:21:23.269Z"
+  },
+  {
+    "id": "nike-cortez-211",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-blanco-con-negro-211.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:20:23.270Z"
+  },
+  {
+    "id": "nike-cortez-212",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-negro-212.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:19:23.272Z"
+  },
+  {
+    "id": "nike-cortez-213",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Hueso",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Caballero en color Negro con Hueso. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-negro-con-hueso-213.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:18:23.275Z"
+  },
+  {
+    "id": "nike-cortez-214",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-blanco-214.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:17:23.277Z"
+  },
+  {
+    "id": "nike-cortez-215",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-negro-215.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:16:23.279Z"
+  },
+  {
+    "id": "nike-cortez-216",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Dama en color Negro con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-negro-con-rojo-216.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:15:23.281Z"
+  },
+  {
+    "id": "nike-cortez-217",
+    "name": "Cortez",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Cortez para Dama en color Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-cortez-rosa-217.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:14:23.283Z"
+  },
+  {
+    "id": "nike-dn-218",
+    "name": "DN",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike DN para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dn-blanco-218.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:13:23.286Z"
+  },
+  {
+    "id": "nike-dn2-219",
+    "name": "DN2",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco / Gris / Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike DN2 para Dama en color Blanco / Gris / Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dn2-blanco-gris-rojo-219.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:12:23.288Z"
+  },
+  {
+    "id": "nike-dn2-220",
+    "name": "DN2",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike DN2 para Dama en color Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dn2-rosa-220.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:11:23.290Z"
+  },
+  {
+    "id": "nike-internacional-221",
+    "name": "Internacional",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Internacional para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-internacional-221.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:10:23.293Z"
+  },
+  {
+    "id": "nike-internacional-222",
+    "name": "Internacional",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Internacional para Caballero en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-internacional-gris-222.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:09:23.295Z"
+  },
+  {
+    "id": "nike-juniper-223",
+    "name": "Juniper",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Juniper para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-juniper-verde-223.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:08:23.297Z"
+  },
+  {
+    "id": "nike-juniper-224",
+    "name": "Juniper",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Juniper para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-juniper-224.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:07:23.299Z"
+  },
+  {
+    "id": "nike-kyrie-225",
+    "name": "Kyrie",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Kyrie para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-kyrie-225.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:06:23.301Z"
+  },
+  {
+    "id": "nike-p6000-226",
+    "name": "P6000",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P6000 para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p6000-negro-226.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:05:23.303Z"
+  },
+  {
+    "id": "nike-p7000-227",
+    "name": "P7000",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P7000 para Dama en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p7000-blanco-con-cafe-227.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:04:23.305Z"
+  },
+  {
+    "id": "nike-p7000-228",
+    "name": "P7000",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P7000 para Dama en color Blanco con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p7000-blanco-con-rosa-228.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:03:23.308Z"
+  },
+  {
+    "id": "nike-p7000-229",
+    "name": "P7000",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Palo de Rosa con Crema",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P7000 para Dama en color Palo de Rosa con Crema. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p7000-palo-de-rosa-con-crema-229.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:02:23.310Z"
+  },
+  {
+    "id": "nike-pegasus-230",
+    "name": "Pegasus",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegasus para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegasus-blanco-con-azul-230.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:01:23.312Z"
+  },
+  {
+    "id": "nike-pegasus-231",
+    "name": "Pegasus",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegasus para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegasus-blanco-231.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T13:00:23.314Z"
+  },
+  {
+    "id": "nike-pegasus-232",
+    "name": "Pegasus",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegasus para Dama en color Blanco con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegasus-blanco-con-rojo-232.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:59:23.317Z"
+  },
+  {
+    "id": "nike-pegasus-233",
+    "name": "Pegasus",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Habana / Beige",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegasus para Dama en color Habana / Beige. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegasus-habana-beige-233.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:58:23.319Z"
+  },
+  {
+    "id": "nike-pegasus-234",
+    "name": "Pegasus",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegasus para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegasus-negro-234.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:57:23.322Z"
+  },
+  {
+    "id": "nike-sb-disrupt-235",
+    "name": "SB Disrupt",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Disrupt para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-disrupt-blanco-con-negro-235.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:56:23.324Z"
+  },
+  {
+    "id": "nike-sb-disrupt-236",
+    "name": "SB Disrupt",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Disrupt para Dama en color Blanco con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-disrupt-blanco-con-rojo-236.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:55:23.327Z"
+  },
+  {
+    "id": "nike-sb-dunk-237",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Azul con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Azul con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-azul-con-blanco-237.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:54:23.328Z"
+  },
+  {
+    "id": "nike-sb-dunk-238",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-blanco-con-cafe-238.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:53:23.330Z"
+  },
+  {
+    "id": "nike-sb-dunk-239",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Celeste",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Blanco con Celeste. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-blanco-con-celeste-239.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:52:23.332Z"
+  },
+  {
+    "id": "nike-sb-dunk-240",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Fucsia",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Blanco con Fucsia. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-blanco-con-fucsia-240.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:51:23.334Z"
+  },
+  {
+    "id": "nike-sb-dunk-241",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-blanco-con-gris-241.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:50:23.336Z"
+  },
+  {
+    "id": "nike-sb-dunk-242",
+    "name": "SB Dunk",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Vinotinto",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk para Dama en color Blanco con Vinotinto. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-blanco-con-vinotinto-242.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:49:23.338Z"
+  },
+  {
+    "id": "nike-shox-gusano-243",
+    "name": "Shox Gusano",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Gusano para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-gusano-negro-243.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:48:23.340Z"
+  },
+  {
+    "id": "nike-shox-supreme-244",
+    "name": "Shox Supreme",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Supreme para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-supreme-244.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:47:23.342Z"
+  },
+  {
+    "id": "nike-st-glow-245",
+    "name": "St Glow",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike St Glow para Caballero en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-st-glow-negro-con-blanco-245.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:46:23.344Z"
+  },
+  {
+    "id": "nike-v2k-246",
+    "name": "V2K",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Gris Claro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K para Dama en color Gris Claro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-gris-claro-246.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:45:23.346Z"
+  },
+  {
+    "id": "nike-vomero-247",
+    "name": "Vomero",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Vomero para Dama en color Blanco con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-vomero-blanco-con-rosa-247.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:44:23.348Z"
+  },
+  {
+    "id": "nike-waffle-248",
+    "name": "Waffle",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Gris con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Waffle para Dama en color Gris con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-waffle-gris-con-negro-248.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:43:23.350Z"
+  },
+  {
+    "id": "nike-waffle-249",
+    "name": "Waffle",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Gris con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Waffle para Dama en color Gris con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-waffle-gris-con-rojo-249.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:42:23.352Z"
+  },
+  {
+    "id": "nike-waffle-250",
+    "name": "Waffle",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Waffle para Dama en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-waffle-negro-con-blanco-250.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:41:23.354Z"
+  },
+  {
+    "id": "nike-wildhorse-251",
+    "name": "Wildhorse",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Wildhorse para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-wildhorse-negro-251.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:40:23.356Z"
+  },
+  {
+    "id": "puma-fenty-252",
+    "name": "Fenty",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Fenty para Dama en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-fenty-blanco-con-cafe-252.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:39:23.359Z"
+  },
+  {
+    "id": "puma-fenty-253",
+    "name": "Fenty",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Fenty para Dama en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-fenty-negro-con-blanco-253.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:38:23.361Z"
+  },
+  {
+    "id": "puma-suede-254",
+    "name": "Suede",
+    "brand": "Puma",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-negro-254.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:37:23.363Z"
+  },
+  {
+    "id": "puma-suede-255",
+    "name": "Suede",
+    "brand": "Puma",
+    "gender": "hombre",
+    "color": "Negro con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede para Caballero en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-negro-con-gris-255.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:36:23.365Z"
+  },
+  {
+    "id": "puma-suede-256",
+    "name": "Suede",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-negro-256.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:35:23.367Z"
+  },
+  {
+    "id": "puma-suede-257",
+    "name": "Suede",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Negro con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede para Dama en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-negro-con-gris-257.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:34:23.370Z"
+  },
+  {
+    "id": "timberland-classic-boot-258",
+    "name": "Classic Boot",
+    "brand": "Timberland",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Timberland Classic Boot para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/timberland-classic-boot-258.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-04T12:33:23.372Z"
   }
 ]
