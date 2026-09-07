@@ -57,7 +57,7 @@ export function ProductCard({ product }: { product: Product }) {
             {product.name}
           </h3>
           <p className="mt-1 text-[11px] sm:text-xs text-[#6b675f] font-medium">
-            Tallas: {product.sizes.join(", ")}
+            Tallas EUR: {product.sizes.join(", ")}
           </p>
         </div>
         <div className="flex items-center justify-between pt-2 border-t border-[#f0ede4]">

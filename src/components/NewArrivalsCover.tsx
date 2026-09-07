@@ -13,6 +13,7 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
   }, [products]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
   const [isPaused, setIsPaused] = useState(false);
   const touchStartX = useRef<number | null>(null);
 
@@ -33,7 +34,8 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
 
   const currentImage = current.images[0];
   const brandSlug = slugifyBrand(current.brand);
-  const wa = phone ? whatsappLink(phone, current.name, current.brand, current.price) : "";
+  const selectedSize = selectedSizes[current.id] || (current.sizes && current.sizes[0]) || "";
+  const wa = phone ? whatsappLink(phone, current.name, current.brand, current.price, selectedSize) : "";
 
   const discount =
     current.compareAtPrice && current.compareAtPrice > current.price
@@ -172,18 +174,39 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
               {/* Available Sizes */}
               {current.sizes && current.sizes.length > 0 && (
                 <div className="mt-5">
-                  <p className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#6b675f]">
-                    Tallas Disponibles
-                  </p>
-                  <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-2">
-                    {current.sizes.map((s) => (
-                      <span
-                        key={s}
-                        className="rounded-lg border border-[#e4dfd0] bg-[#fdfcf9] px-2.5 py-1 text-xs font-black text-[#141414] shadow-2xs"
-                      >
-                        {s}
+                  <div className="flex items-center justify-between">
+                    <p className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#6b675f]">
+                      Tallas Disponibles (EUR)
+                    </p>
+                    {selectedSize && (
+                      <span className="text-[11px] font-bold text-[#2754F5]">
+                        Talla {selectedSize} EUR
                       </span>
-                    ))}
+                    )}
+                  </div>
+                  <div className="mt-2 flex flex-wrap gap-1.5 sm:gap-2">
+                    {current.sizes.map((s) => {
+                      const isSelected = selectedSize === s;
+                      return (
+                        <button
+                          key={s}
+                          type="button"
+                          onClick={() =>
+                            setSelectedSizes((prev) => ({
+                              ...prev,
+                              [current.id]: s,
+                            }))
+                          }
+                          className={`rounded-lg border px-3 py-1.5 text-xs font-black transition-all cursor-pointer ${
+                            isSelected
+                              ? "border-[#141414] bg-[#141414] text-white shadow-xs scale-105"
+                              : "border-[#e4dfd0] bg-[#fdfcf9] text-[#141414] hover:border-[#141414] hover:bg-white"
+                          }`}
+                        >
+                          {s}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
               )}
@@ -218,7 +241,11 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
                   <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24">
                     <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z" />
                   </svg>
-                  <span>Pedir por WhatsApp</span>
+                  <span>
+                    {selectedSize
+                      ? `Pedir en Talla ${selectedSize} EUR por WhatsApp`
+                      : "Pedir por WhatsApp"}
+                  </span>
                 </a>
               ) : null}
             </div>

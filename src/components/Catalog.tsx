@@ -9,6 +9,7 @@ export function Catalog({ products }: { products: Product[] }) {
   const [brand, setBrand] = useState("todas");
   const [gender, setGender] = useState("todas");
   const [size, setSize] = useState("todas");
+  const [color, setColor] = useState("todas");
 
   const [sortBy, setSortBy] = useState<"recientes" | "precio-asc" | "precio-desc">("recientes");
 
@@ -21,6 +22,13 @@ export function Catalog({ products }: { products: Product[] }) {
     products.forEach((item) => item.sizes.forEach((value) => set.add(value)));
     return Array.from(set).sort((a, b) => Number(a) - Number(b) || a.localeCompare(b));
   }, [products]);
+  const colors = useMemo(() => {
+    const set = new Set<string>();
+    products.forEach((item) => {
+      if (item.color) set.add(item.color);
+    });
+    return Array.from(set).sort();
+  }, [products]);
 
   const filtered = products
     .filter((item) => {
@@ -29,7 +37,8 @@ export function Catalog({ products }: { products: Product[] }) {
       const matchesBrand = brand === "todas" || item.brand === brand;
       const matchesGender = gender === "todas" || item.gender === gender;
       const matchesSize = size === "todas" || item.sizes.includes(size);
-      return matchesQuery && matchesBrand && matchesGender && matchesSize;
+      const matchesColor = color === "todas" || item.color === color;
+      return matchesQuery && matchesBrand && matchesGender && matchesSize && matchesColor;
     })
     .sort((a, b) => {
       if (sortBy === "precio-asc") return a.price - b.price;
@@ -54,7 +63,7 @@ export function Catalog({ products }: { products: Product[] }) {
       </div>
 
       <div className="rounded-2xl border border-[#e4dfd0] bg-white p-4 shadow-sm sm:p-5 mb-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5 sm:gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
@@ -88,9 +97,19 @@ export function Catalog({ products }: { products: Product[] }) {
             onChange={(event) => setSize(event.target.value)}
             className="w-full rounded-xl border-2 border-[#e4dfd0] bg-[#fdfcf9] px-3 py-2.5 text-sm font-semibold text-[#141414] outline-none transition focus:border-[#141414] focus:bg-white"
           >
-            <option value="todas">Todas las tallas</option>
+            <option value="todas">Todas las tallas (EUR)</option>
             {sizes.map((value) => (
-              <option key={value} value={value}>Talla {value}</option>
+              <option key={value} value={value}>Talla {value} EUR</option>
+            ))}
+          </select>
+          <select
+            value={color}
+            onChange={(event) => setColor(event.target.value)}
+            className="w-full rounded-xl border-2 border-[#e4dfd0] bg-[#fdfcf9] px-3 py-2.5 text-sm font-semibold text-[#141414] outline-none transition focus:border-[#141414] focus:bg-white"
+          >
+            <option value="todas">Todos los colores ({colors.length})</option>
+            {colors.map((value) => (
+              <option key={value} value={value}>{value}</option>
             ))}
           </select>
           <select
@@ -109,13 +128,14 @@ export function Catalog({ products }: { products: Product[] }) {
             Mostrando <span className="font-bold text-[#141414]">{filtered.length}</span> de{" "}
             <span className="font-bold text-[#141414]">{products.length}</span> zapatillas
           </div>
-          {(query || brand !== "todas" || gender !== "todas" || size !== "todas" || sortBy !== "recientes") && (
+          {(query || brand !== "todas" || gender !== "todas" || size !== "todas" || color !== "todas" || sortBy !== "recientes") && (
             <button
               onClick={() => {
                 setQuery("");
                 setBrand("todas");
                 setGender("todas");
                 setSize("todas");
+                setColor("todas");
                 setSortBy("recientes");
               }}
               className="rounded-full bg-[#2754F5] px-3.5 py-1 text-xs font-bold text-white shadow-xs hover:bg-[#a94a1b] transition"

@@ -50,11 +50,19 @@ export function formatPrice(value: number) {
   }).format(value);
 }
 
-export function whatsappLink(phone: string, productName: string, brand: string, price?: number) {
+export function whatsappLink(
+  phone: string,
+  productName: string,
+  brand: string,
+  price?: number,
+  size?: string
+) {
   const digits = phone.replace(/\D/g, "");
   const priceText = price ? ` por ${formatPrice(price)}` : "";
+  const sizeText = size ? ` en Talla ${size} EUR` : "";
+  const eurNote = size ? " (Tengo en cuenta que la talla es en EUR)." : "";
   const text = encodeURIComponent(
-    `Hola, me interesa la zapatilla ${brand} ${productName}${priceText}. ¿Sigue disponible?`
+    `Hola, me interesa comprar la zapatilla ${brand} ${productName}${sizeText}${priceText}.${eurNote} ¿Sigue disponible?`
   );
   return `https://wa.me/${digits}?text=${text}`;
 }

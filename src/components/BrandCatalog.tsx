@@ -103,10 +103,10 @@ export function BrandCatalog({ products, brandName }: BrandCatalogProps) {
               onChange={(e) => setSize(e.target.value)}
               className="w-full rounded-xl border-2 border-[#e4dfd0] bg-[#fdfcf9] px-3 py-2.5 text-sm font-semibold text-[#141414] outline-none transition focus:border-[#141414] focus:bg-white"
             >
-              <option value="todas">Talla: Todas</option>
+              <option value="todas">Talla: Todas (EUR)</option>
               {sizes.map((s) => (
                 <option key={s} value={s}>
-                  Talla {s}
+                  Talla {s} EUR
                 </option>
               ))}
             </select>
