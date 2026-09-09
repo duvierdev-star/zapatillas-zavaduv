@@ -6,6 +6,7 @@ import { getProduct, readProducts } from "@/lib/store";
 import { CONDITION_LABEL, GENDER_LABEL, formatPrice, slugifyBrand } from "@/lib/types";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductOrderSection } from "@/components/ProductOrderSection";
+import { LazyImage } from "@/components/LazyImage";
 
 const phone = process.env.NEXT_PUBLIC_WHATSAPP || "";
 
@@ -61,11 +62,11 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                       key={src}
                       className="group relative overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm"
                     >
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
+                      <LazyImage
                         src={src}
                         alt={`${product.brand} ${product.name}`}
                         className="w-full object-cover transition duration-500 group-hover:scale-[1.015]"
+                        priority={index === 0}
                       />
 
                       {product.images.length > 1 ? (

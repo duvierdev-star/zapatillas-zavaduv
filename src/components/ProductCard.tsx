@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CONDITION_LABEL, GENDER_LABEL, formatPrice, Product } from "@/lib/types";
+import { LazyImage } from "./LazyImage";
 
 export function ProductCard({ product }: { product: Product }) {
   const image = product.images[0];
@@ -15,12 +16,10 @@ export function ProductCard({ product }: { product: Product }) {
     >
       <div className="relative aspect-[4/5] overflow-hidden bg-[#eeeae0]">
         {image ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
+          <LazyImage
             src={image}
             alt={`${product.brand} ${product.name}`}
             className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.05]"
-            loading="lazy"
           />
         ) : (
           <div className="flex h-full items-center justify-center text-xs text-[#6b675f]">

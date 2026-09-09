@@ -1,8 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { ProductCard } from "./ProductCard";
 import { GENDER_LABEL, Product } from "@/lib/types";
+
+const BATCH_SIZE = 24;
 
 interface BrandCatalogProps {
   products: Product[];
@@ -15,6 +17,8 @@ export function BrandCatalog({ products, brandName }: BrandCatalogProps) {
   const [size, setSize] = useState("todas");
   const [color, setColor] = useState("todas");
   const [sortBy, setSortBy] = useState<"recientes" | "precio-asc" | "precio-desc">("recientes");
+  const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
+  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   // Available filter options for this brand
   const sizes = useMemo(() => {
@@ -54,6 +58,32 @@ export function BrandCatalog({ products, brandName }: BrandCatalogProps) {
         return new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime();
       });
   }, [products, query, gender, size, color, sortBy]);
+
+  // Reset visibleCount when filters change
+  useEffect(() => {
+    setVisibleCount(BATCH_SIZE);
+  }, [query, gender, size, color, sortBy]);
+
+  // Observer for automatic infinite scroll
+  useEffect(() => {
+    const sentinel = loadMoreRef.current;
+    if (!sentinel) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((prev) => Math.min(prev + BATCH_SIZE, filtered.length));
+        }
+      },
+      { rootMargin: "350px" }
+    );
+
+    observer.observe(sentinel);
+    return () => observer.disconnect();
+  }, [filtered.length]);
+
+  const displayedProducts = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
 
   const hasActiveFilters = query || gender !== "todas" || size !== "todas" || color !== "todas" || sortBy !== "recientes";
 
@@ -149,8 +179,11 @@ export function BrandCatalog({ products, brandName }: BrandCatalogProps) {
         {/* Status & clear filters bar */}
         <div className="mt-4 flex flex-wrap items-center justify-between gap-3 border-t border-[#f0ede4] pt-3 text-xs text-[#6b675f]">
           <div>
-            Mostrando <span className="font-bold text-[#141414]">{filtered.length}</span> de{" "}
-            <span className="font-bold text-[#141414]">{products.length}</span> modelos
+            Mostrando <span className="font-bold text-[#141414]">{displayedProducts.length}</span> de{" "}
+            <span className="font-bold text-[#141414]">{filtered.length}</span> modelos
+            {filtered.length !== products.length && (
+              <span className="text-[#8c887d] ml-1">({products.length} en total)</span>
+            )}
           </div>
 
           {hasActiveFilters && (
@@ -179,11 +212,31 @@ export function BrandCatalog({ products, brandName }: BrandCatalogProps) {
           </button>
         </div>
       ) : (
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5">
-          {filtered.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-5">
+            {displayedProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+
+          {hasMore && (
+            <div
+              ref={loadMoreRef}
+              className="mt-10 flex flex-col items-center justify-center gap-3"
+            >
+              <button
+                type="button"
+                onClick={() => setVisibleCount((prev) => Math.min(prev + BATCH_SIZE, filtered.length))}
+                className="rounded-full border border-[#141414] bg-white px-7 py-3 text-xs sm:text-sm font-bold text-[#141414] shadow-xs hover:bg-[#141414] hover:text-white transition cursor-pointer flex items-center gap-2"
+              >
+                <span>Cargar más zapatillas</span>
+                <span className="rounded-full bg-[#f0ede4] px-2 py-0.5 text-[10px] font-extrabold text-[#141414]">
+                  {displayedProducts.length} / {filtered.length}
+                </span>
+              </button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );

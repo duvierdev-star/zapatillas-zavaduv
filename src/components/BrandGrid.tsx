@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Product, slugifyBrand } from "@/lib/types";
+import { LazyImage } from "./LazyImage";
 
 // Logos/Styles accent data for brands
 const BRAND_METADATA: Record<
@@ -275,8 +276,7 @@ export function BrandGrid({ products }: { products: Product[] }) {
               {/* Image Banner */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#eeeae0]">
                 {data.sampleImage ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
+                  <LazyImage
                     src={data.sampleImage}
                     alt={`Zapatillas ${brand}`}
                     className="h-full w-full object-cover transition duration-500 group-hover:scale-105"

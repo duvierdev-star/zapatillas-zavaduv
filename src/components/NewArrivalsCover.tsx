@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { formatPrice, GENDER_LABEL, Product, slugifyBrand, whatsappLink } from "@/lib/types";
 import { Footprints } from "lucide-react";
+import { LazyImage } from "./LazyImage";
 
 const phone = process.env.NEXT_PUBLIC_WHATSAPP || "";
 
@@ -254,8 +255,7 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
           {/* Right / Cover Photo */}
           <div className="relative aspect-[4/3] sm:aspect-[16/11] lg:aspect-auto lg:h-full overflow-hidden bg-[#eeeae0] order-1 lg:order-2">
             {currentImage ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
+              <LazyImage
                 key={current.id}
                 src={currentImage}
                 alt={`${current.brand} ${current.name}`}
@@ -303,8 +303,7 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
             >
               <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-[#eeeae0]">
                 {img ? (
-                  // eslint-disable-next-line @next/next/no-img-element
-                  <img
+                  <LazyImage
                     src={img}
                     alt={item.name}
                     className="h-full w-full object-cover transition duration-300 group-hover:scale-110"
