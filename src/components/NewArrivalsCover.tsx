@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { formatPrice, GENDER_LABEL, Product, slugifyBrand, whatsappLink } from "@/lib/types";
+import { Footprints } from "lucide-react";
 
 const phone = process.env.NEXT_PUBLIC_WHATSAPP || "";
 
@@ -197,11 +198,10 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
                               [current.id]: s,
                             }))
                           }
-                          className={`rounded-lg border px-3 py-1.5 text-xs font-black transition-all cursor-pointer ${
-                            isSelected
-                              ? "border-[#141414] bg-[#141414] text-white shadow-xs scale-105"
-                              : "border-[#e4dfd0] bg-[#fdfcf9] text-[#141414] hover:border-[#141414] hover:bg-white"
-                          }`}
+                          className={`rounded-lg border px-3 py-1.5 text-xs font-black transition-all cursor-pointer ${isSelected
+                            ? "border-[#141414] bg-[#141414] text-white shadow-xs scale-105"
+                            : "border-[#e4dfd0] bg-[#fdfcf9] text-[#141414] hover:border-[#141414] hover:bg-white"
+                            }`}
                         >
                           {s}
                         </button>
@@ -268,9 +268,10 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
             )}
             {/* Subtle Gradient Overlays */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent lg:hidden" />
-            <div className="absolute top-4 right-4 z-10">
-              <span className="rounded-full bg-white/95 backdrop-blur-md px-3 py-1 text-[10px] sm:text-xs font-black uppercase tracking-wider text-[#141414] shadow-sm border border-black/10">
-                ✨ Portada
+            <div className="absolute top-4 right-4 z-10 animate-[fadeIn_0.4s_ease-out]">
+              <span className="flex items-center gap-1 rounded-full bg-white/95 backdrop-blur-md px-3 py-1.5 text-[10px] sm:text-xs font-black uppercase tracking-wider text-[#141414] shadow-sm border border-black/10">
+                <Footprints className="h-3 w-3 text-[#2754F5]" />
+                Portada
               </span>
             </div>
           </div>
@@ -295,11 +296,10 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
             <button
               key={item.id}
               onClick={() => setCurrentIndex(idx)}
-              className={`group flex shrink-0 items-center gap-2.5 rounded-2xl border p-2 text-left transition-all duration-300 cursor-pointer ${
-                isActive
-                  ? "border-[#141414] bg-white shadow-md ring-2 ring-[#141414]"
-                  : "border-[#e4dfd0] bg-white/70 hover:bg-white hover:border-[#141414] opacity-75 hover:opacity-100"
-              }`}
+              className={`group flex shrink-0 items-center gap-2.5 rounded-2xl border p-2 text-left transition-all duration-300 cursor-pointer ${isActive
+                ? "border-[#141414] bg-white shadow-md ring-2 ring-[#141414]"
+                : "border-[#e4dfd0] bg-white/70 hover:bg-white hover:border-[#141414] opacity-75 hover:opacity-100"
+                }`}
             >
               <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-[#eeeae0]">
                 {img ? (

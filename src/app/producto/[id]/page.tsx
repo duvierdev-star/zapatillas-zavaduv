@@ -20,107 +20,213 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
   return (
     <>
       <Header admin={admin} />
-      <main className="mx-auto max-w-6xl px-4 sm:px-5 py-6 sm:py-10">
-        {/* Breadcrumb navigation */}
-        <nav className="flex flex-wrap items-center gap-2 text-xs sm:text-sm text-[#6b675f]">
-          <Link
-            href="/"
-            className="rounded-md bg-white border border-[#e4dfd0] px-2.5 py-1 font-semibold text-[#141414] transition-colors duration-200 hover:bg-[#141414] hover:text-white hover:border-[#141414]"
-          >
-            ← Inicio
-          </Link>
-          <span className="text-[#c9c4b5]">/</span>
-          <Link
-            href={`/marca/${brandSlug}`}
-            className="rounded-md bg-white border border-[#e4dfd0] px-2.5 py-1 font-bold text-[#141414] transition-colors duration-200 hover:bg-[#141414] hover:text-white hover:border-[#141414]"
-          >
-            {product.brand}
-          </Link>
-          <span className="text-[#c9c4b5]">/</span>
-          <span className="truncate max-w-[180px] sm:max-w-none font-medium text-[#141414]">
-            {product.name}
-          </span>
-        </nav>
 
-        <div className="mt-6 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] items-start">
-          <div className="space-y-3">
-            {product.images.length ? (
-              product.images.map((src) => (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  key={src}
-                  src={src}
-                  alt={`${product.brand} ${product.name}`}
-                  className="w-full rounded-3xl border border-[#e4dfd0] bg-white object-cover shadow-sm"
-                />
-              ))
-            ) : (
-              <div className="flex aspect-square items-center justify-center rounded-3xl bg-[#eeeae0] text-[#6b675f]">
-                Sin foto
-              </div>
-            )}
-          </div>
-          <div className="rounded-3xl border border-[#e4dfd0] bg-white p-5 sm:p-8 shadow-xs">
-            <Link
-              href={`/marca/${brandSlug}`}
-              className="inline-block text-[11px] sm:text-xs font-black uppercase tracking-[0.24em] text-[#2754F5] hover:underline"
-            >
-              Colección {product.brand} →
-            </Link>
-            <h1 className="mt-1.5 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#141414]">
-              {product.name}
-            </h1>
+      <main className="min-h-screen bg-[#faf9f7]">
+        <section className="px-4 pb-12 pt-6 sm:px-5 sm:pb-16 sm:pt-8">
+          <div className="mx-auto max-w-6xl">
 
-            <div className="mt-4 flex flex-wrap gap-1.5 sm:gap-2">
-              <span className="rounded-full bg-[#141414] px-3 py-1 text-xs font-bold text-white shadow-2xs">
-                {GENDER_LABEL[product.gender]}
-              </span>
-              {product.color ? (
-                <span className="rounded-full bg-[#f4f1ea] border border-[#dcd6c5] px-3 py-1 text-xs font-bold text-[#141414] shadow-2xs">
-                  Color: {product.color}
-                </span>
-              ) : null}
-              <span className="rounded-full bg-[#f4f1ea] border border-[#dcd6c5] px-3 py-1 text-xs font-bold text-[#141414] shadow-2xs">
-                {CONDITION_LABEL[product.condition]}
-              </span>
-              <span className="rounded-full bg-[#25D366]/15 border border-[#25D366]/30 px-3 py-1 text-xs font-extrabold text-[#1a8e45]">
-                {product.available ? "✓ Disponible para entrega" : "Agotado"}
-              </span>
-            </div>
-
-            <div className="mt-6 flex items-baseline gap-3 border-y border-[#f0ede4] py-4">
-              <span className="text-3xl sm:text-4xl font-black text-[#141414]">{formatPrice(product.price)}</span>
-              {product.compareAtPrice && product.compareAtPrice > product.price ? (
-                <span className="text-lg sm:text-xl text-[#6b675f] line-through font-semibold">
-                  {formatPrice(product.compareAtPrice)}
-                </span>
-              ) : null}
-            </div>
-
-            {product.description ? (
-              <p className="mt-6 text-sm sm:text-base leading-relaxed text-[#3d3a34] font-medium">{product.description}</p>
-            ) : null}
-
-            <ProductOrderSection product={product} phone={phone} admin={admin} />
-          </div>
-        </div>
-
-        {related.length ? (
-          <section className="mt-16 sm:mt-20 border-t border-[#e4dfd0] pt-10 sm:pt-12">
-            <div className="flex items-center justify-between mb-6">
-              <h2 className="text-xl sm:text-2xl font-bold text-[#2754F5]">Más modelos de {product.brand}</h2>
-              <Link href={`/marca/${brandSlug}`} className="rounded-lg bg-[#f4f1ea] px-2 py-1 text-[10px] sm:text-xs font-bold text-[#141414] group-hover:bg-[#141414] group-hover:text-white transition shadow-2xs">
-                Ver todos los {product.brand} →
+            {/* Breadcrumb navigation */}
+            <nav className="mb-6 flex flex-wrap items-center gap-2 text-xs sm:mb-8 sm:text-sm">
+              <Link
+                href="/"
+                className="rounded-full border border-black/5 bg-white px-3 py-1.5 font-bold text-[#141414] shadow-sm transition hover:bg-[#141414] hover:text-white"
+              >
+                ← Inicio
               </Link>
+
+              <span className="text-[#b8b3a9]">/</span>
+
+              <Link
+                href={`/marca/${brandSlug}`}
+                className="rounded-full border border-black/5 bg-white px-3 py-1.5 font-bold text-[#141414] shadow-sm transition hover:bg-[#141414] hover:text-white"
+              >
+                {product.brand}
+              </Link>
+
+              <span className="text-[#b8b3a9]">/</span>
+
+              <span className="max-w-[180px] truncate font-medium text-[#777] sm:max-w-none">
+                {product.name}
+              </span>
+            </nav>
+
+            {/* Product */}
+            <div className="grid items-start gap-6 lg:grid-cols-[1.08fr_0.92fr] lg:gap-8">
+
+              {/* Images */}
+              <div className="space-y-4">
+                {product.images.length ? (
+                  product.images.map((src, index) => (
+                    <div
+                      key={src}
+                      className="group relative overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={src}
+                        alt={`${product.brand} ${product.name}`}
+                        className="w-full object-cover transition duration-500 group-hover:scale-[1.015]"
+                      />
+
+                      {product.images.length > 1 ? (
+                        <div className="absolute left-4 top-4 rounded-full border border-white/50 bg-white/85 px-3 py-1 text-[10px] font-bold text-[#141414] shadow-sm backdrop-blur">
+                          {index + 1} / {product.images.length}
+                        </div>
+                      ) : null}
+                    </div>
+                  ))
+                ) : (
+                  <div className="flex aspect-square items-center justify-center rounded-3xl border border-black/5 bg-white text-sm font-medium text-[#777] shadow-sm">
+                    Sin foto disponible
+                  </div>
+                )}
+              </div>
+
+              {/* Product information */}
+              <div className="lg:sticky lg:top-24">
+                <div className="relative overflow-hidden rounded-3xl border border-black/5 bg-white p-5 shadow-sm sm:p-7 lg:p-8">
+
+                  {/* Decorative circles */}
+                  <div className="absolute -right-16 -top-16 h-40 w-40 rounded-full bg-[#2754F5]/5" />
+                  <div className="absolute -bottom-20 -left-16 h-40 w-40 rounded-full bg-[#2754F5]/5" />
+
+                  <div className="relative">
+
+                    {/* Brand */}
+                    <Link
+                      href={`/marca/${brandSlug}`}
+                      className="inline-flex items-center gap-2 rounded-full bg-[#2754F5]/10 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.18em] text-[#2754F5] transition hover:bg-[#2754F5] hover:text-white"
+                    >
+                      Colección {product.brand}
+                      <span>→</span>
+                    </Link>
+
+                    {/* Product name */}
+                    <h1 className="mt-4 text-3xl font-black tracking-tight text-[#141414] sm:text-4xl lg:text-5xl">
+                      {product.name}
+                    </h1>
+
+                    {/* Product tags */}
+                    <div className="mt-5 flex flex-wrap gap-2">
+
+                      <span className="rounded-full bg-[#141414] px-3 py-1.5 text-[11px] font-bold text-white">
+                        {GENDER_LABEL[product.gender]}
+                      </span>
+
+                      {product.color ? (
+                        <span className="rounded-full border border-black/5 bg-[#f4f1ea] px-3 py-1.5 text-[11px] font-bold text-[#141414]">
+                          {product.color}
+                        </span>
+                      ) : null}
+
+                      <span className="rounded-full border border-black/5 bg-[#f4f1ea] px-3 py-1.5 text-[11px] font-bold text-[#141414]">
+                        {CONDITION_LABEL[product.condition]}
+                      </span>
+
+                      {product.available ? (
+                        <span className="rounded-full border border-[#25D366]/20 bg-[#25D366]/10 px-3 py-1.5 text-[11px] font-extrabold text-[#1a8e45]">
+                          ✓ Disponible
+                        </span>
+                      ) : (
+                        <span className="rounded-full border border-red-200 bg-red-50 px-3 py-1.5 text-[11px] font-extrabold text-red-600">
+                          Agotado
+                        </span>
+                      )}
+                    </div>
+
+                    {/* Price */}
+                    <div className="my-7 border-y border-black/5 py-5">
+                      <div className="flex flex-wrap items-end gap-3">
+                        <span className="text-4xl font-black tracking-tight text-[#141414] sm:text-5xl">
+                          {formatPrice(product.price)}
+                        </span>
+
+                        {product.compareAtPrice &&
+                          product.compareAtPrice > product.price ? (
+                          <span className="pb-1 text-base font-semibold text-[#999] line-through sm:text-lg">
+                            {formatPrice(product.compareAtPrice)}
+                          </span>
+                        ) : null}
+                      </div>
+
+                      {product.compareAtPrice &&
+                        product.compareAtPrice > product.price ? (
+                        <div className="mt-2 inline-flex rounded-full bg-[#2754F5]/10 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-[#2754F5]">
+                          Precio especial
+                        </div>
+                      ) : null}
+                    </div>
+
+                    {/* Description */}
+                    {product.description ? (
+                      <div className="mb-7">
+                        <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-[#2754F5]">
+                          Detalles del producto
+                        </span>
+
+                        <p className="mt-3 text-sm font-medium leading-7 text-[#5f5b54] sm:text-base">
+                          {product.description}
+                        </p>
+                      </div>
+                    ) : null}
+
+                    {/* Order section */}
+                    <ProductOrderSection
+                      product={product}
+                      phone={phone}
+                      admin={admin}
+                    />
+
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-5">
-              {related.map((item) => (
-                <ProductCard key={item.id} product={item} />
-              ))}
+          </div>
+        </section>
+
+        {/* Related products */}
+        {related.length ? (
+          <section className="border-t border-black/5 bg-white px-4 py-12 sm:px-5 sm:py-16">
+            <div className="mx-auto max-w-6xl">
+
+              <div className="mb-8 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+                <div>
+                  <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-[#2754F5]">
+                    También te puede interesar
+                  </span>
+
+                  <h2 className="mt-2 text-2xl font-black tracking-tight text-[#141414] sm:text-3xl">
+                    Más modelos de {product.brand}
+                  </h2>
+
+                  <p className="mt-2 text-sm text-[#777]">
+                    Descubre otras zapatillas disponibles de esta marca.
+                  </p>
+                </div>
+
+                <Link
+                  href={`/marca/${brandSlug}`}
+                  className="group inline-flex w-fit items-center gap-2 rounded-full bg-[#f4f1ea] px-4 py-2 text-xs font-bold text-[#141414] transition hover:bg-[#141414] hover:text-white"
+                >
+                  Ver todos
+                  <span className="transition-transform duration-200 group-hover:translate-x-1">
+                    →
+                  </span>
+                </Link>
+              </div>
+
+              <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
+                {related.map((item) => (
+                  <ProductCard
+                    key={item.id}
+                    product={item}
+                  />
+                ))}
+              </div>
+
             </div>
           </section>
         ) : null}
-      </main>
-    </>
+      </main>    </>
   );
 }
