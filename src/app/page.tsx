@@ -88,7 +88,7 @@ export default async function HomePage() {
                 {/* New arrivals */}
                 <a
                   href="#novedades"
-                  className="group flex items-center justify-center gap-3 rounded-full bg-[#2754F5] px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-[#2754F5]/25 transition-all duration-300 hover:-translate-y-1 hover:bg-[#1a40cf] hover:shadow-2xl"
+                  className="group flex items-center justify-center gap-3 rounded-full border border-[#6f8cff]/30 bg-[#6f8cff] px-7 py-3.5 text-sm font-bold text-white shadow-xl shadow-[#6f8cff]/25 transition-all duration-300 hover:-translate-y-1 hover:bg-white hover:text-[#141414] hover:shadow-2xl"
                 >
                   <Footprints className="h-4 w-4" />
                   <span>Ver nuevos ingresos</span>
@@ -362,42 +362,238 @@ export default async function HomePage() {
       {/* =========================================================
     FOOTER
 ========================================================= */}
-      <footer className="border-t border-white/10 bg-[#141414] px-5 py-10">
+      <footer className="border-t border-white/10 bg-[#141414] px-5 py-12">
         <div className="mx-auto max-w-6xl">
 
-          <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+          {/* ─────────────── PARTE SUPERIOR ─────────────── */}
+          <div className="flex flex-col gap-8 sm:flex-row sm:items-center sm:justify-between">
 
+            {/* Marca */}
             <div className="text-center sm:text-left">
-              <p className="text-lg font-black tracking-tight text-white">
+              <p className="text-2xl font-black tracking-tight text-white">
                 {storeName}
               </p>
 
-              <p className="mt-1 text-xs text-white/40">
+              <p className="mt-1 text-sm font-medium text-white/40">
                 Variedades de Zapatillas
+              </p>
+
+              <p className="mt-3 text-xs leading-relaxed text-white/30">
+                Encuentra tu próximo par.
+                <span className="ml-1">👟</span>
               </p>
             </div>
 
-            <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-2">
-              <span className="h-2 w-2 animate-pulse rounded-full bg-[#2754F5]" />
+            {/* Estado del catálogo */}
+            <div className="flex justify-center sm:justify-end">
+              <div className="group flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-4 py-2.5 backdrop-blur-sm transition-all duration-300 hover:border-[#6f8cff]/30 hover:bg-[#6f8cff]/10">
 
-              <span className="text-xs font-medium text-white/60">
-                Catálogo actualizado
-              </span>
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#6f8cff] opacity-50" />
+                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-[#6f8cff]" />
+                </span>
+
+                <span className="text-xs font-semibold text-white/60 transition-colors duration-300 group-hover:text-white">
+                  Catálogo actualizado
+                </span>
+              </div>
             </div>
           </div>
 
+
+          {/* ─────────────── SEPARADOR ─────────────── */}
+          <div className="my-9 h-px bg-white/10" />
+
+
+          {/* ─────────────── ACCESOS RÁPIDOS ─────────────── */}
+          <div>
+            <p className="mb-4 text-center text-[10px] font-black uppercase tracking-[0.2em] text-white/30 sm:text-left">
+              Explora ZaVaDuv
+            </p>
+
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+
+              {/* Nuevos modelos */}
+              <a
+                href="#novedades"
+                className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#6f8cff]/40 hover:bg-[#6f8cff] hover:text-white"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-sm">👟</span>
+
+                  <span className="text-xs font-bold text-white/60 transition-colors duration-300 group-hover:text-white">
+                    Nuevos modelos
+                  </span>
+                </div>
+
+                <span className="text-white/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </a>
+
+
+              {/* Marcas */}
+              <a
+                href="#marcas"
+                className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#6f8cff]/40 hover:bg-[#6f8cff] hover:text-white"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-sm">🏷️</span>
+
+                  <span className="text-xs font-bold text-white/60 transition-colors duration-300 group-hover:text-white">
+                    Marcas
+                  </span>
+                </div>
+
+                <span className="text-white/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </a>
+
+
+              {/* Catálogo */}
+              <a
+                href="#catalogo"
+                className="group flex items-center justify-between rounded-xl border border-white/10 bg-white/[0.03] px-4 py-3 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#6f8cff]/40 hover:bg-[#6f8cff] hover:text-white"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-sm">🛍️</span>
+
+                  <span className="text-xs font-bold text-white/60 transition-colors duration-300 group-hover:text-white">
+                    Catálogo
+                  </span>
+                </div>
+
+                <span className="text-white/20 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </a>
+
+
+              {/* Promociones */}
+              <a
+                href="/marca/promociones"
+                className="group flex items-center justify-between rounded-xl border border-[#6f8cff]/20 bg-[#6f8cff]/10 px-4 py-3 text-[#6f8cff] transition-all duration-300 hover:-translate-y-0.5 hover:border-[#6f8cff] hover:bg-[#6f8cff] hover:text-white"
+              >
+                <div className="flex items-center gap-2.5">
+                  <span className="text-sm">🔥</span>
+
+                  <span className="text-xs font-extrabold">
+                    Ofertas
+                  </span>
+                </div>
+
+                <span className="transition-transform duration-300 group-hover:translate-x-1">
+                  →
+                </span>
+              </a>
+
+            </div>
+          </div>
+
+
+          {/* ─────────────── WHATSAPP ─────────────── */}
+          {whatsapp ? (
+            <div className="mt-5 grid gap-2 sm:grid-cols-2">
+
+              {/* WhatsApp */}
+              <a
+                href={`https://wa.me/${whatsapp.replace(/\D/g, "")}?text=${encodeURIComponent(
+                  "Hola ZaVaDuv, me interesa ver modelos de zapatillas disponibles."
+                )}`}
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center justify-between rounded-xl border border-[#25D366]/20 bg-[#25D366]/10 px-4 py-3.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#25D366] hover:bg-[#25D366]"
+              >
+                <div className="flex items-center gap-3">
+
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#25D366] text-white transition-transform duration-300 group-hover:scale-105">
+                    <svg
+                      className="h-4 w-4"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"
+                      />
+                    </svg>
+                  </span>
+
+                  <div>
+                    <span className="block text-xs font-black text-white">
+                      ¿Buscas un modelo?
+                    </span>
+
+                    <span className="text-[10px] text-white/40 transition-colors duration-300 group-hover:text-white/80">
+                      Escríbenos por WhatsApp
+                    </span>
+                  </div>
+                </div>
+
+                <span className="text-lg text-white/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </a>
+
+
+              {/* Canal de WhatsApp */}
+              <a
+                href="https://whatsapp.com/channel/0029VbDmqrc0VycKJydJvb3q"
+                target="_blank"
+                rel="noreferrer"
+                className="group flex items-center justify-between rounded-xl border border-[#6f8cff]/20 bg-[#6f8cff]/10 px-4 py-3.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-[#6f8cff] hover:bg-[#6f8cff]"
+              >
+                <div className="flex items-center gap-3">
+
+                  <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-[#6f8cff] text-white transition-transform duration-300 group-hover:scale-105">
+                    <svg
+                      className="h-4 w-4"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M4 6h8a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V8a2 2 0 012-2z"
+                      />
+                    </svg>
+                  </span>
+
+                  <div>
+                    <span className="block text-xs font-black text-white">
+                      Sigue nuestro canal
+                    </span>
+
+                    <span className="text-[10px] text-white/40 transition-colors duration-300 group-hover:text-white/80">
+                      Novedades, modelos y ofertas
+                    </span>
+                  </div>
+                </div>
+
+                <span className="text-lg text-white/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
+                  →
+                </span>
+              </a>
+
+            </div>
+          ) : null}
+
+          {/* ─────────────── PARTE INFERIOR ─────────────── */}
           <div className="my-8 h-px bg-white/10" />
 
-          <div className="flex flex-col items-center justify-between gap-2 text-xs text-white/30 sm:flex-row">
-            <p>
+          <div className="flex flex-col items-center justify-between gap-3 text-center sm:flex-row sm:text-left">
+
+            <p className="text-[11px] text-white/30">
               {storeName} · Catálogo privado para clientes
             </p>
 
-            <p>
-              © {new Date().getFullYear()} Todos los derechos
-              reservados
+            <p className="text-[11px] text-white/30">
+              © {new Date().getFullYear()} {storeName} · Todos los derechos reservados
             </p>
+
           </div>
+
         </div>
       </footer>
     </>
