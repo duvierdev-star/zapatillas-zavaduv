@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 export interface LazyImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   src: string;
@@ -16,7 +16,7 @@ export function LazyImage({
   alt,
   className = "",
   wrapperClassName = "h-full w-full",
-  rootMargin = "150px",
+  rootMargin = "250px",
   priority = false,
   ...props
 }: LazyImageProps) {
@@ -24,7 +24,17 @@ export function LazyImage({
   const [isLoaded, setIsLoaded] = useState(false);
   const [hasError, setHasError] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+  const prevSrcRef = useRef(src);
 
+  // If priority changes or is true, become visible immediately
+  useEffect(() => {
+    if (priority) {
+      setIsVisible(true);
+    }
+  }, [priority]);
+
+  // Observer for lazy loading
   useEffect(() => {
     if (priority || isVisible) return;
 
@@ -38,6 +48,7 @@ export function LazyImage({
 
     const observer = new IntersectionObserver(
       ([entry]) => {
+        // threshold: 0 ensures any intersecting boundary triggers visibility, even on 0px elements
         if (entry.isIntersecting) {
           setIsVisible(true);
           observer.unobserve(current);
@@ -45,7 +56,7 @@ export function LazyImage({
       },
       {
         rootMargin,
-        threshold: 0.01,
+        threshold: 0,
       }
     );
 
@@ -56,11 +67,38 @@ export function LazyImage({
     };
   }, [priority, isVisible, rootMargin]);
 
-  // Reset loading state if src changes
+  // Check if image is already completed in browser cache
+  const checkImgComplete = useCallback((img: HTMLImageElement | null) => {
+    if (!img) return;
+    if (img.complete) {
+      if (img.naturalWidth > 0) {
+        setIsLoaded(true);
+        setHasError(false);
+      } else if (img.naturalWidth === 0 && img.src) {
+        setIsLoaded(true);
+        setHasError(true);
+      }
+    }
+  }, []);
+
+  // Callback ref when the img DOM node mounts or updates
+  const handleImgRef = useCallback(
+    (node: HTMLImageElement | null) => {
+      imgRef.current = node;
+      checkImgComplete(node);
+    },
+    [checkImgComplete]
+  );
+
+  // When src changes, only reset if src is actually different
   useEffect(() => {
-    setIsLoaded(false);
-    setHasError(false);
-  }, [src]);
+    if (prevSrcRef.current !== src) {
+      prevSrcRef.current = src;
+      setIsLoaded(false);
+      setHasError(false);
+    }
+    checkImgComplete(imgRef.current);
+  }, [src, isVisible, checkImgComplete]);
 
   return (
     <div
@@ -75,9 +113,13 @@ export function LazyImage({
       {isVisible ? (
         // eslint-disable-next-line @next/next/no-img-element
         <img
+          ref={handleImgRef}
           src={src}
           alt={alt}
-          onLoad={() => setIsLoaded(true)}
+          onLoad={() => {
+            setIsLoaded(true);
+            setHasError(false);
+          }}
           onError={() => {
             setIsLoaded(true);
             setHasError(true);

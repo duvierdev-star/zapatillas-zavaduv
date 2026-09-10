@@ -60,12 +60,12 @@ export default async function ProductPage({ params }: { params: Promise<{ id: st
                   product.images.map((src, index) => (
                     <div
                       key={src}
-                      className="group relative overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm"
+                      className="group relative aspect-square w-full overflow-hidden rounded-3xl border border-black/5 bg-white shadow-sm"
                     >
                       <LazyImage
                         src={src}
                         alt={`${product.brand} ${product.name}`}
-                        className="w-full object-cover transition duration-500 group-hover:scale-[1.015]"
+                        className="h-full w-full object-cover transition duration-500 group-hover:scale-[1.015]"
                         priority={index === 0}
                       />
 
