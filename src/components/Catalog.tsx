@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { ProductCard } from "./ProductCard";
 import { GENDER_LABEL, Product } from "@/lib/types";
 
-const BATCH_SIZE = 24;
+const BATCH_SIZE = 12;
 
 export function Catalog({ products }: { products: Product[] }) {
   const [query, setQuery] = useState("");
@@ -15,7 +15,6 @@ export function Catalog({ products }: { products: Product[] }) {
 
   const [sortBy, setSortBy] = useState<"recientes" | "precio-asc" | "precio-desc">("recientes");
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE);
-  const loadMoreRef = useRef<HTMLDivElement | null>(null);
 
   const brands = useMemo(
     () => Array.from(new Set(products.map((item) => item.brand))).sort(),
@@ -55,43 +54,13 @@ export function Catalog({ products }: { products: Product[] }) {
     setVisibleCount(BATCH_SIZE);
   }, [query, brand, gender, size, color, sortBy]);
 
-  // Infinite scroll observer
-  useEffect(() => {
-    const sentinel = loadMoreRef.current;
-    if (!sentinel) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        if (entries[0].isIntersecting) {
-          setVisibleCount((prev) => Math.min(prev + BATCH_SIZE, filtered.length));
-        }
-      },
-      { rootMargin: "350px" }
-    );
-
-    observer.observe(sentinel);
-    return () => observer.disconnect();
-  }, [filtered.length]);
-
   const displayedProducts = filtered.slice(0, visibleCount);
   const hasMore = visibleCount < filtered.length;
+  const remainingCount = filtered.length - displayedProducts.length;
 
   return (
-    <section id="catalogo" className="mx-auto max-w-6xl px-4 sm:px-5 pb-20">
-      <div className="mb-6 flex flex-col gap-3 lg:flex-row lg:items-end lg:justify-between">
-        <div>
-          <p className="text-[11px] font-extrabold uppercase tracking-[0.24em] text-[#2754F5]">
-            Catálogo Completo
-          </p>
-          <h2 className="mt-1 text-2xl sm:text-3xl font-bold tracking-tight text-[#141414]">
-            Todos los Modelos Disponibles
-          </h2>
-        </div>
-        <p className="text-xs sm:text-sm text-[#6b675f]">
-          Filtra por tu marca favorita, talla o combina opciones
-        </p>
-      </div>
-
+    <div className="w-full">
+      {/* Filters Toolbar */}
       <div className="rounded-2xl border border-[#e4dfd0] bg-white p-4 shadow-sm sm:p-5 mb-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
           <input
@@ -163,6 +132,7 @@ export function Catalog({ products }: { products: Product[] }) {
           </div>
           {(query || brand !== "todas" || gender !== "todas" || size !== "todas" || color !== "todas" || sortBy !== "recientes") && (
             <button
+              type="button"
               onClick={() => {
                 setQuery("");
                 setBrand("todas");
@@ -171,7 +141,7 @@ export function Catalog({ products }: { products: Product[] }) {
                 setColor("todas");
                 setSortBy("recientes");
               }}
-              className="rounded-full bg-[#2754F5] px-3.5 py-1 text-xs font-bold text-white shadow-xs hover:bg-[#a94a1b] transition"
+              className="rounded-full bg-[#2754F5] px-3.5 py-1 text-xs font-bold text-white shadow-xs hover:bg-[#1f44c9] transition cursor-pointer"
             >
               Limpiar filtros ✕
             </button>
@@ -179,6 +149,7 @@ export function Catalog({ products }: { products: Product[] }) {
         </div>
       </div>
 
+      {/* Grid of Products */}
       {filtered.length === 0 ? (
         <div className="rounded-2xl border border-dashed border-[#d9d3c2] bg-white p-8 sm:p-12 text-center">
           <p className="text-lg font-bold text-[#141414]">No hay zapatillas con esos filtros</p>
@@ -192,25 +163,87 @@ export function Catalog({ products }: { products: Product[] }) {
             ))}
           </div>
 
+          {/* Botón Mostrar Más (sólo por clic explícito) */}
           {hasMore && (
-            <div
-              ref={loadMoreRef}
-              className="mt-10 flex flex-col items-center justify-center gap-3"
-            >
+            <div className="mt-12 flex flex-col items-center justify-center gap-3">
+              {/* Indicador de progreso */}
+              <div className="flex flex-wrap items-center justify-center gap-2 text-xs font-bold text-[#6b675f]">
+                <span>
+                  Mostrando <strong className="text-[#141414]">{displayedProducts.length}</strong> de{" "}
+                  <strong className="text-[#141414]">{filtered.length}</strong> zapatillas
+                </span>
+                <span className="h-1 w-1 rounded-full bg-[#8c887d]" />
+                <span className="text-[#2754F5]">
+                  Quedan {remainingCount} por ver
+                </span>
+              </div>
+
+              {/* Barra de progreso */}
+              <div className="h-1.5 w-52 overflow-hidden rounded-full bg-[#e4dfd0]">
+                <div
+                  className="h-full bg-[#2754F5] rounded-full transition-all duration-300"
+                  style={{
+                    width: `${Math.round(
+                      (displayedProducts.length / filtered.length) * 100
+                    )}%`,
+                  }}
+                />
+              </div>
+
+              {/* Botones de acción */}
+              <div className="mt-2 flex flex-wrap items-center justify-center gap-3">
+                <button
+                  type="button"
+                  onClick={() =>
+                    setVisibleCount((prev) =>
+                      Math.min(prev + BATCH_SIZE, filtered.length)
+                    )
+                  }
+                  className="group inline-flex items-center gap-2.5 rounded-full bg-[#141414] px-8 py-3.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-black/10 transition-all duration-200 hover:-translate-y-0.5 hover:bg-[#2754F5] hover:shadow-xl cursor-pointer"
+                >
+                  <span>Mostrar más zapatillas</span>
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-white/20 text-xs transition-transform duration-200 group-hover:translate-y-0.5">
+                    ↓
+                  </span>
+                </button>
+
+                {filtered.length > visibleCount + BATCH_SIZE && (
+                  <button
+                    type="button"
+                    onClick={() => setVisibleCount(filtered.length)}
+                    className="rounded-full border border-[#e4dfd0] bg-white px-5 py-3 text-xs font-bold text-[#6b675f] shadow-xs hover:border-[#141414] hover:text-[#141414] transition cursor-pointer"
+                  >
+                    Ver todas ({filtered.length})
+                  </button>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* Indicador cuando ya se mostraron todas */}
+          {!hasMore && filtered.length > BATCH_SIZE && (
+            <div className="mt-12 flex flex-col items-center justify-center gap-2 text-center text-xs text-[#6b675f]">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-[#e4dfd0]/60 px-4 py-1.5 font-bold text-[#141414]">
+                ✓ Has visto todos los modelos disponibles ({filtered.length} zapatillas)
+              </span>
               <button
                 type="button"
-                onClick={() => setVisibleCount((prev) => Math.min(prev + BATCH_SIZE, filtered.length))}
-                className="rounded-full border border-[#141414] bg-white px-7 py-3 text-xs sm:text-sm font-bold text-[#141414] shadow-xs hover:bg-[#141414] hover:text-white transition cursor-pointer flex items-center gap-2"
+                onClick={() => {
+                  setVisibleCount(BATCH_SIZE);
+                  const elem = document.getElementById("catalogo");
+                  if (elem) {
+                    elem.scrollIntoView({ behavior: "smooth" });
+                  }
+                }}
+                className="mt-1 inline-flex items-center gap-1 font-bold text-[#2754F5] hover:underline cursor-pointer"
               >
-                <span>Cargar más zapatillas</span>
-                <span className="rounded-full bg-[#f0ede4] px-2 py-0.5 text-[10px] font-extrabold text-[#141414]">
-                  {displayedProducts.length} / {filtered.length}
-                </span>
+                <span>↑</span>
+                <span>Mostrar menos (volver a {BATCH_SIZE})</span>
               </button>
             </div>
           )}
         </>
       )}
-    </section>
+    </div>
   );
 }

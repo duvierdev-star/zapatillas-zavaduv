@@ -4,12 +4,14 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Footprints } from "lucide-react";
+import { SizeGuideModal } from "./SizeGuideModal";
 
 const storeName = process.env.NEXT_PUBLIC_STORE_NAME || "ZaVaDuv";
 const whatsapp = process.env.NEXT_PUBLIC_WHATSAPP || "";
 
 export function Header({ admin }: { admin?: boolean }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [sizeGuideOpen, setSizeGuideOpen] = useState(false);
   const pathname = usePathname();
 
   // Close menu when route changes
@@ -75,6 +77,7 @@ export function Header({ admin }: { admin?: boolean }) {
           >
             Catálogo
           </Link>
+
           <Link
             href="/marca/promociones"
             className="group inline-flex items-center gap-2 rounded-full border border-[#2754F5]/15 bg-[#f4f1ea] px-4 py-2 text-xs font-black text-[#141414] shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#2754F5] hover:text-white hover:shadow-md"
@@ -338,3 +341,4 @@ export function Header({ admin }: { admin?: boolean }) {
     </header>
   );
 }
+

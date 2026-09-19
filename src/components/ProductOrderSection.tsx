@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Link from "next/link";
 import { formatPrice, Product, whatsappLink } from "@/lib/types";
+import { SizeGuide } from "./SizeGuide";
+import { SizeGuideModal } from "./SizeGuideModal";
 
 interface ProductOrderSectionProps {
   product: Product;
@@ -19,7 +21,8 @@ export function ProductOrderSection({
   const [selectedSize, setSelectedSize] = useState<string>(
     product.sizes && product.sizes.length > 0 ? product.sizes[0] : ""
   );
-  const [showSizeGuide, setShowSizeGuide] = useState(false);
+  const [showInlineGuide, setShowInlineGuide] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const waUrl =
     phone && product.available
@@ -34,21 +37,41 @@ export function ProductOrderSection({
 
   return (
     <div className="mt-6 space-y-6">
+      {/* Modal Guía de Tallas */}
+      <SizeGuideModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        selectedEurSize={selectedSize}
+        defaultGender={product.gender}
+      />
+
       {/* Size Selector Header */}
       <div>
-        <div className="flex items-center justify-between">
-          <p className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#6b675f]">
-            Tallas disponibles (EUR)
-          </p>
-          {selectedSize && (
-            <span className="text-xs font-black text-[#2754F5]">
-              Seleccionada: Talla {selectedSize} EUR
-            </span>
-          )}
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div className="flex items-center gap-2">
+            <p className="text-[11px] font-extrabold uppercase tracking-[0.2em] text-[#6b675f]">
+              Tallas disponibles (EUR)
+            </p>
+            {selectedSize && (
+              <span className="rounded-full bg-[#2754F5]/10 px-2.5 py-0.5 text-xs font-black text-[#2754F5]">
+                Talla {selectedSize} EUR
+              </span>
+            )}
+          </div>
+
+          {/* Guía de Tallas Button */}
+          <button
+            type="button"
+            onClick={() => setIsModalOpen(true)}
+            className="inline-flex items-center gap-1.5 rounded-full border border-[#141414] bg-white px-3 py-1 text-xs font-black text-[#141414] shadow-xs hover:bg-[#141414] hover:text-white transition cursor-pointer"
+          >
+            <span>📏</span>
+            <span>Guía de Tallas</span>
+          </button>
         </div>
 
         {/* Size Pills */}
-        <div className="mt-2.5 flex flex-wrap gap-2">
+        <div className="mt-3 flex flex-wrap gap-2">
           {product.sizes.map((size) => {
             const isSelected = selectedSize === size;
             return (
@@ -74,96 +97,40 @@ export function ProductOrderSection({
         </div>
       </div>
 
-      {/* EUR Size Notice & Guide Box */}
-      <div className="rounded-2xl border border-amber-200 bg-amber-50/80 p-4 sm:p-4.5 text-[#78350f]">
+      {/* EUR Size Notice & Toggleable Guide */}
+      <div className="rounded-2xl border border-[#e4dfd0] bg-white p-4 sm:p-5 shadow-xs">
         <div className="flex items-start gap-3">
-          <div className="shrink-0 text-xl leading-none">⚠️</div>
-          <div className="space-y-1.5 text-xs sm:text-sm">
-            <p className="font-extrabold text-[#92400e]">
-              Importante: Horma en Talla EUR (Europea)
-            </p>
-            <p className="text-[#854d0e] leading-relaxed">
-              Todas las zapatillas de nuestro catálogo se manejan en{" "}
-              <strong>Talla EUR</strong>. Te sugerimos revisar la etiqueta
-              interior o la lengüeta de unas zapatillas que te queden cómodas y
-              confirmar tu número donde dice <strong>EUR</strong> antes de pedir.
-            </p>
-            <div>
+          <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-[#2754F5]/10 text-lg">
+            📐
+          </div>
+          <div className="flex-1 space-y-1.5 text-xs sm:text-sm">
+            <div className="flex flex-wrap items-center justify-between gap-2">
+              <p className="font-extrabold text-[#141414]">
+                ¿No sabes cuál es tu talla exacta?
+              </p>
               <button
                 type="button"
-                onClick={() => setShowSizeGuide(!showSizeGuide)}
-                className="inline-flex items-center gap-1.5 font-black text-[#b45309] hover:text-[#78350f] hover:underline pt-1 cursor-pointer"
+                onClick={() => setShowInlineGuide(!showInlineGuide)}
+                className="inline-flex items-center gap-1 font-bold text-[#2754F5] hover:underline cursor-pointer"
               >
-                <span>📐 {showSizeGuide ? "Ocultar tabla de tallas" : "Ver tabla de equivalencias (EUR / CM / US)"}</span>
-                <span>{showSizeGuide ? "▲" : "▼"}</span>
+                <span>{showInlineGuide ? "Ocultar tabla" : "Ver tabla de equivalencias"}</span>
+                <span>{showInlineGuide ? "▲" : "▼"}</span>
               </button>
             </div>
+            <p className="text-[#6b675f] leading-relaxed">
+              El calzado se maneja en <strong>Talla EUR</strong>. Si conoces tu número en <strong>Colombia (CO 🇨🇴)</strong> o en centímetros (CM), consulta la guía oficial para pedir con total seguridad.
+            </p>
           </div>
         </div>
 
-        {/* Collapsible Size Guide Table */}
-        {showSizeGuide && (
-          <div className="mt-4 border-t border-amber-200/80 pt-4 space-y-4">
-            <p className="text-xs text-[#854d0e]">
-              💡 <em>¿Cómo saber tu talla exacta?</em> Mide la longitud de tu pie
-              desde el talón hasta el dedo más largo en centímetros (CM):
-            </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* Dama Table */}
-              <div className="rounded-xl border border-amber-200 bg-white p-3 shadow-xs">
-                <p className="text-xs font-black uppercase tracking-wider text-[#92400e] mb-2">
-                  👟 Tallas Dama / Mujer
-                </p>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs">
-                    <thead>
-                      <tr className="border-b border-amber-100 text-[#92400e]">
-                        <th className="py-1 font-black">EUR</th>
-                        <th className="py-1 font-bold">CM</th>
-                        <th className="py-1 font-bold">US</th>
-                        <th className="py-1 font-bold">COL</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-amber-50 text-[#141414]">
-                      <tr><td className="py-1 font-black text-[#2754F5]">35</td><td>22.0 cm</td><td>5.0</td><td>34</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">36</td><td>22.5 cm</td><td>5.5</td><td>35</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">37</td><td>23.5 cm</td><td>6.5</td><td>36</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">38</td><td>24.0 cm</td><td>7.0</td><td>37</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">39</td><td>25.0 cm</td><td>8.0</td><td>38</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">40</td><td>25.5 cm</td><td>8.5</td><td>39</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-
-              {/* Caballero Table */}
-              <div className="rounded-xl border border-amber-200 bg-white p-3 shadow-xs">
-                <p className="text-xs font-black uppercase tracking-wider text-[#92400e] mb-2">
-                  👟 Tallas Caballero / Hombre
-                </p>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs">
-                    <thead>
-                      <tr className="border-b border-amber-100 text-[#92400e]">
-                        <th className="py-1 font-black">EUR</th>
-                        <th className="py-1 font-bold">CM</th>
-                        <th className="py-1 font-bold">US</th>
-                        <th className="py-1 font-bold">COL</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-amber-50 text-[#141414]">
-                      <tr><td className="py-1 font-black text-[#2754F5]">39</td><td>24.5 cm</td><td>6.5</td><td>38</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">40</td><td>25.0 cm</td><td>7.0</td><td>39</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">41</td><td>26.0 cm</td><td>8.0</td><td>40</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">42</td><td>26.5 cm</td><td>8.5</td><td>41</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">43</td><td>27.5 cm</td><td>9.5</td><td>42</td></tr>
-                      <tr><td className="py-1 font-black text-[#2754F5]">44</td><td>28.0 cm</td><td>10.0</td><td>43</td></tr>
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
+        {/* Collapsible Inline Guide */}
+        {showInlineGuide && (
+          <div className="mt-5 border-t border-[#f0ede4] pt-5">
+            <SizeGuide
+              selectedEurSize={selectedSize}
+              defaultGender={product.gender}
+              compact
+            />
           </div>
         )}
       </div>
