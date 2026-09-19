@@ -1,5 +1,1689 @@
 [
   {
+    "id": "adidas-switch-fwd-ff-692",
+    "name": "Switch FWD (FF)",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Celeste",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Switch FWD (FF) para Dama en color Blanco con Celeste. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-switch-fwd-ff-blanco-con-celeste-692.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:31:26.164Z"
+  },
+  {
+    "id": "adidas-switch-fwd-ff-693",
+    "name": "Switch FWD (FF)",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Switch FWD (FF) para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-switch-fwd-ff-blanco-con-negro-693.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:30:26.164Z"
+  },
+  {
+    "id": "adidas-switch-fwd-ff-694",
+    "name": "Switch FWD (FF)",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Switch FWD (FF) para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-switch-fwd-ff-negro-694.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:29:26.164Z"
+  },
+  {
+    "id": "adidas-switch-fwd-ff-695",
+    "name": "Switch FWD (FF)",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Switch FWD (FF) para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-switch-fwd-ff-negro-con-blanco-695.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:28:26.164Z"
+  },
+  {
+    "id": "adidas-hyperboost-runner-696",
+    "name": "Hyperboost Runner",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Blanco con Amarillo Neón",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Hyperboost Runner para Caballero en color Blanco con Amarillo Neón. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-hyperboost-runner-blanco-con-amarillo-neon-696.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:27:26.164Z"
+  },
+  {
+    "id": "adidas-samba-brillos-cristales-697",
+    "name": "Samba Brillos Cristales",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Cristales",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Brillos Cristales para Dama en color Blanco con Cristales. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-brillos-cristales-blanco-con-cristales-697.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:26:26.164Z"
+  },
+  {
+    "id": "adidas-samba-brillos-cristales-698",
+    "name": "Samba Brillos Cristales",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Cristales",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Brillos Cristales para Dama en color Negro con Cristales. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-brillos-cristales-negro-con-cristales-698.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:25:26.164Z"
+  },
+  {
+    "id": "adidas-samba-og-699",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-cafe-699.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:24:26.164Z"
+  },
+  {
+    "id": "adidas-samba-og-700",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Naranja",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-naranja-700.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:23:26.164Z"
+  },
+  {
+    "id": "adidas-samba-og-701",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Plateada / Silver",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Plateada / Silver. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-plateada-silver-701.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:22:26.164Z"
+  },
+  {
+    "id": "adidas-samba-og-702",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Rosa con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Rosa con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-rosa-con-negro-702.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:21:26.164Z"
+  },
+  {
+    "id": "asics-gel-running-superblast-703",
+    "name": "Gel Running Superblast",
+    "brand": "Asics",
+    "gender": "mujer",
+    "color": "Aguamarina",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Asics Gel Running Superblast para Dama en color Aguamarina. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/asics-gel-running-superblast-aguamarina-703.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:20:26.164Z"
+  },
+  {
+    "id": "asics-gel-running-superblast-704",
+    "name": "Gel Running Superblast",
+    "brand": "Asics",
+    "gender": "mujer",
+    "color": "Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Asics Gel Running Superblast para Dama en color Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/asics-gel-running-superblast-lila-704.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:19:26.164Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-705",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "color": "Café",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-cafe-705.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:18:26.164Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-706",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-negro-706.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:17:26.164Z"
+  },
+  {
+    "id": "under-armour-bota-tactica-707",
+    "name": "Bota Táctica",
+    "brand": "Under Armour",
+    "gender": "hombre",
+    "color": "Negro con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Under Armour Bota Táctica para Caballero en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/under-armour-bota-tactica-negro-con-gris-707.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:16:26.164Z"
+  },
+  {
+    "id": "hugo-boss-jonah-monogram-runner-708",
+    "name": "Jonah Monogram Runner",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Jonah Monogram Runner para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-jonah-monogram-runner-blanco-708.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:15:26.164Z"
+  },
+  {
+    "id": "hugo-boss-jonah-monogram-runner-709",
+    "name": "Jonah Monogram Runner",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Jonah Monogram Runner para Caballero en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-jonah-monogram-runner-blanco-con-gris-709.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:14:26.164Z"
+  },
+  {
+    "id": "hugo-boss-jonah-monogram-runner-710",
+    "name": "Jonah Monogram Runner",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Café",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Jonah Monogram Runner para Caballero en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-jonah-monogram-runner-cafe-710.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:13:26.164Z"
+  },
+  {
+    "id": "hugo-boss-jonah-monogram-runner-711",
+    "name": "Jonah Monogram Runner",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Jonah Monogram Runner para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-jonah-monogram-runner-negro-711.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:12:26.164Z"
+  },
+  {
+    "id": "jordan-air-jordan-1-space-712",
+    "name": "Air Jordan 1 Space",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Negro con Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 1 Space para Dama en color Negro con Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-1-space-negro-con-lila-712.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:11:26.164Z"
+  },
+  {
+    "id": "new-balance-471-retro-runner-713",
+    "name": "471 Retro Runner",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Habana con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 471 Retro Runner para Dama en color Habana con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-471-retro-runner-habana-con-azul-713.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:10:26.164Z"
+  },
+  {
+    "id": "nike-air-max-270-714",
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max 270 para Caballero en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-270-blanco-con-gris-714.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:09:26.164Z"
+  },
+  {
+    "id": "nike-air-max-270-715",
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco / Negro / Aguamarina",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max 270 para Dama en color Blanco / Negro / Aguamarina. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-270-blanco-negro-aguamarina-715.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:08:26.164Z"
+  },
+  {
+    "id": "nike-air-max-270-716",
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max 270 para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-270-cafe-716.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:07:26.164Z"
+  },
+  {
+    "id": "nike-air-max-270-717",
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max 270 para Dama en color Blanco con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-270-blanco-con-rosa-717.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:06:26.164Z"
+  },
+  {
+    "id": "nike-acg-mountain-trail-vibram-718",
+    "name": "ACG Mountain Trail Vibram",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Café con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Mountain Trail Vibram para Caballero en color Café con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-mountain-trail-vibram-cafe-con-negro-718.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:05:26.164Z"
+  },
+  {
+    "id": "nike-acg-mountain-trail-vibram-719",
+    "name": "ACG Mountain Trail Vibram",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Mountain Trail Vibram para Caballero en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-mountain-trail-vibram-gris-719.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:04:26.164Z"
+  },
+  {
+    "id": "nike-acg-mountain-trail-vibram-720",
+    "name": "ACG Mountain Trail Vibram",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Verde / Negro / Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike ACG Mountain Trail Vibram para Caballero en color Verde / Negro / Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-acg-mountain-trail-vibram-verde-negro-naranja-720.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:03:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-x-billie-eilish-721",
+    "name": "Air Force 1 X Billie Eilish",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Blanco Sail",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 X Billie Eilish para Unisex en color Blanco Sail. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-x-billie-eilish-blanco-sail-721.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:02:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-07-722",
+    "name": "Air Force 1 '07",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 '07 para Caballero en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-07-blanco-con-gris-722.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:01:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-07-charol-723",
+    "name": "Air Force 1 '07 Charol",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 '07 Charol para Caballero en color Gris con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-07-charol-gris-con-negro-723.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T12:00:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-07-charol-724",
+    "name": "Air Force 1 '07 Charol",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Rojo con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 '07 Charol para Caballero en color Rojo con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-07-charol-rojo-con-negro-724.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:59:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-07-725",
+    "name": "Air Force 1 '07",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Habana con Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 '07 para Caballero en color Habana con Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-07-habana-con-verde-725.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:58:26.164Z"
+  },
+  {
+    "id": "nike-air-force-1-x-louis-vuitton-726",
+    "name": "Air Force 1 X Louis Vuitton",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco Monograma LV",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Force 1 X Louis Vuitton para Dama en color Blanco Monograma LV. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-force-1-x-louis-vuitton-blanco-monograma-lv-726.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:57:26.164Z"
+  },
+  {
+    "id": "nike-air-zoom-winflo-11-727",
+    "name": "Air Zoom Winflo 11",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco / Gris / Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Winflo 11 para Dama en color Blanco / Gris / Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-winflo-11-blanco-gris-rosa-727.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:56:26.164Z"
+  },
+  {
+    "id": "nike-air-zoom-winflo-11-728",
+    "name": "Air Zoom Winflo 11",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Winflo 11 para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-winflo-11-blanco-con-negro-728.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:55:26.164Z"
+  },
+  {
+    "id": "nike-air-zoom-winflo-11-729",
+    "name": "Air Zoom Winflo 11",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Curuba Melocotón Pastel",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Winflo 11 para Dama en color Curuba Melocotón Pastel. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-winflo-11-curuba-melocoton-pastel-729.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:54:26.164Z"
+  },
+  {
+    "id": "nike-air-zoom-winflo-11-730",
+    "name": "Air Zoom Winflo 11",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris con Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Winflo 11 para Caballero en color Gris con Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-winflo-11-gris-con-naranja-730.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:53:26.164Z"
+  },
+  {
+    "id": "nike-air-zoom-winflo-11-731",
+    "name": "Air Zoom Winflo 11",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Lila con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Winflo 11 para Dama en color Lila con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-winflo-11-lila-con-rosa-731.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:52:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-732",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul / Amarillo Rojizo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Caballero en color Azul / Amarillo Rojizo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-azul-amarillo-rojizo-732.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:51:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-733",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Dama en color Blanco con Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-blanco-con-lila-733.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:50:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-734",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-blanco-con-negro-734.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:49:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-735",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Café con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Caballero en color Café con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-cafe-con-gris-735.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:48:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-736",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Crema con Rojo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Unisex en color Crema con Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-crema-con-rojo-736.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:47:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-737",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Azul",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Caballero en color Negro con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-negro-con-azul-737.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:46:26.164Z"
+  },
+  {
+    "id": "nike-motiva-eva-walking-738",
+    "name": "Motiva Eva Walking",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Motiva Eva Walking para Caballero en color Negro con Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-motiva-eva-walking-negro-con-verde-738.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:45:26.164Z"
+  },
+  {
+    "id": "nike-p-6000-739",
+    "name": "P-6000",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Plateado / Silver",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P-6000 para Caballero en color Plateado / Silver. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p-6000-plateado-silver-739.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:44:26.164Z"
+  },
+  {
+    "id": "nike-p-6000-740",
+    "name": "P-6000",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Plateado / Silver",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike P-6000 para Dama en color Plateado / Silver. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-p-6000-plateado-silver-740.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:43:26.164Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-741",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Habana / Beige",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Caballero en color Habana / Beige. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-habana-beige-741.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:42:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-742",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Celeste",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Dama en color Blanco con Celeste. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-blanco-con-celeste-742.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:41:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-743",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-blanco-743.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:40:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-744",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Morado",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Dama en color Blanco con Morado. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-blanco-con-morado-744.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:39:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-745",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café con Crema",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Dama en color Café con Crema. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-cafe-con-crema-745.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:38:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-746",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Dama en color Blanco con Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-blanco-con-lila-746.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:37:26.164Z"
+  },
+  {
+    "id": "nike-zoomx-speed-x-747",
+    "name": "Zoomx Speed X",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoomx Speed X para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoomx-speed-x-negro-con-blanco-747.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:36:26.164Z"
+  },
+  {
+    "id": "nike-v2k-run-v5-748",
+    "name": "V2K Run V5",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café con Habana",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K Run V5 para Dama en color Café con Habana. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-run-v5-cafe-con-habana-748.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:35:26.164Z"
+  },
+  {
+    "id": "off-white-out-of-office-ooo-sneaker-749",
+    "name": "Out Of Office (OOO) Sneaker",
+    "brand": "Off-White",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Off-White Out Of Office (OOO) Sneaker para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/off-white-out-of-office-ooo-sneaker-blanco-con-negro-749.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:34:26.164Z"
+  },
+  {
+    "id": "off-white-out-of-office-ooo-sneaker-750",
+    "name": "Out Of Office (OOO) Sneaker",
+    "brand": "Off-White",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Off-White Out Of Office (OOO) Sneaker para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/off-white-out-of-office-ooo-sneaker-negro-con-blanco-750.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:33:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-751",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Blanco con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Dama en color Blanco con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-blanco-con-rosa-751.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:32:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-752",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Habana / Naranja / Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Dama en color Habana / Naranja / Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-habana-naranja-negro-752.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:31:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-753",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Negro / Verde / Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Dama en color Negro / Verde / Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-negro-verde-lila-753.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:30:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-754",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-negro-con-blanco-754.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:29:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-755",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Gris",
+    "sizes": [
+      "36"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Unisex en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-gris-755.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:28:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-756",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Naranja",
+    "sizes": [
+      "36"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Unisex en color Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-naranja-756.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:27:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudtilt-757",
+    "name": "Cloudtilt",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudtilt para Unisex en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudtilt-blanco-con-cafe-757.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:26:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudtilt-758",
+    "name": "Cloudtilt",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudtilt para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudtilt-blanco-con-negro-758.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:25:26.164Z"
+  },
+  {
+    "id": "on-cloud-cloudtilt-759",
+    "name": "Cloudtilt",
+    "brand": "On Cloud",
+    "gender": "unisex",
+    "color": "Gris",
+    "sizes": [
+      "36"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudtilt para Unisex en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudtilt-gris-759.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:24:26.164Z"
+  },
+  {
+    "id": "puma-club-5v5-retro-760",
+    "name": "Club 5v5 Retro",
+    "brand": "Puma",
+    "gender": "unisex",
+    "color": "Blanco con Dorado",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Club 5v5 Retro para Unisex en color Blanco con Dorado. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-club-5v5-retro-blanco-con-dorado-760.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:23:26.164Z"
+  },
+  {
+    "id": "puma-suede-xl-761",
+    "name": "Suede Xl",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede Xl para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-xl-negro-761.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:22:26.164Z"
+  },
+  {
+    "id": "puma-suede-xl-x-bmw-m-motorsport-762",
+    "name": "Suede Xl X BMW M Motorsport",
+    "brand": "Puma",
+    "gender": "hombre",
+    "color": "Blanco BMW Motorsport",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede Xl X BMW M Motorsport para Caballero en color Blanco BMW Motorsport. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-xl-x-bmw-m-motorsport-blanco-bmw-motorsport-762.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:21:26.164Z"
+  },
+  {
+    "id": "puma-suede-xl-x-bmw-m-motorsport-763",
+    "name": "Suede Xl X BMW M Motorsport",
+    "brand": "Puma",
+    "gender": "hombre",
+    "color": "Negro BMW Motorsport",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Suede Xl X BMW M Motorsport para Caballero en color Negro BMW Motorsport. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-suede-xl-x-bmw-m-motorsport-negro-bmw-motorsport-763.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-09-19T11:20:26.164Z"
+  },
+  {
     "id": "adidas-adizero-496",
     "name": "Adizero",
     "brand": "Adidas",

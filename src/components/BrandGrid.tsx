@@ -42,6 +42,13 @@ const BRAND_METADATA: Record<
     text: "text-white",
     border: "border-[#1d3557]",
   },
+  "Off-White": {
+    label: "Off-White",
+    tag: "Luxury Streetwear & Virgil",
+    bg: "bg-[#0f0f0f]",
+    text: "text-white",
+    border: "border-[#0f0f0f]",
+  },
   Skechers: {
     label: "Skechers",
     tag: "Máxima Comodidad",
@@ -240,6 +247,7 @@ export function BrandGrid({ products }: { products: Product[] }) {
     "Jordan",
     "Hugo Boss",
     "New Balance",
+    "Off-White",
     "Lacoste",
     "Under Armour",
     "On Cloud",

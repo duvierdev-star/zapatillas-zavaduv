@@ -15,8 +15,35 @@ if (!fs.existsSync(destImagesDir)) {
   fs.mkdirSync(destImagesDir, { recursive: true });
 }
 
-// Compound multi-word colors (checked first via regex)
 const COMPOUND_COLORS = [
+  { match: /BLANCA\s+NEGRA\s+Y\s+AGUAMARINA/i, color: "Blanco / Negro / Aguamarina" },
+  { match: /VERDE\s+NEGRA\s+NARANJA/i, color: "Verde / Negro / Naranja" },
+  { match: /BLANCA\s+GRIS\s+ROSA/i, color: "Blanco / Gris / Rosa" },
+  { match: /HAVANA\s+NARANJA\s+Y\s+NEGRA/i, color: "Habana / Naranja / Negro" },
+  { match: /NEGRA\s+VERDE\s+Y\s+LILA/i, color: "Negro / Verde / Lila" },
+  { match: /AZUL\s+Y\s+AMARILLO\s+ROJIZO/i, color: "Azul / Amarillo Rojizo" },
+  { match: /BLANCA\s+AMARILLA/i, color: "Blanco con Amarillo Neón" },
+  { match: /BLANCA\s+Y\s+AMARILLO/i, color: "Blanco con Amarillo" },
+  { match: /GRIS\s+NARANJA/i, color: "Gris con Naranja" },
+  { match: /LILA\s+ROSA/i, color: "Lila con Rosa" },
+  { match: /CAFE\s+GRIS/i, color: "Café con Gris" },
+  { match: /CAFE\s+NEGRA/i, color: "Café con Negro" },
+  { match: /CREMA\s+Y\s+ROJA/i, color: "Crema con Rojo" },
+  { match: /NEGRA\s+AZUL/i, color: "Negro con Azul" },
+  { match: /NEGRA\s+GRIS/i, color: "Negro con Gris" },
+  { match: /BLANCA\s+MORADA/i, color: "Blanco con Morado" },
+  { match: /CAFE\s+CREMA/i, color: "Café con Crema" },
+  { match: /BLANCA\s+LILA/i, color: "Blanco con Lila" },
+  { match: /CAFE\s+Y\s+HAVANA/i, color: "Café con Habana" },
+  { match: /BLANCA\s+CAFE/i, color: "Blanco con Café" },
+  { match: /BLANCA\s+NEGRA/i, color: "Blanco con Negro" },
+  { match: /BLANCA\s+GRIS/i, color: "Blanco con Gris" },
+  { match: /CHAROL\s+GRIS\s+Y\s+NEGRO/i, color: "Gris con Negro" },
+  { match: /CHAROL\s+ROJA\s+Y\s+NEGRO/i, color: "Rojo con Negro" },
+  { match: /HAVANA\s+AZUL/i, color: "Habana con Azul" },
+  { match: /HAVANA\s+Y\s+VERDE/i, color: "Habana con Verde" },
+  { match: /ROSA\s+Y\s+NEGRA/i, color: "Rosa con Negro" },
+  { match: /BLANCA\s+ROSA/i, color: "Blanco con Rosa" },
   { match: /BLANCA\s+NEGRO\s+Y\s+ROJA/i, color: "Blanco / Negro / Rojo" },
   { match: /BLANCA\s+NEGRA\s+Y\s+ROJO/i, color: "Blanco / Negro / Rojo" },
   { match: /BLANCA\s+NEGRA\s+Y\s+VERDE/i, color: "Blanco / Negro / Verde" },
@@ -90,6 +117,11 @@ const COMPOUND_COLORS = [
 ];
 
 const SINGLE_COLORS = {
+  "AGUAMARINA": "Aguamarina",
+  "CURUBA": "Curuba Melocotón Pastel",
+  "MORADA": "Morado",
+  "MORADO": "Morado",
+  "CAFES": "Café",
   "GRIS": "Gris",
   "VERDE": "Verde",
   "AZUL": "Azul",
@@ -227,6 +259,8 @@ const SINGLE_COLORS = {
 };
 
 const BRANDS = [
+  "OFF WHITE",
+  "OFF-WHITE",
   "ALEXANDER MCQUEEN",
   "TOMMY HILFIGER",
   "GOLDEN GOOSE",
@@ -349,6 +383,8 @@ function parseProduct(filename, index, existingIds) {
   let raw = clean
     .replace(/\$\s*(\d{1,3}(?:\.\d{3})+|\d{5,6})|(?:\b|\s)(\d{1,3}\.000)\b/g, "")
     .replace(/\(\d+\)/g, "")
+    .replace(/270BLANACA/i, "270 BLANCA")
+    .replace(/BLANACA/i, "BLANCA")
     .trim();
 
   // Detect Brand
@@ -360,6 +396,7 @@ function parseProduct(filename, index, existingIds) {
     if (upperRaw.startsWith(b)) {
       brandPrefix = b;
       if (b.startsWith("PROMO")) brand = "Promociones";
+      else if (b.startsWith("OFF WHITE") || b.startsWith("OFF-WHITE")) brand = "Off-White";
       else if (b.startsWith("CHANCLA")) brand = "Nike";
       else if (b.startsWith("SANDALIA MIU MIU")) brand = "Miu Miu";
       else if (b.startsWith("SANDALIA PRADA")) brand = "Prada";
@@ -405,9 +442,11 @@ function parseProduct(filename, index, existingIds) {
 
   // Detect custom size range if present
   let customSizes = null;
-  const sizesMatch = raw.match(/TALLAS?\s+DISPONIBLES?\s+(?:DEL\s+)?([0-9\sA-Za-z-]+)/i);
+  const sizesMatch =
+    raw.match(/TALLAS?\s+DISPONIBLES?\s+(?:DEL\s+)?([0-9\sA-Za-z-]+)/i) ||
+    raw.match(/\b(\d{2})\s*(?:AL|A)\s*(\d{2})\b/i);
   if (sizesMatch) {
-    const sStr = sizesMatch[1].trim();
+    const sStr = (sizesMatch[1] ? sizesMatch[1] : sizesMatch[0]).trim();
     if (/\b\d{2}\s*(?:AL|A)\s*\d{2}\b/i.test(sStr)) {
       const rm = sStr.match(/(\d{2})\s*(?:AL|A)\s*(\d{2})/i);
       const start = parseInt(rm[1], 10);
@@ -473,6 +512,13 @@ function parseProduct(filename, index, existingIds) {
   else if (filename === "SALOMON XT CABALLERO $105.000.jpeg") colorFound = "Negro con Blanco y Rojo";
   else if (filename === "TIMBERLAND LV CABALLERO $95.000.jpeg") colorFound = "Total Black Monograma LV (BT4522)";
   else if (filename.startsWith("CHANCLA NIKE $40.000")) colorFound = "Rosa con Negro";
+  else if (filename.includes("SAMBA BRILLOS BLANCA")) colorFound = "Blanco con Cristales";
+  else if (filename.includes("SAMBA BRILLOS NEGRA")) colorFound = "Negro con Cristales";
+  else if (filename.includes("PUMA CLUB BLANCA")) colorFound = "Blanco con Dorado";
+  else if (filename.includes("PUMA XL BMW BLANCA")) colorFound = "Blanco BMW Motorsport";
+  else if (filename.includes("PUMA XL BMW NEGRA")) colorFound = "Negro BMW Motorsport";
+  else if (filename.includes("AF1 BILLIE BLANCA")) colorFound = "Blanco Sail";
+  else if (filename.includes("AF1 LV BLANCA")) colorFound = "Blanco Monograma LV";
 
   // Clean remainder words for model name
   remainder = remainder
@@ -497,12 +543,47 @@ function parseProduct(filename, index, existingIds) {
     else modelName = `Sandalias ${modelName || "Slide"}`;
   } else if (brand === "Hoka") modelName = "Transport Vibram";
   else if (brand === "Salomon") modelName = "XT-6 S/LAB";
-  else if (filename.includes("TIMBERLAND LV")) modelName = "6-Inch Boot x Louis Vuitton";
+  else if (brand === "Off-White") modelName = "Out Of Office (OOO) Sneaker";
+  else if (brand === "Adidas") {
+    if (/\bFF\b/i.test(raw)) modelName = "Switch FWD (FF)";
+    else if (/HYPERBOOST/i.test(raw)) modelName = "Hyperboost Runner";
+    else if (/SAMBA\s+BRILLOS/i.test(raw)) modelName = "Samba Brillos Cristales";
+    else if (/SAMBA\s+CLASICA/i.test(raw)) modelName = "Samba Clásica";
+    else if (/SAMBA/i.test(raw)) modelName = "Samba OG";
+  } else if (brand === "Asics") {
+    if (/GEL/i.test(raw)) modelName = "Gel Running Superblast";
+  } else if (brand === "Hugo Boss" && (filename.includes("HUGO BOSS BLANCA") || filename.includes("HUGO BOSS CAFE") || filename.includes("HUGO BOSS NEGRA") || filename.includes("HUGO BOSS BLANCA GRIS"))) {
+    modelName = "Jonah Monogram Runner";
+  } else if (brand === "Nike") {
+    if (/\b270\b/i.test(raw)) modelName = "Air Max 270";
+    else if (/\bACG\b/i.test(raw)) modelName = "ACG Mountain Trail Vibram";
+    else if (/BILLIE/i.test(raw)) modelName = "Air Force 1 x Billie Eilish";
+    else if (/CHAROL/i.test(raw)) modelName = "Air Force 1 '07 Charol";
+    else if (/AF1\s+LV/i.test(raw)) modelName = "Air Force 1 x Louis Vuitton";
+    else if (/\bAF1\b/i.test(raw)) modelName = "Air Force 1 '07";
+    else if (/AIR\s+ZOOM/i.test(raw)) modelName = "Air Zoom Winflo 11";
+    else if (/\bEVA\b/i.test(raw)) modelName = "Motiva EVA Walking";
+    else if (/SPEED\s*X/i.test(raw)) modelName = "ZoomX Speed X";
+    else if (/\bV5\b/i.test(raw)) modelName = "V2K Run V5";
+    else if (/SB\s+DUNK/i.test(raw)) modelName = "SB Dunk Low";
+    else if (/P6000/i.test(raw)) modelName = "P-6000";
+  } else if (brand === "On Cloud") {
+    if (/SURFER/i.test(raw)) modelName = "Cloudsurfer";
+    else if (/TITLT|TILT/i.test(raw)) modelName = "Cloudtilt";
+    else modelName = "Cloudsurfer";
+  } else if (brand === "Puma") {
+    if (/XL\s+BMW/i.test(raw)) modelName = "Suede XL x BMW M Motorsport";
+    else if (/SUEDE\s+XL/i.test(raw)) modelName = "Suede XL";
+    else if (/CLUB/i.test(raw)) modelName = "Club 5v5 Retro";
+  } else if (brand === "New Balance" && /471/i.test(raw)) {
+    modelName = "471 Retro Runner";
+  } else if (brand === "Jordan" && /R1\s+SPACE/i.test(raw)) {
+    modelName = "Air Jordan 1 Space";
+  } else if (filename.includes("TIMBERLAND LV")) modelName = "6-Inch Boot x Louis Vuitton";
   else if (filename.includes("NIKE SB LV")) modelName = "SB Dunk Low x Louis Vuitton";
   else if (brand === "Under Armour" && filename.includes("BOTA")) modelName = "Bota Táctica";
   else if (brand === "Lacoste") modelName = "Carnaby Classic";
   else if (brand === "Le Coq Sportif" && (!modelName || modelName === "Classic")) modelName = "Court Classic";
-  else if (brand === "On Cloud") modelName = "Cloud 5";
   else if (brand === "Promociones") {
     let promoSub = raw.replace(/^PROMO\s*/i, "").trim();
     if (customSizes && customSizes.length > 0) {
@@ -524,7 +605,7 @@ function parseProduct(filename, index, existingIds) {
       if (
         [
           "AF1", "SB", "OG", "TN", "V2K", "P-6000", "P6000", "P7000",
-          "F50", "R1", "R3", "R4", "R5", "R11", "R13", "SL", "DN", "DN2", "ACG", "V5", "FF", "FR", "BYD", "TTNM", "ST", "RM", "LV", "D&G"
+          "F50", "R1", "R3", "R4", "R5", "R11", "R13", "SL", "DN", "DN2", "ACG", "V5", "FF", "(FF)", "FWD", "(OOO)", "BMW", "FR", "BYD", "TTNM", "ST", "RM", "LV", "D&G"
         ].includes(uw)
       ) {
         return uw;
