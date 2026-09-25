@@ -315,14 +315,10 @@ export function BrandGrid({ products }: { products: Product[] }) {
             <Link
               key={brand}
               href={`/marca/${slug}`}
-              className={`group relative flex flex-col justify-between overflow-hidden rounded-2xl border transition duration-300 hover:-translate-y-1 hover:shadow-lg ${
-                isPromo
-                  ? "border-[#2754F5] bg-[#2754F5]/5 ring-1 ring-[#2754F5]/20"
-                  : "border-[#e4dfd0] bg-white hover:border-[#141414]"
-              }`}
+              className={`group relative flex aspect-[4/5] flex-col justify-end overflow-hidden rounded-2xl border transition duration-300 hover:-translate-y-1 hover:shadow-lg ${isPromo ? "border-[#2754F5] ring-1 ring-[#2754F5]/30" : "border-[#e4dfd0]"
+                }`}
             >
-              {/* Image Banner */}
-              <div className="relative aspect-[4/3] w-full overflow-hidden bg-[#eeeae0]">
+              <div className="absolute inset-0 bg-[#eeeae0]">
                 {data.sampleImage ? (
                   <LazyImage
                     src={data.sampleImage}
@@ -334,37 +330,25 @@ export function BrandGrid({ products }: { products: Product[] }) {
                     Ver modelos
                   </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-                <div className="absolute bottom-2.5 left-2.5 right-2.5 flex items-center justify-between text-white">
-                  <span className="rounded-full bg-black/75 px-2.5 py-1 text-[10px] sm:text-xs font-bold tracking-wide uppercase text-white shadow-xs backdrop-blur-xs">
-                    {data.count} {data.count === 1 ? "par" : "pares"}
-                  </span>
-                  <span className="hidden sm:inline-block rounded-full bg-white/90 px-2 py-0.5 text-[10px] font-bold text-[#141414] shadow-xs">
-                    Ver →
-                  </span>
-                </div>
               </div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
 
-              {/* Brand info */}
-              <div className="p-3 sm:p-4">
-                <div className="flex items-center justify-between gap-1">
-                  <h3 className="text-base sm:text-lg font-black text-[#141414] group-hover:text-[#2754F5] transition truncate">
-                    {brand}
-                  </h3>
-                  {isPromo && (
-                    <span className="shrink-0 rounded-full bg-[#2754F5] px-2 py-0.5 text-[9px] sm:text-[10px] font-extrabold text-white uppercase tracking-wider">
-                      OFERTA
-                    </span>
-                  )}
-                </div>
-                <p className="mt-0.5 text-[11px] sm:text-xs text-[#6b675f] line-clamp-1">{meta.tag}</p>
-                <div className="mt-3 flex items-center justify-between pt-2 border-t border-[#f0ede4] text-xs font-bold text-[#141414] group-hover:text-[#2754F5]">
-                  <span>Ver colección</span>
-                  <span>→</span>
+              {isPromo && (
+                <span className="absolute top-3 right-3 rounded-full bg-[#2754F5] px-2.5 py-1 text-[9px] font-extrabold text-white uppercase tracking-wider">
+                  OFERTA
+                </span>
+              )}
+
+              <div className="relative p-3 sm:p-4 text-white">
+                <span className="text-[10px] sm:text-xs font-bold uppercase tracking-wide text-white/70">
+                  {data.count} {data.count === 1 ? "par" : "pares"}
+                </span>
+                <div className="mt-0.5 flex items-center justify-between">
+                  <h3 className="text-lg sm:text-xl font-black truncate">{brand}</h3>
+                  <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
                 </div>
               </div>
-            </Link>
-          );
+            </Link>);
         })}
       </div>
     </section>

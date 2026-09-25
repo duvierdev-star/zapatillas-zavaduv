@@ -560,6 +560,7 @@ export default async function HomePage() {
                     </svg>
                   </span>
 
+                  {/* Línea 563: abre div */}
                   <div>
                     <span className="block text-xs font-black text-white">
                       Sigue nuestro canal
@@ -568,8 +569,8 @@ export default async function HomePage() {
                     <span className="text-[10px] text-white/40 transition-colors duration-300 group-hover:text-white/80">
                       Novedades, modelos y ofertas
                     </span>
-                  </div>
-                </div>
+                  </div> {/* Línea 571: cierra div */}
+                </div>   {/* Línea 572: cierra div flex */}
 
                 <span className="text-lg text-white/40 transition-all duration-300 group-hover:translate-x-1 group-hover:text-white">
                   →
