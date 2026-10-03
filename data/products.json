@@ -1,5 +1,1070 @@
 [
   {
+    "id": "otras-conviertete-el-dt-arma-tu-xi-ideal-mi-xi-win-iniciamos-jornada-de-sabado-con-una-nueva-seccion-para-nuestros-seguidores-source-whatsapp-1",
+    "name": "¡conviértete El Dt! Arma Tu Xi Ideal Mi Xi Win Iniciamos Jornada De Sábado Con Una Nueva Sección Para Nuestros Seguidores 🫡 Source=whatsapp",
+    "brand": "Otras",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Otras ¡conviértete El Dt! Arma Tu Xi Ideal Mi Xi Win Iniciamos Jornada De Sábado Con Una Nueva Sección Para Nuestros Seguidores 🫡 Source=whatsapp para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/otras-conviertete-el-dt-arma-tu-xi-ideal-mi-xi-win-iniciamos-jornada-de-sabado-con-una-nueva-seccion-para-nuestros-seguidores-source-whatsapp-1791045663624.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:41:03.624Z"
+  },
+  {
+    "id": "adidas-duramo-764",
+    "name": "Duramo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Duramo para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-duramo-764.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:04:02.082Z"
+  },
+  {
+    "id": "adidas-hyperboost-runner-765",
+    "name": "Hyperboost Runner",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Hyperboost Runner para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-hyperboost-runner-765.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:03:02.082Z"
+  },
+  {
+    "id": "adidas-jane-766",
+    "name": "Jane",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Jane para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-jane-766.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:02:02.082Z"
+  },
+  {
+    "id": "adidas-nueva-767",
+    "name": "Nueva",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Nueva para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-nueva-blanco-767.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:01:02.082Z"
+  },
+  {
+    "id": "adidas-nueva-768",
+    "name": "Nueva",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Nueva para Dama en color Blanco con Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-nueva-blanco-con-lila-768.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T16:00:02.082Z"
+  },
+  {
+    "id": "adidas-nueva-769",
+    "name": "Nueva",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Nueva para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-nueva-negro-769.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:59:02.082Z"
+  },
+  {
+    "id": "adidas-supermagna-770",
+    "name": "Supermagna",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supermagna para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supermagna-blanco-con-negro-770.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:58:02.082Z"
+  },
+  {
+    "id": "adidas-supermagna-771",
+    "name": "Supermagna",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supermagna para Dama en color Blanco con Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supermagna-blanco-con-rosa-771.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:57:02.082Z"
+  },
+  {
+    "id": "adidas-supermagna-772",
+    "name": "Supermagna",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supermagna para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supermagna-cafe-772.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:56:02.082Z"
+  },
+  {
+    "id": "adidas-supermagna-773",
+    "name": "Supermagna",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supermagna para Unisex en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supermagna-negro-773.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:55:02.082Z"
+  },
+  {
+    "id": "adidas-supermagna-774",
+    "name": "Supermagna",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Negro / Blanco / Rojo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supermagna para Caballero en color Negro / Blanco / Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supermagna-negro-blanco-rojo-774.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:54:02.082Z"
+  },
+  {
+    "id": "adidas-supernova-775",
+    "name": "Supernova",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Gris con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova para Caballero en color Gris con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-gris-con-negro-775.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:53:02.082Z"
+  },
+  {
+    "id": "adidas-supernova-776",
+    "name": "Supernova",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova para Unisex en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-negro-776.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:52:02.082Z"
+  },
+  {
+    "id": "adidas-superstar-777",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-777.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:51:02.082Z"
+  },
+  {
+    "id": "adidas-superstar-778",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-778.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:50:02.082Z"
+  },
+  {
+    "id": "hugo-boss-evo-779",
+    "name": "Evo",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Café",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Evo para Caballero en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-evo-cafe-779.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:49:02.082Z"
+  },
+  {
+    "id": "hugo-boss-evo-dorada-780",
+    "name": "Evo Dorada",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Evo Dorada para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-evo-dorada-negro-780.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:48:02.082Z"
+  },
+  {
+    "id": "hugo-boss-evo-781",
+    "name": "Evo",
+    "brand": "Hugo Boss",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hugo Boss Evo para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hugo-boss-evo-verde-781.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:47:02.082Z"
+  },
+  {
+    "id": "jordan-air-jordan-3-retro-782",
+    "name": "Air Jordan 3 Retro",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 3 Retro para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-3-retro-782.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:46:02.082Z"
+  },
+  {
+    "id": "jordan-air-jordan-3-retro-783",
+    "name": "Air Jordan 3 Retro",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 3 Retro para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-3-retro-783.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:45:02.082Z"
+  },
+  {
+    "id": "lacoste-carnaby-classic-784",
+    "name": "Carnaby Classic",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Carnaby Classic para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-carnaby-classic-784.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:44:02.082Z"
+  },
+  {
+    "id": "lacoste-carnaby-classic-785",
+    "name": "Carnaby Classic",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Carnaby Classic para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-carnaby-classic-785.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:43:02.082Z"
+  },
+  {
+    "id": "lacoste-carnaby-classic-786",
+    "name": "Carnaby Classic",
+    "brand": "Lacoste",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Carnaby Classic para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-carnaby-classic-786.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:42:02.082Z"
+  },
+  {
+    "id": "nike-blazer-mid-plataforma-787",
+    "name": "Blazer Mid Plataforma",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Blazer Mid Plataforma para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-blazer-mid-plataforma-787.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:41:02.082Z"
+  },
+  {
+    "id": "nike-initiator-retro-788",
+    "name": "Initiator Retro",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Initiator Retro para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-initiator-retro-788.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:40:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-789",
+    "name": "Pegazus 42",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-blanco-789.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:39:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-790",
+    "name": "Pegazus 42",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-blanco-con-negro-790.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:38:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-791",
+    "name": "Pegazus 42",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-791.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:37:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-blanca-792",
+    "name": "Pegazus 42 Blanca",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 Blanca para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-blanca-negro-792.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:36:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-793",
+    "name": "Pegazus 42",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-negro-793.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:35:02.082Z"
+  },
+  {
+    "id": "nike-pegazus-42-azul-794",
+    "name": "Pegazus 42 Azul",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Pegazus 42 Azul para Caballero en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-pegazus-42-azul-verde-794.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:34:02.082Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-795",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-795.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:33:02.082Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-796",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-796.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:32:02.082Z"
+  },
+  {
+    "id": "puma-palermo-indoor-797",
+    "name": "Palermo Indoor",
+    "brand": "Puma",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Palermo Indoor para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-palermo-indoor-797.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:31:02.082Z"
+  },
+  {
+    "id": "puma-palermo-indoor-798",
+    "name": "Palermo Indoor",
+    "brand": "Puma",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Palermo Indoor para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-palermo-indoor-798.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:30:02.082Z"
+  },
+  {
+    "id": "otras-vans-potato-799",
+    "name": "Vans Potato",
+    "brand": "Otras",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Otras Vans Potato para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/otras-vans-potato-799.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:29:02.082Z"
+  },
+  {
+    "id": "adidas-hyperboost-runner-800",
+    "name": "Hyperboost Runner",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Hyperboost Runner para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-hyperboost-runner-800.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:28:02.082Z"
+  },
+  {
+    "id": "adidas-hyperboost-runner-801",
+    "name": "Hyperboost Runner",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Hyperboost Runner para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-hyperboost-runner-801.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:27:02.082Z"
+  },
+  {
+    "id": "jordan-air-jordan-3-retro-802",
+    "name": "Air Jordan 3 Retro",
+    "brand": "Jordan",
+    "gender": "unisex",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 3 Retro para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-3-retro-802.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:26:02.082Z"
+  },
+  {
+    "id": "lacoste-carnaby-classic-803",
+    "name": "Carnaby Classic",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Carnaby Classic para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-carnaby-classic-803.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:25:02.082Z"
+  },
+  {
+    "id": "lacoste-carnaby-classic-804",
+    "name": "Carnaby Classic",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Lacoste Carnaby Classic para Caballero. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/lacoste-carnaby-classic-804.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:24:02.082Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-805",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-805.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:23:02.082Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-806",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-806.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:22:02.082Z"
+  },
+  {
+    "id": "nike-zoom-vomero-5-807",
+    "name": "Zoom Vomero 5",
+    "brand": "Nike",
+    "gender": "unisex",
+    "sizes": [
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Zoom Vomero 5 para Unisex. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-zoom-vomero-5-807.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:21:02.082Z"
+  },
+  {
+    "id": "puma-palermo-indoor-808",
+    "name": "Palermo Indoor",
+    "brand": "Puma",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Palermo Indoor para Dama. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-palermo-indoor-808.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-03T15:20:02.082Z"
+  },
+  {
     "id": "adidas-switch-fwd-ff-692",
     "name": "Switch FWD (FF)",
     "brand": "Adidas",
