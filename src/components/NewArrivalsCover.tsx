@@ -77,19 +77,23 @@ export function NewArrivalsCover({ products }: { products: Product[] }) {
       onTouchEnd={handleTouchEnd}
     >
       {/* Header with Title and Slide Counter */}
-      <div className="mb-6 flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
-        <div>
-          <div className="inline-flex items-center gap-2 rounded-full bg-[#141414] px-3 py-1 text-[10px] sm:text-xs font-black uppercase tracking-[0.22em] text-white shadow-xs">
-            <span className="inline-block h-2 w-2 rounded-full bg-[#2754F5] animate-pulse" />
-            Nuevos Ingresos en Catálogo
-          </div>
-          <h2 className="mt-2 text-2xl sm:text-4xl font-extrabold tracking-tight text-[#141414]">
-            Últimas Zapatillas Agregadas
-          </h2>
-          <p className="mt-1 text-xs sm:text-sm text-[#6b675f] font-medium">
-            Modelos recién salidos y disponibles para entrega inmediata
-          </p>
+      <div className="mb-8">
+        <div className="flex items-center gap-3">
+          <span className="h-px w-8 bg-[#2754F5]" />
+
+          <span className="text-[10px] sm:text-xs font-bold uppercase tracking-[0.25em] text-[#6b675f]">
+            Nuevos ingresos
+          </span>
         </div>
+
+        <h2 className="mt-3 text-3xl sm:text-5xl font-black tracking-[-0.045em] text-[#141414]">
+          Últimas Zapatillas Agregadas
+        </h2>
+
+        <p className="mt-2 text-sm sm:text-base font-medium text-[#6b675f]">
+          Modelos recién llegados · Disponibilidad inmediata
+        </p>
+
 
         {/* Controls */}
         <div className="flex items-center gap-3 self-start sm:self-auto">
