@@ -1,5 +1,386 @@
 [
   {
+    "id": "adidas-gazelle-indoor-white-navy",
+    "name": "Gazelle Indoor White Navy",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Las Adidas Gazelle Indoor White Navy recuperan la esencia de los clásicos deportivos de los años 70, combinando una silueta icónica con detalles modernos. Su acabado en blanco y azul marino crea un contraste limpio, elegante y fácil de combinar.\nLa parte superior en suave gamuza blanca se complementa con las características 3 Stripes en cuero azul oscuro y un talón a juego, logrando una estética sofisticada y auténticamente retro.",
+    "images": [
+      "https://i.ibb.co/zpBXfVh/92e940cf3af6.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:23:15.589Z"
+  },
+  {
+    "id": "adidas-spezial-1791382811127",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/v4gVzY9M/5c5871bbe2ad.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:20:11.126Z"
+  },
+  {
+    "id": "adidas-spezial-1791382747501",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial Grey Two recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/Z6R4ThVM/179e460467e5.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:19:07.500Z"
+  },
+  {
+    "id": "adidas-spezial-1791382688939",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/0y0szdB0/1e87cc59ccab.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:18:08.937Z"
+  },
+  {
+    "id": "adidas-special",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial Blue recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/5hv4bxRK/9536ad3c312b.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:15:23.716Z"
+  },
+  {
+    "id": "adidas-spezial-1791382442166",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial Black & White recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/Ngtfsb37/e29e78cc86a3.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:14:02.165Z"
+  },
+  {
+    "id": "adidas-spezial",
+    "name": "Spezial",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "compareAtPrice": 180000,
+    "condition": "nuevo",
+    "description": "Las Adidas Handball Spezial Grey Two recuperan la estética clásica del calzado deportivo con una combinación elegante en tonos grises y detalles dorados. Su diseño icónico de 3 Stripes y el contraste en el talón le dan un acabado distintivo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/5g7W86Nh/fdbc55b9dd8a.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T14:12:29.727Z"
+  },
+  {
+    "id": "adidad-superstar-andre-saraiva",
+    "name": "Superstar Andre Saraiva",
+    "brand": "Adidad",
+    "gender": "hombre",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "price": 125000,
+    "compareAtPrice": 195000,
+    "condition": "nuevo",
+    "description": "Los Adidas Superstar André Saraiva combinan la silueta clásica que ha marcado generaciones con el estilo creativo y distintivo del reconocido artista André Saraiva.\nSu capellada en cuero blanco, la icónica puntera de concha y los detalles gráficos del artista convierten este modelo en una versión especial, diferente a la Superstar tradicional.",
+    "images": [
+      "https://i.ibb.co/CK4QHkCF/f4bbf803c3db.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T13:55:10.061Z"
+  },
+  {
+    "id": "lacoste-l003-neo-tech",
+    "name": "L003 Neo Tech",
+    "brand": "Lacoste",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "compareAtPrice": 230000,
+    "condition": "nuevo",
+    "description": "Los Lacoste L003 Neo Tech combinan una estética deportiva de inspiración outdoor con un diseño moderno y llamativo. Su construcción mezcla diferentes materiales y texturas, creando una silueta dinámica perfecta para complementar outfits urbanos. La combinación de tonos verdes con detalles naranja aporta un contraste moderno, mientras su estructura robusta refuerza el carácter técnico de esta zapatilla.",
+    "images": [
+      "https://i.ibb.co/b5rpq4FX/5d9d39c5992c.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T13:48:12.192Z"
+  },
+  {
+    "id": "lecoq-sportif-gamuza-1791380356963",
+    "name": "Sportif Gamuza",
+    "brand": "Lecoq",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 140000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Los Le Coq Sportif para caballero combinan un diseño clásico con detalles modernos que los convierten en una excelente opción para el uso diario. Su elegante acabado en negro aporta un contraste llamativo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/spGcZK5B/bf0fdc78b997.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T13:39:16.961Z"
+  },
+  {
+    "id": "lecoq-sportif-gamuza-1791380110583",
+    "name": "Sportif Gamuza",
+    "brand": "Lecoq",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 140000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Los Le Coq Sportif para caballero combinan un diseño clásico con detalles modernos que los convierten en una excelente opción para el uso diario. Su elegante acabado en negro con suela cafe aporta un contraste llamativo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/Ng3gCdCn/9c0428b282bc.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T13:35:10.581Z"
+  },
+  {
+    "id": "lecoq-sportif-gamuza",
+    "name": "Sportif Gamuza",
+    "brand": "Lecoq",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 140000,
+    "compareAtPrice": 190000,
+    "condition": "nuevo",
+    "description": "Los Le Coq Sportif para caballero combinan un diseño clásico con detalles modernos que los convierten en una excelente opción para el uso diario. Su elegante acabado en negro con suela roja aporta un contraste llamativo y fácil de combinar.",
+    "images": [
+      "https://i.ibb.co/LDRwxb6q/fa92dcb52bb6.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-07T13:30:18.276Z"
+  },
+  {
+    "id": "nike-air-zoom",
+    "name": "Air Zoom",
+    "brand": "Nike",
+    "gender": "mujer",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 150000,
+    "compareAtPrice": 230000,
+    "condition": "nuevo",
+    "description": "Color Blanco y Vinotinto, los Nike Air Zoom para dama destacan por su silueta robusta tipo chunky, diseñada para quienes buscan un look moderno y llamativo. Su característica principal es la gruesa mediasuela en bloques de color marrón y blanco, que aporta volumen y personalidad al diseño.",
+    "images": [
+      "https://i.ibb.co/xq86WKfb/8058ca7cb796.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-06T15:32:59.595Z"
+  },
+  {
+    "id": "nike-air-max-bw",
+    "name": "Air Max BW",
+    "brand": "Nike",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "compareAtPrice": 230000,
+    "condition": "nuevo",
+    "description": "Los Nike Air Max BW para hombre recuperan la esencia del running de los años 90 con una silueta urbana, moderna y versátil. Su diseño de capas combina diferentes texturas para brindar un look deportivo con excelente presencia.",
+    "images": [
+      "https://i.ibb.co/BHd26Rs4/557acbc71dfe.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-06T15:26:43.240Z"
+  },
+  {
+    "id": "adidad-defiant-speed",
+    "name": "Defiant Speed",
+    "brand": "Adidad",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 135000,
+    "compareAtPrice": 194997,
+    "condition": "nuevo",
+    "description": "Color Negro Blanco y Rjoja, Las Adidas Defiant Speed están diseñadas para jugadores que buscan agilidad y respuesta rápida durante cada punto. Su construcción ligera permite moverse con libertad, mientras que la tecnología Lightstrike brinda una pisada reactiva y una excelente absorción de impactos.",
+    "images": [
+      "https://i.ibb.co/bRPSYNVb/84bb78fc4d68.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-06T15:18:07.807Z"
+  },
+  {
+    "id": "adidas-defiant-speed-1791299751333",
+    "name": "Defiant Speed",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 135000,
+    "compareAtPrice": 195000,
+    "condition": "nuevo",
+    "description": "Color Negro Gris, Las Adidas Defiant Speed  están diseñadas para jugadores que buscan agilidad y respuesta rápida durante cada punto. Su construcción ligera permite moverse con libertad, mientras que la tecnología Lightstrike brinda una pisada reactiva y una excelente absorción de impactos.",
+    "images": [
+      "https://i.ibb.co/JRvC7sjd/f5db226df71f.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-06T15:15:51.333Z"
+  },
+  {
+    "id": "adidas-defiant-speed",
+    "name": "Defiant Speed",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 135000,
+    "compareAtPrice": 195000,
+    "condition": "nuevo",
+    "description": "Las Adidas Defiant Speed están diseñadas para jugadores que buscan agilidad y respuesta rápida durante cada punto. Su construcción ligera permite moverse con libertad, mientras que la tecnología Lightstrike brinda una pisada reactiva y una excelente absorción de impactos.",
+    "images": [
+      "https://i.ibb.co/ksp60X4W/79c807811c4e.jpg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-06T15:13:51.686Z"
+  },
+  {
     "id": "adidas-duramo-764",
     "name": "Duramo",
     "brand": "Adidas",
