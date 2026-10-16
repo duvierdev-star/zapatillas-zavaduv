@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import crypto from "crypto";
+import { execSync } from "child_process";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -16,6 +17,40 @@ if (!fs.existsSync(destImagesDir)) {
 }
 
 const COMPOUND_COLORS = [
+  { match: /BLANCA\s*AZUL/i, color: "Blanco con Azul" },
+  { match: /BLANCO\s*AZUL/i, color: "Blanco con Azul" },
+  { match: /BLANCA\s*CAFE/i, color: "Blanco con Café" },
+  { match: /BLANCO\s*CAFE/i, color: "Blanco con Café" },
+  { match: /BLANCA\s*NEGRA/i, color: "Blanco con Negro" },
+  { match: /BLANCA\s*NEGRO/i, color: "Blanco con Negro" },
+  { match: /BLANCO\s*NEGRO/i, color: "Blanco con Negro" },
+  { match: /NEGRA\s*BLANCA/i, color: "Negro con Blanco" },
+  { match: /NEGRA\s*BLANCO/i, color: "Negro con Blanco" },
+  { match: /NEGRO\s*BLANCO/i, color: "Negro con Blanco" },
+  { match: /BLANCA\s*PLATEAD[OA]/i, color: "Blanco con Plateado" },
+  { match: /BLANCO\s*PLATEAD[OA]/i, color: "Blanco con Plateado" },
+  { match: /SUELA\s*NEGRA/i, color: "Suela Negra" },
+  { match: /SUELA\s*BLANCA/i, color: "Suela Blanca" },
+  { match: /SUELA\s*GRIS/i, color: "Suela Gris" },
+  { match: /CAFE\s*AZUL/i, color: "Café con Azul" },
+  { match: /CAFE\s*NEGR[OA]/i, color: "Café con Negro" },
+  { match: /ROSA\s*AZUL/i, color: "Rosa con Azul" },
+  { match: /BLANC[OA]\s*NARANJA/i, color: "Blanco con Naranja" },
+  { match: /GRIS\s*NARANJA/i, color: "Gris con Naranja" },
+  { match: /CAFE\s*GRIS/i, color: "Café con Gris" },
+  { match: /BLANC[OA]\s*VERDE/i, color: "Blanco con Verde" },
+  { match: /NEGR[OA]\s*VERDE/i, color: "Negro con Verde" },
+  { match: /NEGR[OA]\s*GRIS/i, color: "Negro con Gris" },
+  { match: /BLANC[OA]\s*GRIS/i, color: "Blanco con Gris" },
+  { match: /GRIS\s*BLANC[OA]/i, color: "Gris con Blanco" },
+  { match: /GIRASOL/i, color: "Girasol Floral" },
+  { match: /FUCHSIA/i, color: "Fucsia" },
+  { match: /PURPLE/i, color: "Morado / Púrpura" },
+  { match: /BEIGE/i, color: "Beige" },
+  { match: /ROJIZO/i, color: "Rojizo" },
+  { match: /ROJAS?/i, color: "Rojo" },
+  { match: /CAFES/i, color: "Café" },
+  { match: /VINOTINTO/i, color: "Vinotinto" },
   { match: /BLANCA\s+NEGRA\s+Y\s+AGUAMARINA/i, color: "Blanco / Negro / Aguamarina" },
   { match: /VERDE\s+NEGRA\s+NARANJA/i, color: "Verde / Negro / Naranja" },
   { match: /BLANCA\s+GRIS\s+ROSA/i, color: "Blanco / Gris / Rosa" },
@@ -264,6 +299,7 @@ const BRANDS = [
   "ALEXANDER MCQUEEN",
   "TOMMY HILFIGER",
   "GOLDEN GOOSE",
+  "TIGER ONITSUKA",
   "ONITSUKA TIGER",
   "ONITSUKA",
   "ON CLOUD",
@@ -276,10 +312,15 @@ const BRANDS = [
   "LECOQ SPORTIF",
   "LE COQ SPORTIF",
   "NEW BALANCE",
+  "FRESH FOAM HIERRO",
+  "FRESH FOAM",
   "ADIDAS",
   "ADISTAR",
+  "SUPERNOVA",
+  "SUPERNOV",
   "SANDALIAS ADIDAS",
   "NIKE",
+  "PEGASUS",
   "JORDAN",
   "PUMA",
   "CONVERSE",
@@ -290,7 +331,11 @@ const BRANDS = [
   "TIMBERLAND",
   "LACOSTE",
   "REEBOK",
+  "REBOOK",
   "DIESEL",
+  "COLUMBIA",
+  "VANS",
+  "VEJA",
   "ALO",
   "SALOMON",
   "HOKA",
@@ -363,6 +408,65 @@ function computeFileHash(filePath) {
   return crypto.createHash("md5").update(buf).digest("hex");
 }
 
+const FILE_OVERRIDES = {
+  "ADIDAS GLOW DAMA PROMO $70.000.jpeg": { model: "Supernova Glow Promo", color: "Blanco con Lila y Verde Neón (BM972)" },
+  "ADIDAS JANE DAMA $85.000.jpeg": { model: "Samba Jane Mary Jane", color: "Azul Marino con Blanco" },
+  "ADIDAS SAMBA OG PROMO DAMA $70.000.jpeg": { model: "Samba OG Promo", color: "Negro con Blanco y Suela Caramelo (BT938)" },
+  "ADIDAS SAMBA PLATAFORMA DAMA $75.000.jpeg": { model: "Samba OG Plataforma", color: "Negro con Blanco y Suela Caramelo" },
+  "ADIDAS SPEZIAL DAMA $80.000 BBC.jpeg": { model: "Handball Spezial x BBC", color: "Café Moka con Blanco y Suela Caramelo" },
+  "ADIDAS SUPERNOVA GLOW DAMA PROMO $70.000.jpeg": { model: "Supernova Glow Promo", color: "Gris Claro con Blanco y Naranja (BM969)" },
+  "ADIDAS SUPERSTAR CABALLERO $80.000.jpeg": { model: "Superstar x Neighborhood", color: "Total Black Neighborhood" },
+  "ADIDAS SUPERSTAR DAMA $80.000.jpeg": { model: "Superstar", color: "Blanco con Azul Celeste y Marino" },
+  "ADIDAS SUPERSTAR DAMA Y CABALLERO $80.000.jpeg": { model: "Superstar x Neighborhood", color: "Blanco Hueso Neighborhood" },
+  "COLUMBIA GORO T40 AL 44 $100.000.jpeg": { model: "Facet BOA Gore-Tex Trail", color: "Verde Militar con Negro BOA (01-265)" },
+  "DIESEL 40 AL 44 $90.000.jpeg": { model: "S-Astico Low", color: "Blanco con Rojo (01-266)" },
+  "DIESEL TYCHE CABALLERO $90.000.jpeg": { model: "Tyche Sneaker", color: "Azul Petróleo con Gris y Amarillo Neón" },
+  "FRESH FOAM HIERRO T40 AL 44 $105.000.jpeg": { model: "Fresh Foam X Hierro Trail", color: "Verde Oliva con Gris y Terracota Vibram (01-248)" },
+  "HOKA T36 AL 44 $100.000.jpeg": { model: "Transport Vibram", color: "Crema / Beige con Suela Caramelo Vibram (01-244)" },
+  "JORDAN LOW CHAROL DAMA $75.000.jpeg": { model: "Air Jordan 1 Low Charol", color: "Blanco con Negro Panda Charol (BT2931)" },
+  "JORDAN LOW DAMA $70.000.jpeg": { model: "Air Jordan 1 Low", color: "Total White (Blanco / BT-1468)" },
+  "JORDAN R4 DAMA $70.000.jpeg": { model: "Air Jordan 4 Retro", color: "Negro con Blanco White Thunder (BT3013)" },
+  "NEW BALANCE 530 V2 DAMA $90.000.jpeg": { model: "530 v2 Retro", color: "Blanco con Plateado (Silver White)" },
+  "NEW BALANCE 9060 36 AL 38 $95.000.jpeg": { model: "9060 Chunky", color: "Gris Humo con Crema (01-254)" },
+  "NEW BALANCE 9060 DAMA $90.000.jpeg": { model: "9060 Chunky", color: "Blanco Hueso con Crema y Rosa Pastel" },
+  "NEW BALANCE 9060 DAMA Y CABALLERO $90.000.jpeg": { model: "9060 Chunky", color: "Blanco Sal / Sea Salt con Gris" },
+  "NEW BALANCE 9060 T40 AL 44 $95.000.jpeg": { model: "9060 Chunky", color: "Negro con Blanco Panda (01-203)" },
+  "NEW BALANCE FF CABALLERO $85.000.jpeg": { model: "Fresh Foam X More Trail", color: "Total White (Blanco)" },
+  "NIKE DUNK LOW NEXT NATURE DAMA PROMO $55.000.jpeg": { model: "Dunk Low Next Nature Promo", color: "Rosa Pastel con Blanco (Pink Oxford / BT4569)" },
+  "NIKE DUNK LOW PROMO CABALLERO $60.000.jpeg": { model: "Dunk Low Stüssy Promo", color: "Negro con Celeste Stüssy (BT4552)" },
+  "NIKE DUNK LOW RETRO DAMA PROMO $70.000.jpeg": { model: "Dunk Low Retro Promo", color: "Café Moka con Vinotinto y Leopardo (BT4690)" },
+  "NIKE DUNK LOW SE PROMO CABALLERO $60.000.jpeg": { model: "Dunk Low SE Promo", color: "Gris Claro con Blanco y Negro (Panda Gris / BT4277)" },
+  "NIKE REACTX PEGASUS TRAIL PROMO DAMA $70.000.jpeg": { model: "ReactX Pegasus Trail Promo", color: "Blanco con Rosa y Detalles Multicolor (BT3744)" },
+  "NIKE SB DAMA $85.000.jpeg": { model: "SB Dunk Low", color: "Pastel Multicolor (Rosa, Verde Menta y Crema)" },
+  "NIKE SB DAMA Y CABALLERO $85.000.jpeg": { model: "SB Dunk Low x Travis Scott", color: "Travis Scott Cactus Jack (Beige con Bandana Paisley)" },
+  "NIKE SB DUNK LOW CABALLERO $65.000.jpeg": { model: "SB Dunk Low x Supreme", color: "Total Black Supreme (Ante Negro)" },
+  "NIKE SB DUNK LOW DAMA PROMO $65.000.jpeg": { model: "SB Dunk Low Born X Raised Promo", color: "Morado con Blanco y Negro (Born X Raised / BT4585)" },
+  "NIKE SB DUNK LOW PROMO CABALLERO $55.000.jpeg": { model: "SB Dunk Low Light Bone Promo", color: "Beige Claro con Gris Claro (Light Bone / BT4544)" },
+  "NIKE SB JARRITOS DAMA Y CABALLERO $85.000.jpeg": { model: "SB Dunk Low x Jarritos", color: "Blanco / Lona Beige con Verde y Naranja" },
+  "NIKE SB PARRA DAMA $85.000.jpeg": { model: "SB Dunk Low x Parra", color: "Blanco con Swoosh Multicolor Geométrico (BT1407)" },
+  "NIKE SB YUTO CABALLERO $85.000.jpeg": { model: "SB Dunk Low x Yuto Horigome", color: "Gris con Blanco y Rosa / Marrón (Yuto Horigome)" },
+  "NIKE SHOX DAMA Y CABALLERO $85.000.jpeg": { model: "Shox R4", color: "Blanco con Azul Cielo (BT4770-4769)" },
+  "NIKE TN PLUS CABALLERO $90.000.jpeg": { model: "Air Max Plus TN 3", color: "Azul Marino con Celeste y Blanco" },
+  "NIKE TN PLUS CABALLERO $95.000.jpeg": { model: "Air Max Plus TN 3", color: "Negro con Azul Cyan Degradé (BT4774)" },
+  "NIKE V2K DAMA $90.000.jpeg": { model: "V2K Run", color: "Rosa Pastel Monocromático (Triple Pink)" },
+  "ON CLOUD DAMA $95.000.jpeg": { model: "Cloudtilt Swiss", color: "Beige / Arena con Detalles Verde y Burdeos" },
+  "ON CLOUD ROSAZUL DAMA $95.000.jpeg": { model: "Cloudsurfer", color: "Rosa Pastel con Azul Lavanda" },
+  "PEGASUS T36 AL 39 $90.000.jpeg": { model: "Air Zoom Pegasus 41", color: "Negro con Blanco y Plateado (01-262)" },
+  "PUMA 180 DAMA Y CABALLERO $85.000.jpeg": { model: "180 Skate Retro", color: "Blanco Hueso con Gris Claro y Suela Crema" },
+  "PUMA CLUB DAMA Y CABALLERO $80.000.jpeg": { model: "Club 5v5 Retro", color: "Blanco con Gris y Dorado (BT1174-642)" },
+  "PUMA CLUB PROMO DAMA $60.000.jpeg": { model: "Club 5v5 Retro Promo", color: "Blanco Hueso con Rosa Pastel y Suela Caramelo (BT4761)" },
+  "REBOOK CLUB C PROMO DAMA Y CABALLERO $60.000.jpeg": { model: "Club C 85 Promo", color: "Blanco Clásico con Verde Beams (BT1118-1119)" },
+  "SKECHERS AERO 37 AL 44 $95.000.jpeg": { model: "Aero Burst Walking", color: "Blanco Carbon Infused (01-257 D / 01-258 H)" },
+  "SKECHERS AERO T36 AL 44 $95.000.jpeg": { model: "Aero Burst Walking", color: "Negro con Blanco Carbon Infused (01-259)" },
+  "SKECHERS CUSHLON DAMA $95.000.jpeg": { model: "Max Cushioning Trail", color: "Gris Claro con Blanco" },
+  "SKECHERS CUSHLON DAMA Y CABALLERO $95.000.jpeg": { model: "Max Cushioning Trail", color: "Negro con Blanco" },
+  "SKECHERS MAX CABALLERO $95.000.jpeg": { model: "Max Protect Trail", color: "Negro con Detalles Rojos Goodyear" },
+  "SUPERNOV T36 AL 39 $95.000.jpeg": { model: "Supernova Rise 3", color: "Blanco con Morado / Lila y Plateado (01-37)" },
+  "SUPERNOVA 36 AL 39 $95.000.jpeg": { model: "Supernova Rise 3", color: "Crema / Beige con Blanco y Suela Roja (01-277)" },
+  "VANS HYLANE PROMO CABALLERO $60.000.jpeg": { model: "Hylane Skate Promo", color: "Café Moka con Beige y Blanco (BT3538)" },
+  "VEJA DAMA $80.000.jpeg": { model: "Recife Velcro Classic", color: "Blanco con Nude / Beige Rosado y Velcro (3284 D)" }
+};
+
 function parseProduct(filename, index, existingIds) {
   let clean = filename.replace(/\.jpe?g$/i, "").trim();
 
@@ -403,6 +507,14 @@ function parseProduct(filename, index, existingIds) {
     if (upperRaw.startsWith(b)) {
       brandPrefix = b;
       if (b.startsWith("PROMO")) brand = "Promociones";
+      else if (b.startsWith("TIGER ONITSUKA") || b.startsWith("ONITSUKA")) brand = "Onitsuka Tiger";
+      else if (b.startsWith("FRESH FOAM")) brand = "New Balance";
+      else if (b.startsWith("COLUMBIA")) brand = "Columbia";
+      else if (b.startsWith("SUPERNOV")) brand = "Adidas";
+      else if (b.startsWith("PEGASUS")) brand = "Nike";
+      else if (b.startsWith("REBOOK") || b === "REEBOK") brand = "Reebok";
+      else if (b === "VANS") brand = "Vans";
+      else if (b === "VEJA") brand = "Veja";
       else if (b.startsWith("OFF WHITE") || b.startsWith("OFF-WHITE")) brand = "Off-White";
       else if (b.startsWith("CHANCLA")) brand = "Nike";
       else if (b.startsWith("SANDALIA MIU MIU")) brand = "Miu Miu";
@@ -418,8 +530,6 @@ function parseProduct(filename, index, existingIds) {
       else if (b === "TOMMY HILFIGER") brand = "Tommy Hilfiger";
       else if (b === "GOLDEN GOOSE") brand = "Golden Goose";
       else if (b === "ON CLOUD") brand = "On Cloud";
-      else if (b === "ONITSUKA" || b === "ONITSUKA TIGER") brand = "Onitsuka Tiger";
-      else if (b === "REEBOK") brand = "Reebok";
       else if (b === "DIESEL") brand = "Diesel";
       else if (b === "ALO") brand = "Alo";
       else if (b === "SALOMON") brand = "Salomon";
@@ -451,11 +561,13 @@ function parseProduct(filename, index, existingIds) {
   let customSizes = null;
   const sizesMatch =
     raw.match(/TALLAS?\s+DISPONIBLES?\s+(?:DEL\s+)?([0-9\sA-Za-z-]+)/i) ||
+    raw.match(/\bT?(\d{2})\s*(?:AL|A)\s*(\d{2})\b/i) ||
     raw.match(/\b(\d{2})\s*(?:AL|A)\s*(\d{2})\b/i);
+
   if (sizesMatch) {
     const sStr = (sizesMatch[1] ? sizesMatch[1] : sizesMatch[0]).trim();
-    if (/\b\d{2}\s*(?:AL|A)\s*\d{2}\b/i.test(sStr)) {
-      const rm = sStr.match(/(\d{2})\s*(?:AL|A)\s*(\d{2})/i);
+    if (/T?(\d{2})\s*(?:AL|A)\s*(\d{2})/i.test(sizesMatch[0])) {
+      const rm = sizesMatch[0].match(/T?(\d{2})\s*(?:AL|A)\s*(\d{2})/i);
       const start = parseInt(rm[1], 10);
       const end = parseInt(rm[2], 10);
       customSizes = [];
@@ -476,6 +588,17 @@ function parseProduct(filename, index, existingIds) {
     raw = raw.replace(sizesMatch[0], "").trim();
   }
 
+  // Smart gender inference when size range is clearly male or female
+  if (gender === "unisex" && customSizes && customSizes.length > 0) {
+    const minSize = parseInt(customSizes[0], 10);
+    const maxSize = parseInt(customSizes[customSizes.length - 1], 10);
+    if (minSize >= 40) {
+      gender = "hombre";
+    } else if (maxSize <= 39) {
+      gender = "mujer";
+    }
+  }
+
   // Detect Model and Colors
   let remainder = raw;
   if (brandPrefix) {
@@ -485,6 +608,7 @@ function parseProduct(filename, index, existingIds) {
   // Remove gender and noise tokens
   remainder = remainder
     .replace(/\b(DAMA\s+Y\s+CABALLERO|DAMA\/CABALLERO|DAMA\s+Y\s+CAB|DAMA|CABALLERO|HOMBRE|TALLAS?|DISPONIBLES?|DEL|EN|LA|IMAGEN|SOLO|TALLA)\b/gi, " ")
+    .replace(/\bT\b/gi, " ")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -511,7 +635,9 @@ function parseProduct(filename, index, existingIds) {
   }
 
   // Image-verified color overrides for items without color in title
-  if (filename === "ADIDAS SUPERSTAR DAMA $70.000.jpeg") colorFound = "Leopardo Clásico (Marrón)";
+  if (FILE_OVERRIDES[filename] && FILE_OVERRIDES[filename].color) {
+    colorFound = FILE_OVERRIDES[filename].color;
+  } else if (filename === "ADIDAS SUPERSTAR DAMA $70.000.jpeg") colorFound = "Leopardo Clásico (Marrón)";
   else if (filename === "JORDAN R4 LOW CABALLERO $95.000.jpeg") colorFound = "Negro con Crema";
   else if (filename === "LECOQ SPORTIF CABALLERO 75.000.jpeg") colorFound = "Negro con Coral / Rojo (BT3688)";
   else if (filename === "NIKE P6000 DAMA $85.000.jpeg") colorFound = "Rosa con Café";
@@ -529,7 +655,7 @@ function parseProduct(filename, index, existingIds) {
 
   // Clean remainder words for model name
   remainder = remainder
-    .replace(/\b(DAMA|CABALLERO|HOMBRE|TALLAS?|DISPONIBLES?|DEL|EN|LA|IMAGEN|SOLO|TALLA|II)\b/gi, "")
+    .replace(/\b(DAMA|CABALLERO|HOMBRE|TALLAS?|DISPONIBLES?|DEL|EN|LA|IMAGEN|SOLO|TALLA|II|T)\b/gi, "")
     .replace(/\s+/g, " ")
     .trim();
 
@@ -542,7 +668,9 @@ function parseProduct(filename, index, existingIds) {
     }
   }
 
-  if (brand === "Champion") modelName = "Essentials Retro";
+  if (FILE_OVERRIDES[filename] && FILE_OVERRIDES[filename].model) {
+    modelName = FILE_OVERRIDES[filename].model;
+  } else if (brand === "Champion") modelName = "Essentials Retro";
   else if (isChancla) modelName = "Chancla Slide Swoosh";
   else if (isSandalia) {
     if (brand === "Miu Miu") modelName = "Sandalias Slide Tweed";
@@ -552,17 +680,47 @@ function parseProduct(filename, index, existingIds) {
   else if (brand === "Salomon") modelName = "XT-6 S/LAB";
   else if (brand === "Off-White") modelName = "Out Of Office (OOO) Sneaker";
   else if (brand === "Adidas") {
-    if (/\bFF\b/i.test(raw)) modelName = "Switch FWD (FF)";
-    else if (/HYPERBOOST/i.test(raw)) modelName = "Hyperboost Runner";
-    else if (/SAMBA\s+BRILLOS/i.test(raw)) modelName = "Samba Brillos Cristales";
-    else if (/SAMBA\s+CLASICA/i.test(raw)) modelName = "Samba Clásica";
+    if (/ADIZERO/i.test(raw)) modelName = "Adizero";
+    else if (/SUPERNOVA.*GLOW/i.test(raw) || (/GLOW/i.test(raw) && /PROMO/i.test(raw))) modelName = "Supernova Glow Promo";
+    else if (/SUPERNOVA|SUPERNOV/i.test(raw)) modelName = "Supernova Rise 3";
+    else if (/SAMBA.*PLATAFORMA/i.test(raw)) modelName = "Samba OG Plataforma";
+    else if (/SAMBA.*OG.*PROMO/i.test(raw)) modelName = "Samba OG Promo";
+    else if (/SAMBA.*BRILLOS/i.test(raw)) modelName = "Samba Brillos Cristales";
+    else if (/SAMBA.*CLASICA/i.test(raw)) modelName = "Samba Clásica";
     else if (/SAMBA/i.test(raw)) modelName = "Samba OG";
+    else if (/SPEZIAL.*BBC/i.test(raw)) modelName = "Handball Spezial x BBC";
+    else if (/SPEZIAL/i.test(raw)) modelName = "Handball Spezial";
+    else if (/SUPERSTAR.*GIRASOL/i.test(raw)) modelName = "Superstar Floral Girasol";
+    else if (/SUPERSTAR.*SUELANEGRA/i.test(raw)) modelName = "Superstar Suela Negra";
+    else if (/SUPERSTAR/i.test(raw)) modelName = "Superstar";
+    else if (/JANE/i.test(raw)) modelName = "Samba Jane Mary Jane";
+    else if (/\bFF\b/i.test(raw)) modelName = "Switch FWD (FF)";
+    else if (/HYPERBOOST/i.test(raw)) modelName = "Hyperboost Runner";
+  } else if (brand === "Columbia") {
+    modelName = "Facet BOA Gore-Tex Trail";
+  } else if (brand === "Diesel") {
+    if (/TYCHE/i.test(raw)) modelName = "Tyche Sneaker";
+    else modelName = "S-Astico Low";
   } else if (brand === "Asics") {
     if (/GEL/i.test(raw)) modelName = "Gel Running Superblast";
   } else if (brand === "Hugo Boss" && (filename.includes("HUGO BOSS BLANCA") || filename.includes("HUGO BOSS CAFE") || filename.includes("HUGO BOSS NEGRA") || filename.includes("HUGO BOSS BLANCA GRIS"))) {
     modelName = "Jonah Monogram Runner";
   } else if (brand === "Nike") {
-    if (/\b270\b/i.test(raw)) modelName = "Air Max 270";
+    if (/REACTX\s*PEGASUS\s*TRAIL/i.test(raw)) modelName = "ReactX Pegasus Trail Promo";
+    else if (/PEGASUS/i.test(raw)) modelName = "Air Zoom Pegasus 41";
+    else if (/DUNK\s*LOW.*NEXT\s*NATURE/i.test(raw)) modelName = "Dunk Low Next Nature Promo";
+    else if (/DUNK\s*LOW.*RETRO/i.test(raw)) modelName = "Dunk Low Retro Promo";
+    else if (/DUNK\s*LOW.*SE/i.test(raw)) modelName = "Dunk Low SE Promo";
+    else if (/DUNK\s*LOW.*PROMO/i.test(raw)) modelName = "Dunk Low Promo";
+    else if (/SB\s*DUNK\s*LOW.*PROMO/i.test(raw)) modelName = "SB Dunk Low Promo";
+    else if (/JARRITOS/i.test(raw)) modelName = "SB Dunk Low x Jarritos";
+    else if (/PARRA/i.test(raw)) modelName = "SB Dunk Low x Parra";
+    else if (/YUTO/i.test(raw)) modelName = "SB Dunk Low x Yuto Horigome";
+    else if (/SB\s*DUNK|SB/i.test(raw)) modelName = "SB Dunk Low";
+    else if (/SHOX/i.test(raw)) modelName = "Shox TL";
+    else if (/TN\s*PLUS/i.test(raw)) modelName = "Air Max Plus TN 3";
+    else if (/V2K/i.test(raw)) modelName = "V2K Run";
+    else if (/\b270\b/i.test(raw)) modelName = "Air Max 270";
     else if (/\bACG\b/i.test(raw)) modelName = "ACG Mountain Trail Vibram";
     else if (/BILLIE/i.test(raw)) modelName = "Air Force 1 x Billie Eilish";
     else if (/CHAROL/i.test(raw)) modelName = "Air Force 1 '07 Charol";
@@ -572,20 +730,43 @@ function parseProduct(filename, index, existingIds) {
     else if (/\bEVA\b/i.test(raw)) modelName = "Motiva EVA Walking";
     else if (/SPEED\s*X/i.test(raw)) modelName = "ZoomX Speed X";
     else if (/\bV5\b/i.test(raw)) modelName = "V2K Run V5";
-    else if (/SB\s+DUNK/i.test(raw)) modelName = "SB Dunk Low";
     else if (/P6000/i.test(raw)) modelName = "P-6000";
   } else if (brand === "On Cloud") {
-    if (/SURFER/i.test(raw)) modelName = "Cloudsurfer";
-    else if (/TITLT|TILT/i.test(raw)) modelName = "Cloudtilt";
+    if (/SURFER|ROSAZUL/i.test(raw)) modelName = "Cloudsurfer";
+    else if (/TITLT|TILT|SWISS/i.test(raw)) modelName = "Cloudtilt Swiss";
     else modelName = "Cloudsurfer";
+  } else if (brand === "Onitsuka Tiger") {
+    modelName = "Mexico 66";
   } else if (brand === "Puma") {
-    if (/XL\s+BMW/i.test(raw)) modelName = "Suede XL x BMW M Motorsport";
-    else if (/SUEDE\s+XL/i.test(raw)) modelName = "Suede XL";
+    if (/180/i.test(raw)) modelName = "180 Skate Retro";
+    else if (/CLUB.*PROMO/i.test(raw)) modelName = "Club 5v5 Retro Promo";
     else if (/CLUB/i.test(raw)) modelName = "Club 5v5 Retro";
-  } else if (brand === "New Balance" && /471/i.test(raw)) {
-    modelName = "471 Retro Runner";
-  } else if (brand === "Jordan" && /R1\s+SPACE/i.test(raw)) {
-    modelName = "Air Jordan 1 Space";
+    else if (/XL\s+BMW/i.test(raw)) modelName = "Suede XL x BMW M Motorsport";
+    else if (/SUEDE\s+XL/i.test(raw)) modelName = "Suede XL";
+  } else if (brand === "New Balance") {
+    if (/9060.*PROMO/i.test(raw)) modelName = "9060 Promo";
+    else if (/9060/i.test(raw)) modelName = "9060 Chunky";
+    else if (/530/i.test(raw)) modelName = "530 v2 Retro";
+    else if (/HIERRO/i.test(raw)) modelName = "Fresh Foam X Hierro Trail";
+    else if (/FF/i.test(raw)) modelName = "Fresh Foam X More Trail";
+    else if (/471/i.test(raw)) modelName = "471 Retro Runner";
+  } else if (brand === "Jordan") {
+    if (/LOW\s*CHAROL/i.test(raw)) modelName = "Air Jordan 1 Low Charol";
+    else if (/LOW/i.test(raw)) modelName = "Air Jordan 1 Low";
+    else if (/R4/i.test(raw)) modelName = "Air Jordan 4 Retro";
+    else if (/R1\s+SPACE/i.test(raw)) modelName = "Air Jordan 1 Space";
+    else if (/R1/i.test(raw)) modelName = "Air Jordan 1 Retro";
+  } else if (brand === "Reebok") {
+    if (/CLUB\s*C/i.test(raw)) modelName = "Club C 85 Promo";
+    else modelName = "Club C 85";
+  } else if (brand === "Skechers") {
+    if (/AERO/i.test(raw)) modelName = "Aero Burst Walking";
+    else if (/CUSHLON/i.test(raw)) modelName = "Max Cushioning Trail";
+    else if (/MAX/i.test(raw)) modelName = "Max Protect Trail";
+  } else if (brand === "Vans") {
+    modelName = "Hylane Skate Promo";
+  } else if (brand === "Veja") {
+    modelName = "Campo Classic";
   } else if (filename.includes("TIMBERLAND LV")) modelName = "6-Inch Boot x Louis Vuitton";
   else if (filename.includes("NIKE SB LV")) modelName = "SB Dunk Low x Louis Vuitton";
   else if (brand === "Under Armour" && filename.includes("BOTA")) modelName = "Bota Táctica";
@@ -598,6 +779,11 @@ function parseProduct(filename, index, existingIds) {
       else promoSub += ` (Tallas ${customSizes[0]} a ${customSizes[customSizes.length - 1]})`;
     }
     modelName = `Promo ${promoSub}`.replace(/\s+/g, " ").trim();
+  }
+
+  if (FILE_OVERRIDES[filename]) {
+    if (FILE_OVERRIDES[filename].brand) brand = FILE_OVERRIDES[filename].brand;
+    if (FILE_OVERRIDES[filename].gender) gender = FILE_OVERRIDES[filename].gender;
   }
 
   if (!modelName) {
@@ -665,7 +851,7 @@ function parseProduct(filename, index, existingIds) {
     sizes,
     price: salePrice,
     costPrice,
-    compareAtPrice: brand === "Promociones" ? salePrice + 30000 : undefined,
+    compareAtPrice: /promo/i.test(filename) ? salePrice + 35000 : (brand === "Promociones" ? salePrice + 30000 : undefined),
     condition: "nuevo",
     description,
     images: [`/zapatillas/${safeFilename}`],
@@ -848,9 +1034,29 @@ async function run() {
 
   console.log("\nReading files from:", srcImagesDir);
   const allFiles = fs.readdirSync(srcImagesDir);
-  const namedFiles = allFiles.filter((f) => !f.startsWith("WhatsApp") && /\.(jpe?g|png|webp)$/i.test(f));
 
-  console.log(`Found ${namedFiles.length} named sneaker files.`);
+  let untrackedSet = null;
+  try {
+    const gitStatus = execSync("git status -s Zapatillas", { cwd: rootDir }).toString("utf8");
+    const untrackedList = gitStatus
+      .split("\n")
+      .filter((l) => l.startsWith("?? "))
+      .map((l) => l.substring(3).trim().replace(/^"|"$/g, "").replace(/^Zapatillas\//, ""))
+      .filter(Boolean);
+    if (untrackedList.length > 0 && !process.argv.includes("--all")) {
+      untrackedSet = new Set(untrackedList);
+      console.log(`Detected ${untrackedSet.size} untracked files in Zapatillas/. Processing only new batch.`);
+    }
+  } catch (e) {
+    console.warn("Could not query git status:", e.message);
+  }
+
+  let namedFiles = allFiles.filter((f) => !f.startsWith("WhatsApp") && /\.(jpe?g|png|webp)$/i.test(f));
+  if (untrackedSet) {
+    namedFiles = namedFiles.filter((f) => untrackedSet.has(f));
+  }
+
+  console.log(`Found ${namedFiles.length} named sneaker files to process.`);
 
   // 2. Identify new files vs existing, and separate multi-photo secondary images (II, (2), (3))
   const filesToAdd = [];
@@ -862,7 +1068,7 @@ async function run() {
     const filePath = path.join(srcImagesDir, f);
     const hash = computeFileHash(filePath);
 
-    if (registeredHashMap.has(hash)) {
+    if (!untrackedSet && registeredHashMap.has(hash)) {
       skippedFiles.push({ file: f, reason: "Already registered in catalog / public images" });
     } else if (batchSeenHashes.has(hash)) {
       skippedFiles.push({ file: f, reason: `Exact image duplicate of ${batchSeenHashes.get(hash)}` });

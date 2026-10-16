@@ -1,5 +1,2598 @@
 [
   {
+    "id": "adidas-adizero-826",
+    "name": "Adizero",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Rojo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Adizero para Caballero en color Rojo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-adizero-rojo-826.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:38:48.061Z"
+  },
+  {
+    "id": "adidas-supernova-glow-promo-827",
+    "name": "Supernova Glow Promo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Lila y Verde Neón (BM972)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova Glow Promo para Dama en color Blanco con Lila y Verde Neón (BM972). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-glow-promo-blanco-con-lila-y-verde-neon-bm972-827.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:37:48.061Z"
+  },
+  {
+    "id": "adidas-samba-jane-mary-jane-828",
+    "name": "Samba Jane Mary Jane",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Azul Marino con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba Jane Mary Jane para Dama en color Azul Marino con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-jane-mary-jane-azul-marino-con-blanco-828.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:36:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-829",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-cafe-829.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:35:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-830",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Suela Blanca",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Suela Blanca. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-suela-blanca-830.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:34:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-831",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Suela Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Suela Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-suela-gris-831.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:33:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-832",
+    "name": "Samba OG",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Vinotinto",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG para Dama en color Vinotinto. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-vinotinto-832.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:32:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-promo-833",
+    "name": "Samba OG Promo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Blanco y Suela Caramelo (BT938)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG Promo para Dama en color Negro con Blanco y Suela Caramelo (BT938). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-promo-negro-con-blanco-y-suela-caramelo-bt938-833.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:31:48.061Z"
+  },
+  {
+    "id": "adidas-samba-og-plataforma-834",
+    "name": "Samba OG Plataforma",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Negro con Blanco y Suela Caramelo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Samba OG Plataforma para Dama en color Negro con Blanco y Suela Caramelo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-samba-og-plataforma-negro-con-blanco-y-suela-caramelo-834.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:30:48.061Z"
+  },
+  {
+    "id": "adidas-handball-spezial-x-bbc-835",
+    "name": "Handball Spezial X Bbc",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Café Moka con Blanco y Suela Caramelo",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Handball Spezial X Bbc para Dama en color Café Moka con Blanco y Suela Caramelo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-handball-spezial-x-bbc-cafe-moka-con-blanco-y-suela-caramelo-835.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:29:48.061Z"
+  },
+  {
+    "id": "adidas-supernova-glow-promo-836",
+    "name": "Supernova Glow Promo",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Gris Claro con Blanco y Naranja (BM969)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova Glow Promo para Dama en color Gris Claro con Blanco y Naranja (BM969). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-glow-promo-gris-claro-con-blanco-y-naranja-bm969-836.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:28:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-837",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-azul-837.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:27:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-838",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Blanco con Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-cafe-838.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:26:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-839",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-negro-839.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:25:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-840",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-negro-840.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:24:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-841",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Plateado",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Blanco con Plateado. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-plateado-841.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:23:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-x-neighborhood-842",
+    "name": "Superstar X Neighborhood",
+    "brand": "Adidas",
+    "gender": "hombre",
+    "color": "Total Black Neighborhood",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar X Neighborhood para Caballero en color Total Black Neighborhood. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-x-neighborhood-total-black-neighborhood-842.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:22:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-843",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Azul Celeste y Marino",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Dama en color Blanco con Azul Celeste y Marino. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-blanco-con-azul-celeste-y-marino-843.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:21:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-x-neighborhood-844",
+    "name": "Superstar X Neighborhood",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Blanco Hueso Neighborhood",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar X Neighborhood para Unisex en color Blanco Hueso Neighborhood. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-x-neighborhood-blanco-hueso-neighborhood-844.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:20:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-floral-girasol-845",
+    "name": "Superstar Floral Girasol",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Girasol Floral",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar Floral Girasol para Dama en color Girasol Floral. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-floral-girasol-girasol-floral-845.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:19:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-846",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-negro-con-blanco-846.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:18:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-847",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-negro-con-blanco-847.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:17:48.061Z"
+  },
+  {
+    "id": "adidas-superstar-suela-negra-848",
+    "name": "Superstar Suela Negra",
+    "brand": "Adidas",
+    "gender": "unisex",
+    "color": "Suela Negra",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Superstar Suela Negra para Unisex en color Suela Negra. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-superstar-suela-negra-suela-negra-848.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:16:48.061Z"
+  },
+  {
+    "id": "columbia-facet-boa-gore-tex-trail-849",
+    "name": "Facet Boa Gore-tex Trail",
+    "brand": "Columbia",
+    "gender": "hombre",
+    "color": "Verde Militar con Negro BOA (01-265)",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Columbia Facet Boa Gore-tex Trail para Caballero en color Verde Militar con Negro BOA (01-265). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/columbia-facet-boa-gore-tex-trail-verde-militar-con-negro-boa-01-265-849.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:15:48.061Z"
+  },
+  {
+    "id": "diesel-s-astico-low-850",
+    "name": "S-astico Low",
+    "brand": "Diesel",
+    "gender": "hombre",
+    "color": "Blanco con Rojo (01-266)",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Diesel S-astico Low para Caballero en color Blanco con Rojo (01-266). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/diesel-s-astico-low-blanco-con-rojo-01-266-850.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:14:48.061Z"
+  },
+  {
+    "id": "diesel-tyche-sneaker-851",
+    "name": "Tyche Sneaker",
+    "brand": "Diesel",
+    "gender": "hombre",
+    "color": "Azul Petróleo con Gris y Amarillo Neón",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Diesel Tyche Sneaker para Caballero en color Azul Petróleo con Gris y Amarillo Neón. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/diesel-tyche-sneaker-azul-petroleo-con-gris-y-amarillo-neon-851.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:13:48.061Z"
+  },
+  {
+    "id": "diesel-tyche-sneaker-852",
+    "name": "Tyche Sneaker",
+    "brand": "Diesel",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Diesel Tyche Sneaker para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/diesel-tyche-sneaker-negro-852.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:12:48.061Z"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-hierro-trail-853",
+    "name": "Fresh Foam X Hierro Trail",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "color": "Verde Oliva con Gris y Terracota Vibram (01-248)",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 150000,
+    "costPrice": 105000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Fresh Foam X Hierro Trail para Caballero en color Verde Oliva con Gris y Terracota Vibram (01-248). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-fresh-foam-x-hierro-trail-verde-oliva-con-gris-y-terracota-vibram-01-248-853.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:11:48.061Z"
+  },
+  {
+    "id": "hoka-transport-vibram-854",
+    "name": "Transport Vibram",
+    "brand": "Hoka",
+    "gender": "unisex",
+    "color": "Crema / Beige con Suela Caramelo Vibram (01-244)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Hoka Transport Vibram para Unisex en color Crema / Beige con Suela Caramelo Vibram (01-244). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/hoka-transport-vibram-crema-beige-con-suela-caramelo-vibram-01-244-854.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:10:48.061Z"
+  },
+  {
+    "id": "jordan-air-jordan-1-low-charol-855",
+    "name": "Air Jordan 1 Low Charol",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Blanco con Negro Panda Charol (BT2931)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 1 Low Charol para Dama en color Blanco con Negro Panda Charol (BT2931). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-1-low-charol-blanco-con-negro-panda-charol-bt2931-855.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:09:48.061Z"
+  },
+  {
+    "id": "jordan-air-jordan-1-low-856",
+    "name": "Air Jordan 1 Low",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Total White (Blanco / BT-1468)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 1 Low para Dama en color Total White (Blanco / BT-1468). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-1-low-total-white-blanco-bt-1468-856.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:08:48.061Z"
+  },
+  {
+    "id": "jordan-air-jordan-1-retro-857",
+    "name": "Air Jordan 1 Retro",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 120000,
+    "costPrice": 75000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 1 Retro para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-1-retro-blanco-con-negro-857.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:07:48.061Z"
+  },
+  {
+    "id": "jordan-air-jordan-4-retro-858",
+    "name": "Air Jordan 4 Retro",
+    "brand": "Jordan",
+    "gender": "mujer",
+    "color": "Negro con Blanco White Thunder (BT3013)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "condition": "nuevo",
+    "description": "Zapatilla Jordan Air Jordan 4 Retro para Dama en color Negro con Blanco White Thunder (BT3013). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/jordan-air-jordan-4-retro-negro-con-blanco-white-thunder-bt3013-858.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:06:48.061Z"
+  },
+  {
+    "id": "new-balance-530-v2-retro-859",
+    "name": "530 V2 Retro",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Plateado (Silver White)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 530 V2 Retro para Dama en color Blanco con Plateado (Silver White). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-530-v2-retro-blanco-con-plateado-silver-white-859.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:05:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-860",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Gris Humo con Crema (01-254)",
+    "sizes": [
+      "36",
+      "37",
+      "38"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Dama en color Gris Humo con Crema (01-254). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-gris-humo-con-crema-01-254-860.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:04:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-861",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Beige",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Beige. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-beige-861.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:03:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-862",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-blanco-con-azul-862.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:02:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-863",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Blanco con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-blanco-con-gris-863.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:01:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-864",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-blanco-con-negro-864.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T21:00:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-865",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-blanco-865.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:59:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-866",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Blanco Hueso con Crema y Rosa Pastel",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Dama en color Blanco Hueso con Crema y Rosa Pastel. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-blanco-hueso-con-crema-y-rosa-pastel-866.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:58:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-867",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Dama en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-gris-867.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:57:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-868",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "unisex",
+    "color": "Blanco Sal / Sea Salt con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Unisex en color Blanco Sal / Sea Salt con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-blanco-sal-sea-salt-con-gris-868.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:56:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-869",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "unisex",
+    "color": "Café con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Unisex en color Café con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-cafe-con-gris-869.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:55:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-870",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "unisex",
+    "color": "Negro con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Unisex en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-negro-con-gris-870.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:54:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-871",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Gris con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Gris con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-gris-con-blanco-871.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:53:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-promo-872",
+    "name": "9060 Promo",
+    "brand": "New Balance",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Promo para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-promo-negro-872.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:52:48.061Z"
+  },
+  {
+    "id": "new-balance-9060-chunky-873",
+    "name": "9060 Chunky",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "color": "Negro con Blanco Panda (01-203)",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance 9060 Chunky para Caballero en color Negro con Blanco Panda (01-203). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-9060-chunky-negro-con-blanco-panda-01-203-873.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:51:48.061Z"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-more-trail-874",
+    "name": "Fresh Foam X More Trail",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "color": "Total White (Blanco)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Fresh Foam X More Trail para Caballero en color Total White (Blanco). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-fresh-foam-x-more-trail-total-white-blanco-874.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:50:48.061Z"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-more-trail-875",
+    "name": "Fresh Foam X More Trail",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "color": "Gris con Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Fresh Foam X More Trail para Caballero en color Gris con Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-fresh-foam-x-more-trail-gris-con-naranja-875.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:49:48.061Z"
+  },
+  {
+    "id": "new-balance-fresh-foam-x-more-trail-876",
+    "name": "Fresh Foam X More Trail",
+    "brand": "New Balance",
+    "gender": "hombre",
+    "color": "Rojizo",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla New Balance Fresh Foam X More Trail para Caballero en color Rojizo. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/new-balance-fresh-foam-x-more-trail-rojizo-876.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:48:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-promo-877",
+    "name": "Dunk Low Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Fucsia",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 100000,
+    "costPrice": 55000,
+    "compareAtPrice": 135000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Promo para Dama en color Fucsia. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-promo-fucsia-877.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:47:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-next-nature-promo-878",
+    "name": "Dunk Low Next Nature Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Rosa Pastel con Blanco (Pink Oxford / BT4569)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 100000,
+    "costPrice": 55000,
+    "compareAtPrice": 135000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Next Nature Promo para Dama en color Rosa Pastel con Blanco (Pink Oxford / BT4569). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-next-nature-promo-rosa-pastel-con-blanco-pink-oxford-bt4569-878.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:46:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-stussy-promo-879",
+    "name": "Dunk Low Stüssy Promo",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Celeste Stüssy (BT4552)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Stüssy Promo para Caballero en color Negro con Celeste Stüssy (BT4552). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-stussy-promo-negro-con-celeste-stussy-bt4552-879.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:45:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-promo-880",
+    "name": "Dunk Low Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Morado / Púrpura",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Promo para Dama en color Morado / Púrpura. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-promo-morado-purpura-880.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:44:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-retro-promo-881",
+    "name": "Dunk Low Retro Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café Moka con Vinotinto y Leopardo (BT4690)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Retro Promo para Dama en color Café Moka con Vinotinto y Leopardo (BT4690). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-retro-promo-cafe-moka-con-vinotinto-y-leopardo-bt4690-881.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:43:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-se-promo-882",
+    "name": "Dunk Low Se Promo",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris Claro con Blanco y Negro (Panda Gris / BT4277)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Se Promo para Caballero en color Gris Claro con Blanco y Negro (Panda Gris / BT4277). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-se-promo-gris-claro-con-blanco-y-negro-panda-gris-bt4277-882.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:42:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-promo-883",
+    "name": "Dunk Low Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Verde",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Promo para Dama en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-promo-verde-883.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:41:48.061Z"
+  },
+  {
+    "id": "nike-reactx-pegasus-trail-promo-884",
+    "name": "Reactx Pegasus Trail Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Rosa y Detalles Multicolor (BT3744)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Reactx Pegasus Trail Promo para Dama en color Blanco con Rosa y Detalles Multicolor (BT3744). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-reactx-pegasus-trail-promo-blanco-con-rosa-y-detalles-multicolor-bt3744-884.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:40:48.061Z"
+  },
+  {
+    "id": "nike-reactx-pegasus-trail-promo-885",
+    "name": "Reactx Pegasus Trail Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Verde",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 115000,
+    "costPrice": 70000,
+    "compareAtPrice": 150000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Reactx Pegasus Trail Promo para Dama en color Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-reactx-pegasus-trail-promo-verde-885.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:39:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-886",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Pastel Multicolor (Rosa, Verde Menta y Crema)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Dama en color Pastel Multicolor (Rosa, Verde Menta y Crema). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-pastel-multicolor-rosa-verde-menta-y-crema-886.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:38:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-x-travis-scott-887",
+    "name": "SB Dunk Low X Travis Scott",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Travis Scott Cactus Jack (Beige con Bandana Paisley)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low X Travis Scott para Unisex en color Travis Scott Cactus Jack (Beige con Bandana Paisley). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-x-travis-scott-travis-scott-cactus-jack-beige-con-bandana-paisley-887.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:37:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-888",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 110000,
+    "costPrice": 65000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-blanco-888.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:36:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-x-supreme-889",
+    "name": "SB Dunk Low X Supreme",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Total Black Supreme (Ante Negro)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 110000,
+    "costPrice": 65000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low X Supreme para Caballero en color Total Black Supreme (Ante Negro). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-x-supreme-total-black-supreme-ante-negro-889.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:35:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-born-x-raised-promo-890",
+    "name": "SB Dunk Low Born X Raised Promo",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Morado con Blanco y Negro (Born X Raised / BT4585)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 110000,
+    "costPrice": 65000,
+    "compareAtPrice": 145000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low Born X Raised Promo para Dama en color Morado con Blanco y Negro (Born X Raised / BT4585). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-born-x-raised-promo-morado-con-blanco-y-negro-born-x-raised-bt4585-890.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:34:48.061Z"
+  },
+  {
+    "id": "nike-dunk-low-promo-891",
+    "name": "Dunk Low Promo",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Dunk Low Promo para Caballero en color Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-dunk-low-promo-gris-891.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:33:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-light-bone-promo-892",
+    "name": "SB Dunk Low Light Bone Promo",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Beige Claro con Gris Claro (Light Bone / BT4544)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 100000,
+    "costPrice": 55000,
+    "compareAtPrice": 135000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low Light Bone Promo para Caballero en color Beige Claro con Gris Claro (Light Bone / BT4544). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-light-bone-promo-beige-claro-con-gris-claro-light-bone-bt4544-892.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:32:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-x-jarritos-893",
+    "name": "SB Dunk Low X Jarritos",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Blanco / Lona Beige con Verde y Naranja",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low X Jarritos para Unisex en color Blanco / Lona Beige con Verde y Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-x-jarritos-blanco-lona-beige-con-verde-y-naranja-893.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:31:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-894",
+    "name": "SB Dunk Low",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low para Dama en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-negro-894.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:30:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-x-parra-895",
+    "name": "SB Dunk Low X Parra",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Blanco con Swoosh Multicolor Geométrico (BT1407)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low X Parra para Dama en color Blanco con Swoosh Multicolor Geométrico (BT1407). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-x-parra-blanco-con-swoosh-multicolor-geometrico-bt1407-895.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:29:48.061Z"
+  },
+  {
+    "id": "nike-sb-dunk-low-x-yuto-horigome-896",
+    "name": "SB Dunk Low X Yuto Horigome",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris con Blanco y Rosa / Marrón (Yuto Horigome)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike SB Dunk Low X Yuto Horigome para Caballero en color Gris con Blanco y Rosa / Marrón (Yuto Horigome). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-sb-dunk-low-x-yuto-horigome-gris-con-blanco-y-rosa-marron-yuto-horigome-896.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:28:48.061Z"
+  },
+  {
+    "id": "nike-shox-tl-897",
+    "name": "Shox Tl",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Tl para Caballero en color Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-tl-azul-897.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:27:48.061Z"
+  },
+  {
+    "id": "nike-shox-tl-898",
+    "name": "Shox Tl",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Tl para Caballero en color Blanco con Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-tl-blanco-con-naranja-898.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:26:48.061Z"
+  },
+  {
+    "id": "nike-shox-tl-899",
+    "name": "Shox Tl",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Tl para Caballero en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-tl-blanco-con-negro-899.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:25:48.061Z"
+  },
+  {
+    "id": "nike-shox-tl-900",
+    "name": "Shox Tl",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Gris con Naranja",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 145000,
+    "costPrice": 100000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox Tl para Caballero en color Gris con Naranja. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-tl-gris-con-naranja-900.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:24:48.061Z"
+  },
+  {
+    "id": "nike-shox-r4-901",
+    "name": "Shox R4",
+    "brand": "Nike",
+    "gender": "unisex",
+    "color": "Blanco con Azul Cielo (BT4770-4769)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Shox R4 para Unisex en color Blanco con Azul Cielo (BT4770-4769). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-shox-r4-blanco-con-azul-cielo-bt4770-4769-901.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:23:48.061Z"
+  },
+  {
+    "id": "nike-air-max-plus-tn-3-902",
+    "name": "Air Max Plus TN 3",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Azul Marino con Celeste y Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max Plus TN 3 para Caballero en color Azul Marino con Celeste y Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-plus-tn-3-azul-marino-con-celeste-y-blanco-902.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:22:48.061Z"
+  },
+  {
+    "id": "nike-air-max-plus-tn-3-903",
+    "name": "Air Max Plus TN 3",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro con Azul Cyan Degradé (BT4774)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max Plus TN 3 para Caballero en color Negro con Azul Cyan Degradé (BT4774). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-plus-tn-3-negro-con-azul-cyan-degrade-bt4774-903.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:21:48.061Z"
+  },
+  {
+    "id": "nike-air-max-plus-tn-3-904",
+    "name": "Air Max Plus TN 3",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Blanco",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max Plus TN 3 para Caballero en color Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-plus-tn-3-blanco-904.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:20:48.061Z"
+  },
+  {
+    "id": "nike-air-max-plus-tn-3-905",
+    "name": "Air Max Plus TN 3",
+    "brand": "Nike",
+    "gender": "hombre",
+    "color": "Negro",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Max Plus TN 3 para Caballero en color Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-max-plus-tn-3-negro-905.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:19:48.061Z"
+  },
+  {
+    "id": "nike-v2k-run-906",
+    "name": "V2K Run",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K Run para Dama en color Café. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-run-cafe-906.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:18:48.061Z"
+  },
+  {
+    "id": "nike-v2k-run-907",
+    "name": "V2K Run",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Café con Gris",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K Run para Dama en color Café con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-run-cafe-con-gris-907.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:17:48.061Z"
+  },
+  {
+    "id": "nike-v2k-run-908",
+    "name": "V2K Run",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Rosa Pastel Monocromático (Triple Pink)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K Run para Dama en color Rosa Pastel Monocromático (Triple Pink). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-run-rosa-pastel-monocromatico-triple-pink-908.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:16:48.061Z"
+  },
+  {
+    "id": "nike-v2k-run-909",
+    "name": "V2K Run",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Rosa",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike V2K Run para Dama en color Rosa. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-v2k-run-rosa-909.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:15:48.061Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-910",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-blanco-con-negro-910.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:14:48.061Z"
+  },
+  {
+    "id": "on-cloud-cloudtilt-swiss-911",
+    "name": "Cloudtilt Swiss",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Beige / Arena con Detalles Verde y Burdeos",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudtilt Swiss para Dama en color Beige / Arena con Detalles Verde y Burdeos. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudtilt-swiss-beige-arena-con-detalles-verde-y-burdeos-911.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:13:48.061Z"
+  },
+  {
+    "id": "on-cloud-cloudsurfer-912",
+    "name": "Cloudsurfer",
+    "brand": "On Cloud",
+    "gender": "mujer",
+    "color": "Rosa Pastel con Azul Lavanda",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla On Cloud Cloudsurfer para Dama en color Rosa Pastel con Azul Lavanda. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/on-cloud-cloudsurfer-rosa-pastel-con-azul-lavanda-912.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:12:48.061Z"
+  },
+  {
+    "id": "nike-air-zoom-pegasus-41-913",
+    "name": "Air Zoom Pegasus 41",
+    "brand": "Nike",
+    "gender": "mujer",
+    "color": "Negro con Blanco y Plateado (01-262)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Nike Air Zoom Pegasus 41 para Dama en color Negro con Blanco y Plateado (01-262). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/nike-air-zoom-pegasus-41-negro-con-blanco-y-plateado-01-262-913.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:11:48.061Z"
+  },
+  {
+    "id": "puma-180-skate-retro-914",
+    "name": "180 Skate Retro",
+    "brand": "Puma",
+    "gender": "unisex",
+    "color": "Blanco Hueso con Gris Claro y Suela Crema",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 130000,
+    "costPrice": 85000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma 180 Skate Retro para Unisex en color Blanco Hueso con Gris Claro y Suela Crema. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-180-skate-retro-blanco-hueso-con-gris-claro-y-suela-crema-914.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:10:48.061Z"
+  },
+  {
+    "id": "puma-club-5v5-retro-915",
+    "name": "Club 5v5 Retro",
+    "brand": "Puma",
+    "gender": "unisex",
+    "color": "Blanco con Gris y Dorado (BT1174-642)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Club 5v5 Retro para Unisex en color Blanco con Gris y Dorado (BT1174-642). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-club-5v5-retro-blanco-con-gris-y-dorado-bt1174-642-915.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:09:48.061Z"
+  },
+  {
+    "id": "puma-club-5v5-retro-promo-916",
+    "name": "Club 5v5 Retro Promo",
+    "brand": "Puma",
+    "gender": "mujer",
+    "color": "Blanco Hueso con Rosa Pastel y Suela Caramelo (BT4761)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Puma Club 5v5 Retro Promo para Dama en color Blanco Hueso con Rosa Pastel y Suela Caramelo (BT4761). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/puma-club-5v5-retro-promo-blanco-hueso-con-rosa-pastel-y-suela-caramelo-bt4761-916.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:08:48.061Z"
+  },
+  {
+    "id": "reebok-club-c-85-promo-917",
+    "name": "Club C 85 Promo",
+    "brand": "Reebok",
+    "gender": "unisex",
+    "color": "Blanco Clásico con Verde Beams (BT1118-1119)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Reebok Club C 85 Promo para Unisex en color Blanco Clásico con Verde Beams (BT1118-1119). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/reebok-club-c-85-promo-blanco-clasico-con-verde-beams-bt1118-1119-917.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:07:48.061Z"
+  },
+  {
+    "id": "skechers-aero-burst-walking-918",
+    "name": "Aero Burst Walking",
+    "brand": "Skechers",
+    "gender": "unisex",
+    "color": "Blanco Carbon Infused (01-257 D / 01-258 H)",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Aero Burst Walking para Unisex en color Blanco Carbon Infused (01-257 D / 01-258 H). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-aero-burst-walking-blanco-carbon-infused-01-257-d-01-258-h-918.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:06:48.061Z"
+  },
+  {
+    "id": "skechers-aero-burst-walking-919",
+    "name": "Aero Burst Walking",
+    "brand": "Skechers",
+    "gender": "unisex",
+    "color": "Negro con Blanco Carbon Infused (01-259)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Aero Burst Walking para Unisex en color Negro con Blanco Carbon Infused (01-259). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-aero-burst-walking-negro-con-blanco-carbon-infused-01-259-919.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:05:48.061Z"
+  },
+  {
+    "id": "skechers-max-cushioning-trail-920",
+    "name": "Max Cushioning Trail",
+    "brand": "Skechers",
+    "gender": "mujer",
+    "color": "Gris Claro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Cushioning Trail para Dama en color Gris Claro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-cushioning-trail-gris-claro-con-blanco-920.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:04:48.061Z"
+  },
+  {
+    "id": "skechers-max-cushioning-trail-921",
+    "name": "Max Cushioning Trail",
+    "brand": "Skechers",
+    "gender": "mujer",
+    "color": "Blanco con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Cushioning Trail para Dama en color Blanco con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-cushioning-trail-blanco-con-azul-921.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:03:48.061Z"
+  },
+  {
+    "id": "skechers-max-cushioning-trail-922",
+    "name": "Max Cushioning Trail",
+    "brand": "Skechers",
+    "gender": "unisex",
+    "color": "Negro con Blanco",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Cushioning Trail para Unisex en color Negro con Blanco. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-cushioning-trail-negro-con-blanco-922.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:02:48.061Z"
+  },
+  {
+    "id": "skechers-max-protect-trail-923",
+    "name": "Max Protect Trail",
+    "brand": "Skechers",
+    "gender": "hombre",
+    "color": "Negro con Detalles Rojos Goodyear",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Protect Trail para Caballero en color Negro con Detalles Rojos Goodyear. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-protect-trail-negro-con-detalles-rojos-goodyear-923.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:01:48.061Z"
+  },
+  {
+    "id": "skechers-max-protect-trail-924",
+    "name": "Max Protect Trail",
+    "brand": "Skechers",
+    "gender": "hombre",
+    "color": "Negro con Verde",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Protect Trail para Caballero en color Negro con Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-protect-trail-negro-con-verde-924.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T20:00:48.061Z"
+  },
+  {
+    "id": "skechers-max-protect-trail-925",
+    "name": "Max Protect Trail",
+    "brand": "Skechers",
+    "gender": "hombre",
+    "color": "Negro con Gris",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Skechers Max Protect Trail para Caballero en color Negro con Gris. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/skechers-max-protect-trail-negro-con-gris-925.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:59:48.061Z"
+  },
+  {
+    "id": "adidas-supernova-rise-3-926",
+    "name": "Supernova Rise 3",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Blanco con Morado / Lila y Plateado (01-37)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova Rise 3 para Dama en color Blanco con Morado / Lila y Plateado (01-37). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-rise-3-blanco-con-morado-lila-y-plateado-01-37-926.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:58:48.061Z"
+  },
+  {
+    "id": "adidas-supernova-rise-3-927",
+    "name": "Supernova Rise 3",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Crema / Beige con Blanco y Suela Roja (01-277)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova Rise 3 para Dama en color Crema / Beige con Blanco y Suela Roja (01-277). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-rise-3-crema-beige-con-blanco-y-suela-roja-01-277-927.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:57:48.061Z"
+  },
+  {
+    "id": "adidas-supernova-rise-3-928",
+    "name": "Supernova Rise 3",
+    "brand": "Adidas",
+    "gender": "mujer",
+    "color": "Lila",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39"
+    ],
+    "price": 140000,
+    "costPrice": 95000,
+    "condition": "nuevo",
+    "description": "Zapatilla Adidas Supernova Rise 3 para Dama en color Lila. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/adidas-supernova-rise-3-lila-928.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:56:48.061Z"
+  },
+  {
+    "id": "onitsuka-tiger-mexico-66-929",
+    "name": "Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "gender": "mujer",
+    "color": "Café con Azul",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Onitsuka Tiger Mexico 66 para Dama en color Café con Azul. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/onitsuka-tiger-mexico-66-cafe-con-azul-929.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:55:48.061Z"
+  },
+  {
+    "id": "onitsuka-tiger-mexico-66-930",
+    "name": "Mexico 66",
+    "brand": "Onitsuka Tiger",
+    "gender": "mujer",
+    "color": "Café con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 135000,
+    "costPrice": 90000,
+    "condition": "nuevo",
+    "description": "Zapatilla Onitsuka Tiger Mexico 66 para Dama en color Café con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/onitsuka-tiger-mexico-66-cafe-con-negro-930.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:54:48.061Z"
+  },
+  {
+    "id": "vans-hylane-skate-promo-931",
+    "name": "Hylane Skate Promo",
+    "brand": "Vans",
+    "gender": "hombre",
+    "color": "Café Moka con Beige y Blanco (BT3538)",
+    "sizes": [
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43"
+    ],
+    "price": 105000,
+    "costPrice": 60000,
+    "compareAtPrice": 140000,
+    "condition": "nuevo",
+    "description": "Zapatilla Vans Hylane Skate Promo para Caballero en color Café Moka con Beige y Blanco (BT3538). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/vans-hylane-skate-promo-cafe-moka-con-beige-y-blanco-bt3538-931.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:53:48.061Z"
+  },
+  {
+    "id": "veja-recife-velcro-classic-932",
+    "name": "Recife Velcro Classic",
+    "brand": "Veja",
+    "gender": "mujer",
+    "color": "Blanco con Nude / Beige Rosado y Velcro (3284 D)",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Veja Recife Velcro Classic para Dama en color Blanco con Nude / Beige Rosado y Velcro (3284 D). Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/veja-recife-velcro-classic-blanco-con-nude-beige-rosado-y-velcro-3284-d-932.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:52:48.061Z"
+  },
+  {
+    "id": "veja-campo-classic-933",
+    "name": "Campo Classic",
+    "brand": "Veja",
+    "gender": "mujer",
+    "color": "Blanco con Negro",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Veja Campo Classic para Dama en color Blanco con Negro. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/veja-campo-classic-blanco-con-negro-933.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:51:48.061Z"
+  },
+  {
+    "id": "veja-campo-classic-934",
+    "name": "Campo Classic",
+    "brand": "Veja",
+    "gender": "mujer",
+    "color": "Blanco con Verde",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 125000,
+    "costPrice": 80000,
+    "condition": "nuevo",
+    "description": "Zapatilla Veja Campo Classic para Dama en color Blanco con Verde. Diseño exclusivo, acabados de alta calidad y máxima comodidad para uso diario o deportivo.",
+    "images": [
+      "/zapatillas/veja-campo-classic-blanco-con-verde-934.jpeg"
+    ],
+    "available": true,
+    "createdAt": "2026-10-16T19:50:48.061Z"
+  },
+  {
     "id": "adidas-gazelle-indoor-white-navy",
     "name": "Gazelle Indoor White Navy",
     "brand": "Adidas",

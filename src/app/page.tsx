@@ -56,11 +56,13 @@ export default async function HomePage() {
             <div className="max-w-4xl">
 
               {/* Brand badge */}
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/10 px-4 py-2 backdrop-blur-md">
-                <span className="h-2 w-2 animate-pulse rounded-full bg-[#2754F5]" />
-
-                <span className="text-[10px] font-bold uppercase tracking-[0.22em] text-white/80 sm:text-xs">
-                  ZaVaDuv · Catálogo Oficial
+              <div className="mb-6 inline-flex items-stretch overflow-hidden rounded-full border border-white/15 backdrop-blur-md">
+                <span className="bg-[#2754F5] px-4 py-2 text-[10px] font-black uppercase tracking-[0.22em] text-white sm:text-xs">
+                  ZaVaDuv
+                </span>
+                <span className="flex items-center gap-2 bg-white/10 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.22em] text-white/85 sm:text-xs">
+                  <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#2754F5]" />
+                  Catálogo Oficial
                 </span>
               </div>
 
